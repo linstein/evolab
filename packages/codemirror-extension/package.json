@@ -1,0 +1,62 @@
+{
+  "name": "@evolab/codemirror-extension",
+  "version": "2.2.0",
+  "description": "JupyterLab - CodeMirror Provider Extension",
+  "homepage": "https://github.com/jupyterlab/jupyterlab",
+  "bugs": {
+    "url": "https://github.com/jupyterlab/jupyterlab/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jupyterlab/jupyterlab.git"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Project Jupyter",
+  "files": [
+    "lib/*.d.ts",
+    "lib/*.js.map",
+    "lib/*.js",
+    "schema/*.json",
+    "style/**/*.css"
+  ],
+  "sideEffects": [
+    "style/**/*.css"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "directories": {
+    "lib": "lib/"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rimraf lib && rimraf tsconfig.tsbuildinfo",
+    "docs": "typedoc src",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc -b --watch"
+  },
+  "dependencies": {
+    "@evolab/application": "^2.2.0",
+    "@evolab/codeeditor": "^2.2.0",
+    "@evolab/codemirror": "^2.2.0",
+    "@evolab/docregistry": "^2.2.0",
+    "@evolab/fileeditor": "^2.2.0",
+    "@evolab/mainmenu": "^2.2.0",
+    "@evolab/settingregistry": "^2.2.0",
+    "@evolab/statusbar": "^2.2.0",
+    "@lumino/widgets": "^1.11.1",
+    "codemirror": "~5.53.2"
+  },
+  "devDependencies": {
+    "rimraf": "~3.0.0",
+    "typedoc": "^0.15.4",
+    "typescript": "~3.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "schemaDir": "schema"
+  }
+}

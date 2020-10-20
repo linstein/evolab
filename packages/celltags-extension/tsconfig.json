@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+
+    "outDir": "lib",
+    "rootDir": "src"
+  },
+  "include": ["src/*"],
+  "references": [
+    {
+      "path": "../application"
+    },
+    {
+      "path": "../celltags"
+    },
+    {
+      "path": "../notebook"
+    }
+  ],
+  "extends": "../../tsconfigbase"
+}

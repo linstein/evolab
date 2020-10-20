@@ -1,0 +1,11 @@
+{
+  "name": "@evolab/mock-extension",
+  "version": "2.2.0",
+  "private": true,
+  "dependencies": {
+    "@evolab/launcher": "^2.2.0"
+  },
+  "jupyterlab": {
+    "extension": true
+  }
+}
