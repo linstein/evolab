@@ -1,8 +1,8 @@
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { DataConnector, IDataConnector } from '@evolab/statedb';
+import { DataConnector, IDataConnector } from '@jupyterlab/statedb';
 
 import { Throttler } from '@lumino/polling';
 

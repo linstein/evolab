@@ -224,11 +224,11 @@ a reference to the command palette interface and the Jupyter front end.
 
     import {
       JupyterFrontEnd, JupyterFrontEndPlugin
-    } from '@evolab/application';
+    } from '@jupyterlab/application';
 
     import {
       ICommandPalette
-    } from '@evolab/apputils';
+    } from '@jupyterlab/apputils';
 
 Locate the ``extension`` object of type ``JupyterFrontEndPlugin``. Change the
 definition so that it reads like so:
@@ -262,8 +262,8 @@ repository root folder to install the dependencies and save them to your
 
 .. code:: bash
 
-    jlpm add @evolab/apputils
-    jlpm add @evolab/application
+    jlpm add @jupyterlab/apputils
+    jlpm add @jupyterlab/application
 
 Finally, run the following to rebuild your extension.
 
@@ -297,7 +297,7 @@ Now return to your editor. Modify the imports at the top of the file to add a fe
 
     import {
       ICommandPalette, MainAreaWidget
-    } from '@evolab/apputils';
+    } from '@jupyterlab/apputils';
 
     import {
       Widget
@@ -770,11 +770,11 @@ entire list of import statements looks like the following:
 
     import {
       ILayoutRestorer, JupyterFrontEnd, JupyterFrontEndPlugin
-    } from '@evolab/application';
+    } from '@jupyterlab/application';
 
     import {
       ICommandPalette, MainAreaWidget, WidgetTracker
-    } from '@evolab/apputils';
+    } from '@jupyterlab/apputils';
 
     import {
       Message

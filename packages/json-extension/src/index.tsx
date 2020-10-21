@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
-import { Printing } from '@evolab/apputils';
+import { Printing } from '@jupyterlab/apputils';
 
 import { Message } from '@lumino/messaging';
 
@@ -85,7 +85,7 @@ export const rendererFactory: IRenderMime.IRendererFactory = {
 
 const extensions: IRenderMime.IExtension | IRenderMime.IExtension[] = [
   {
-    id: '@evolab/json-extension:factory',
+    id: '@jupyterlab/json-extension:factory',
     rendererFactory,
     rank: 0,
     dataType: 'json',

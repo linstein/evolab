@@ -7,9 +7,9 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { ICommandPalette, WidgetTracker } from '@evolab/apputils';
+import { ICommandPalette, WidgetTracker } from '@jupyterlab/apputils';
 
 import { DocumentRegistry } from '@evolab/docregistry';
 
@@ -17,9 +17,9 @@ import {
   HTMLViewer,
   HTMLViewerFactory,
   IHTMLViewerTracker
-} from '@evolab/htmlviewer';
+} from '@jupyterlab/htmlviewer';
 
-import { html5Icon } from '@evolab/ui-components';
+import { html5Icon } from '@jupyterlab/ui-components';
 
 /**
  * Command IDs used by the plugin.
@@ -33,7 +33,7 @@ namespace CommandIDs {
  */
 const htmlPlugin: JupyterFrontEndPlugin<IHTMLViewerTracker> = {
   activate: activateHTMLViewer,
-  id: '@evolab/htmlviewer-extension:plugin',
+  id: '@jupyterlab/htmlviewer-extension:plugin',
   provides: IHTMLViewerTracker,
   optional: [ICommandPalette, ILayoutRestorer],
   autoStart: true

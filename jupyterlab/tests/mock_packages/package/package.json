@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/mock-package",
+  "name": "@jupyterlab/mock-package",
   "version": "0.1.0",
   "private": true,
   "dependencies": {},

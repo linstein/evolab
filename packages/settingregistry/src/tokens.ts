@@ -15,7 +15,7 @@ import { IDisposable } from '@lumino/disposable';
 
 import { ISignal } from '@lumino/signaling';
 
-import { IDataConnector } from '@evolab/statedb';
+import { IDataConnector } from '@jupyterlab/statedb';
 
 import { ISchemaValidator } from './settingregistry';
 
@@ -24,7 +24,7 @@ import { ISchemaValidator } from './settingregistry';
  * The setting registry token.
  */
 export const ISettingRegistry = new Token<ISettingRegistry>(
-  '@evolab/coreutils:ISettingRegistry'
+  '@jupyterlab/coreutils:ISettingRegistry'
 );
 /* tslint:enable */
 

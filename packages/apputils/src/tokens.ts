@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
 import { Token } from '@lumino/coreutils';
 
@@ -21,7 +21,7 @@ export interface ISessionContextDialogs extends ISessionContext.IDialogs {}
  * The session context dialogs token.
  */
 export const ISessionContextDialogs = new Token<ISessionContext.IDialogs>(
-  '@evolab/apputils:ISessionContextDialogs'
+  '@jupyterlab/apputils:ISessionContextDialogs'
 );
 /* tslint:enable */
 
@@ -30,7 +30,7 @@ export const ISessionContextDialogs = new Token<ISessionContext.IDialogs>(
  * The theme manager token.
  */
 export const IThemeManager = new Token<IThemeManager>(
-  '@evolab/apputils:IThemeManager'
+  '@jupyterlab/apputils:IThemeManager'
 );
 /* tslint:enable */
 

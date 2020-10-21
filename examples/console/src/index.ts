@@ -1,13 +1,13 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 // @ts-ignore
 __webpack_public_path__ = URLExt.join(PageConfig.getBaseUrl(), 'example/');
 
-import '@evolab/application/style/index.css';
-import '@evolab/console/style/index.css';
-import '@evolab/theme-light-extension/style/index.css';
+import '@jupyterlab/application/style/index.css';
+import '@jupyterlab/console/style/index.css';
+import '@jupyterlab/theme-light-extension/style/index.css';
 import '../index.css';
 
 import { CommandRegistry } from '@lumino/commands';
@@ -18,12 +18,12 @@ import { ServiceManager } from '@evolab/services';
 
 import { editorServices } from '@evolab/codemirror';
 
-import { ConsolePanel } from '@evolab/console';
+import { ConsolePanel } from '@jupyterlab/console';
 
 import {
   RenderMimeRegistry,
   standardRendererFactories as initialFactories
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 const TITLE = 'Console';
 

@@ -13,9 +13,9 @@ import { ISignal, Signal } from '@lumino/signaling';
 
 import { Widget } from '@lumino/widgets';
 
-import { Time } from '@evolab/coreutils';
+import { Time } from '@jupyterlab/coreutils';
 
-import { showDialog, Dialog } from '@evolab/apputils';
+import { showDialog, Dialog } from '@jupyterlab/apputils';
 
 import { DocumentRegistry, IDocumentWidget } from '@evolab/docregistry';
 

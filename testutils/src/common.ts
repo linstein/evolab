@@ -2,7 +2,7 @@ import { simulate } from 'simulate-event';
 
 import { ServiceManager, Session } from '@evolab/services';
 
-import { SessionContext } from '@evolab/apputils';
+import { SessionContext } from '@jupyterlab/apputils';
 
 import { PromiseDelegate, UUID } from '@lumino/coreutils';
 

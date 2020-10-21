@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IRestorable, RestorablePool } from '@evolab/statedb';
+import { IRestorable, RestorablePool } from '@jupyterlab/statedb';
 
 import { IDisposable } from '@lumino/disposable';
 

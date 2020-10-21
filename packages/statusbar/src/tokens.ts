@@ -11,7 +11,7 @@ import { Widget } from '@lumino/widgets';
 
 // tslint:disable-next-line:variable-name
 export const IStatusBar = new Token<IStatusBar>(
-  '@evolab/statusbar:IStatusBar'
+  '@jupyterlab/statusbar:IStatusBar'
 );
 
 /**

@@ -1,2 +1,2 @@
-const func = require('@evolab/testutils/lib/jest-config');
+const func = require('@jupyterlab/testutils/lib/jest-config');
 module.exports = func(__dirname);

@@ -28,8 +28,8 @@ if (require.main === module) {
   fs.copySync(path.resolve(path.join(__dirname, '..', 'test-template')), dest);
   const jsonPath = path.join(dest, 'package.json');
   const data = utils.readJSONFile(jsonPath);
-  if (name.indexOf('@evolab/') === -1) {
-    name = '@evolab/test-' + name;
+  if (name.indexOf('@jupyterlab/') === -1) {
+    name = '@jupyterlab/test-' + name;
   }
   data.name = name;
   utils.writePackageData(jsonPath, data);

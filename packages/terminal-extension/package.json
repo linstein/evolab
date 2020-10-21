@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/terminal-extension",
+  "name": "@jupyterlab/terminal-extension",
   "version": "2.2.0",
   "description": "JupyterLab - Terminal Emulator Extension",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -36,15 +36,15 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/application": "^2.2.0",
-    "@evolab/apputils": "^2.2.0",
-    "@evolab/launcher": "^2.2.0",
-    "@evolab/mainmenu": "^2.2.0",
-    "@evolab/running": "^2.2.0",
+    "@jupyterlab/application": "^2.2.0",
+    "@jupyterlab/apputils": "^2.2.0",
+    "@jupyterlab/launcher": "^2.2.0",
+    "@jupyterlab/mainmenu": "^2.2.0",
+    "@jupyterlab/running": "^2.2.0",
     "@evolab/services": "^5.2.0",
-    "@evolab/settingregistry": "^2.2.0",
-    "@evolab/terminal": "^2.2.0",
-    "@evolab/ui-components": "^2.2.0",
+    "@jupyterlab/settingregistry": "^2.2.0",
+    "@jupyterlab/terminal": "^2.2.0",
+    "@jupyterlab/ui-components": "^2.2.0",
     "@lumino/algorithm": "^1.2.3",
     "@lumino/widgets": "^1.11.1"
   },

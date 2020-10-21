@@ -3,15 +3,15 @@
 
 import React from 'react';
 
-import { VDomModel, VDomRenderer } from '@evolab/apputils';
+import { VDomModel, VDomRenderer } from '@jupyterlab/apputils';
 
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
 import { IDocumentManager } from './tokens';
 
 import { DocumentRegistry } from '@evolab/docregistry';
 
-import { TextItem } from '@evolab/statusbar';
+import { TextItem } from '@jupyterlab/statusbar';
 
 import { Widget, Title } from '@lumino/widgets';
 

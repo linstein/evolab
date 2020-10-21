@@ -3,11 +3,11 @@
 
 import React from 'react';
 
-import { VDomRenderer, VDomModel, ReactWidget } from '@evolab/apputils';
+import { VDomRenderer, VDomModel, ReactWidget } from '@jupyterlab/apputils';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { lineFormIcon } from '@evolab/ui-components';
+import { lineFormIcon } from '@jupyterlab/ui-components';
 
 import { classes } from 'typestyle/lib';
 

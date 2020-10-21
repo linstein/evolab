@@ -5,9 +5,9 @@ import { editorServices } from '@evolab/codemirror';
 
 import { CodeEditorWrapper } from '@evolab/codeeditor';
 
-import { Clipboard } from '@evolab/apputils';
+import { Clipboard } from '@jupyterlab/apputils';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { Context } from '@evolab/docregistry';
 
@@ -19,7 +19,7 @@ import {
   StaticNotebook
 } from '@evolab/notebook';
 
-import { RenderMimeRegistry } from '@evolab/rendermime';
+import { RenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import { Cell, CodeCellModel } from '@evolab/cells';
 

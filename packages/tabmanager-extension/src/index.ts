@@ -9,14 +9,14 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
-import { TabBarSvg, tabIcon } from '@evolab/ui-components';
+} from '@jupyterlab/application';
+import { TabBarSvg, tabIcon } from '@jupyterlab/ui-components';
 
 /**
  * The default tab manager extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/tabmanager-extension:plugin',
+  id: '@jupyterlab/tabmanager-extension:plugin',
   activate: (
     app: JupyterFrontEnd,
     labShell: ILabShell | null,

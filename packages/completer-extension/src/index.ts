@@ -4,7 +4,7 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   CompleterModel,
@@ -13,11 +13,11 @@ import {
   CompletionHandler,
   ContextConnector,
   ICompletionManager
-} from '@evolab/completer';
+} from '@jupyterlab/completer';
 
-import { IConsoleTracker } from '@evolab/console';
+import { IConsoleTracker } from '@jupyterlab/console';
 
-import { IEditorTracker } from '@evolab/fileeditor';
+import { IEditorTracker } from '@jupyterlab/fileeditor';
 
 import { INotebookTracker } from '@evolab/notebook';
 
@@ -52,7 +52,7 @@ namespace CommandIDs {
  * A plugin providing code completion for editors.
  */
 const manager: JupyterFrontEndPlugin<ICompletionManager> = {
-  id: '@evolab/completer-extension:manager',
+  id: '@jupyterlab/completer-extension:manager',
   autoStart: true,
   provides: ICompletionManager,
   activate: (app: JupyterFrontEnd): ICompletionManager => {
@@ -129,7 +129,7 @@ const manager: JupyterFrontEndPlugin<ICompletionManager> = {
  * An extension that registers consoles for code completion.
  */
 const consoles: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/completer-extension:consoles',
+  id: '@jupyterlab/completer-extension:consoles',
   requires: [ICompletionManager, IConsoleTracker],
   autoStart: true,
   activate: (
@@ -195,7 +195,7 @@ const consoles: JupyterFrontEndPlugin<void> = {
  * An extension that registers notebooks for code completion.
  */
 const notebooks: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/completer-extension:notebooks',
+  id: '@jupyterlab/completer-extension:notebooks',
   requires: [ICompletionManager, INotebookTracker],
   autoStart: true,
   activate: (
@@ -259,7 +259,7 @@ const notebooks: JupyterFrontEndPlugin<void> = {
  * An extension that registers file editors for completion.
  */
 const files: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/completer-extension:files',
+  id: '@jupyterlab/completer-extension:files',
   requires: [ICompletionManager, IEditorTracker],
   autoStart: true,
   activate: (

@@ -19,9 +19,9 @@ import {
   waitForDialog,
   sleep,
   framePromise
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 import { simulate } from 'simulate-event';
 

@@ -6,7 +6,7 @@ import {
   Clipboard,
   Dialog,
   showDialog
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import {
   ICellModel,
@@ -19,7 +19,7 @@ import {
   isCodeCellModel
 } from '@evolab/cells';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { KernelMessage,Kernel } from '@evolab/services';
 

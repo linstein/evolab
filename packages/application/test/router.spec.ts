@@ -3,13 +3,13 @@
 
 import 'jest';
 
-import { Router } from '@evolab/application';
+import { Router } from '@jupyterlab/application';
 
 import { CommandRegistry } from '@lumino/commands';
 
 import { Token } from '@lumino/coreutils';
 
-import { signalToPromise } from '@evolab/testutils';
+import { signalToPromise } from '@jupyterlab/testutils';
 
 const base = '/';
 

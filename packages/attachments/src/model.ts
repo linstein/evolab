@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import {
   IObservableMap,
@@ -9,15 +9,15 @@ import {
   IObservableValue,
   ObservableValue,
   IModelDB
-} from '@evolab/observables';
+} from '@jupyterlab/observables';
 
 import {
   IAttachmentModel,
   AttachmentModel,
   imageRendererFactory
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { IDisposable } from '@lumino/disposable';
 

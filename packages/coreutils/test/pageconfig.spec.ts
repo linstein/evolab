@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
-describe('@evolab/coreutils', () => {
+describe('@jupyterlab/coreutils', () => {
   describe('PageConfig', () => {
     beforeEach(() => {
       PageConfig.setOption('foo', 'bar');

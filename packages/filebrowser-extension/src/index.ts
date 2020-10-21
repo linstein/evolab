@@ -7,7 +7,7 @@ import {
   IRouter,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   Clipboard,
@@ -18,9 +18,9 @@ import {
   InputDialog,
   showErrorMessage,
   DOMUtils
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { PageConfig, PathExt, URLExt } from '@evolab/coreutils';
+import { PageConfig, PathExt, URLExt } from '@jupyterlab/coreutils';
 
 import { IDocumentManager } from '@evolab/docmanager';
 
@@ -31,17 +31,17 @@ import {
   IFileBrowserFactory
 } from '@evolab/filebrowser';
 
-import { Launcher } from '@evolab/launcher';
+import { Launcher } from '@jupyterlab/launcher';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 
 import { Contents } from '@evolab/services';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { IStateDB } from '@evolab/statedb';
+import { IStateDB } from '@jupyterlab/statedb';
 
-import { IStatusBar } from '@evolab/statusbar';
+import { IStatusBar } from '@jupyterlab/statusbar';
 
 import {
   addIcon,
@@ -58,7 +58,7 @@ import {
   pasteIcon,
   stopIcon,
   textEditorIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import { IIterator, map, reduce, toArray, find } from '@lumino/algorithm';
 

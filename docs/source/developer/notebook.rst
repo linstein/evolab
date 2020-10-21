@@ -165,7 +165,7 @@ released npm packages, not the development versions.
 
 ::
 
-    npm install --save @evolab/notebook @evolab/application @evolab/apputils @evolab/docregistry @lumino/disposable
+    npm install --save @evolab/notebook @jupyterlab/application @jupyterlab/apputils @evolab/docregistry @lumino/disposable
 
 Copy the following to ``src/index.ts``:
 
@@ -177,11 +177,11 @@ Copy the following to ``src/index.ts``:
 
     import {
       JupyterFrontEnd, JupyterFrontEndPlugin
-    } from '@evolab/application';
+    } from '@jupyterlab/application';
 
     import {
       ToolbarButton
-    } from '@evolab/apputils';
+    } from '@jupyterlab/apputils';
 
     import {
       DocumentRegistry

@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { ISessionContext } from '@evolab/apputils';
+import { ISessionContext } from '@jupyterlab/apputils';
 
 import {
   Cell,
@@ -18,11 +18,11 @@ import {
 
 import { IEditorMimeTypeService, CodeEditor } from '@evolab/codeeditor';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
-import { IObservableList, ObservableList } from '@evolab/observables';
+import { IObservableList, ObservableList } from '@jupyterlab/observables';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import { KernelMessage } from '@evolab/services';
 

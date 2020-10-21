@@ -316,7 +316,7 @@ export function getPackageGraph(): DepGraph<Dict<unknown>> {
 function requirePackage(parentModule: string, module: string) {
   const packagePath = `${module}/package.json`;
   let parentModulePath: string;
-  // This will fail when the parent module cannot be loaded, like `@evolab/test-root`
+  // This will fail when the parent module cannot be loaded, like `@jupyterlab/test-root`
   try {
     parentModulePath = require.resolve(parentModule);
   } catch {

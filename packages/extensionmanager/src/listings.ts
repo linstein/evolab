@@ -3,7 +3,7 @@
 
 import { ISignal, Signal } from '@lumino/signaling';
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
 import { ServerConnection } from '@evolab/services';
 
@@ -54,7 +54,7 @@ export class Lister {
    */
   constructor() {
     requestAPI<IListingApi>(
-      '@evolab/extensionmanager-extension/listings.json'
+      '@jupyterlab/extensionmanager-extension/listings.json'
     )
       .then(data => {
         this._listings = {

@@ -3,9 +3,9 @@
 
 import React from 'react';
 
-import { VDomModel, VDomRenderer } from '@evolab/apputils';
+import { VDomModel, VDomRenderer } from '@jupyterlab/apputils';
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
 import { ServerConnection } from '@evolab/services';
 
@@ -80,7 +80,7 @@ export namespace MemoryUsage {
           interval: options.refreshRate,
           backoff: true
         },
-        name: '@evolab/statusbar:MemoryUsage#metrics'
+        name: '@jupyterlab/statusbar:MemoryUsage#metrics'
       });
       this._poll.ticked.connect(poll => {
         const { payload, phase } = poll.state;

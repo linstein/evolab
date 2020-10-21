@@ -4,9 +4,9 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { ISettingRegistry, SettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry, SettingRegistry } from '@jupyterlab/settingregistry';
 
 import { CommandRegistry } from '@lumino/commands';
 
@@ -48,7 +48,7 @@ import { DisposableSet, IDisposable } from '@lumino/disposable';
  * required, using the `'body'` selector is more appropriate.
  */
 const shortcuts: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/shortcuts-extension:shortcuts',
+  id: '@jupyterlab/shortcuts-extension:shortcuts',
   requires: [ISettingRegistry],
   activate: async (app: JupyterFrontEnd, registry: ISettingRegistry) => {
     const { commands } = app;

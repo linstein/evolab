@@ -3,9 +3,9 @@
 
 import { toArray } from '@lumino/algorithm';
 import { PanelLayout, Widget } from '@lumino/widgets';
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
-import { Dialog } from '@evolab/apputils';
+import { Dialog } from '@jupyterlab/apputils';
 import { IDocumentManager } from '@evolab/docmanager';
 import { Contents } from '@evolab/services';
 

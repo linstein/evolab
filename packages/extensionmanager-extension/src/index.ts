@@ -6,14 +6,14 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
-import { Dialog, showDialog, ICommandPalette } from '@evolab/apputils';
-import { ExtensionView } from '@evolab/extensionmanager';
-import { IMainMenu } from '@evolab/mainmenu';
-import { ISettingRegistry } from '@evolab/settingregistry';
-import { extensionIcon } from '@evolab/ui-components';
+} from '@jupyterlab/application';
+import { Dialog, showDialog, ICommandPalette } from '@jupyterlab/apputils';
+import { ExtensionView } from '@jupyterlab/extensionmanager';
+import { IMainMenu } from '@jupyterlab/mainmenu';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
+import { extensionIcon } from '@jupyterlab/ui-components';
 
-const PLUGIN_ID = '@evolab/extensionmanager-extension:plugin';
+const PLUGIN_ID = '@jupyterlab/extensionmanager-extension:plugin';
 
 /**
  * IDs of the commands added by this extension.

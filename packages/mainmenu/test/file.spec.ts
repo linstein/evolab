@@ -7,9 +7,9 @@ import { CommandRegistry } from '@lumino/commands';
 
 import { Widget } from '@lumino/widgets';
 
-import { WidgetTracker } from '@evolab/apputils';
+import { WidgetTracker } from '@jupyterlab/apputils';
 
-import { FileMenu, IFileMenu } from '@evolab/mainmenu';
+import { FileMenu, IFileMenu } from '@jupyterlab/mainmenu';
 
 import { delegateExecute } from './util';
 
@@ -17,7 +17,7 @@ class Wodget extends Widget {
   state: string;
 }
 
-describe('@evolab/mainmenu', () => {
+describe('@jupyterlab/mainmenu', () => {
   describe('FileMenu', () => {
     let commands: CommandRegistry;
     let menu: FileMenu;

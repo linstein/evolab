@@ -17,9 +17,9 @@ import {
   IDocumentWidget
 } from '@evolab/docregistry';
 
-import { dismissDialog } from '@evolab/testutils';
+import { dismissDialog } from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 class WidgetFactory extends ABCWidgetFactory<IDocumentWidget> {
   protected createNewWidget(

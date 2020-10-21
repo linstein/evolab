@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { ObservableString } from '@evolab/observables';
+import { ObservableString } from '@jupyterlab/observables';
 
-describe('@evolab/observables', () => {
+describe('@jupyterlab/observables', () => {
   describe('ObservableString', () => {
     describe('#constructor()', () => {
       it('should accept no arguments', () => {

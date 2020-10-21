@@ -1,4 +1,4 @@
-# @evolab/buildutils
+# @jupyterlab/buildutils
 
 A JupyterLab package which provides utility functions that are used to compile
 and build JupyterLab.

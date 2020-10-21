@@ -5,7 +5,7 @@ import { CodeCellModel } from '@evolab/cells';
 
 import { DocumentRegistry } from '@evolab/docregistry';
 
-import { IModelDB } from '@evolab/observables';
+import { IModelDB } from '@jupyterlab/observables';
 
 import { Contents } from '@evolab/services';
 

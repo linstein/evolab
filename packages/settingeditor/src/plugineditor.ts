@@ -3,13 +3,13 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { Dialog, showDialog } from '@evolab/apputils';
+import { Dialog, showDialog } from '@jupyterlab/apputils';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
 import { CommandRegistry } from '@lumino/commands';
 

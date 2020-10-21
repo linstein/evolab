@@ -1,11 +1,11 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import { INotebookTools, INotebookTracker } from '@evolab/notebook';
 
-import { TagTool } from '@evolab/celltags';
+import { TagTool } from '@jupyterlab/celltags';
 
 /**
  * Initialization data for the celltags extension.

@@ -18,7 +18,7 @@ import {
   testEmission,
   JupyterServer,
   flakyIt as it
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 /**
  * Start a new session on with a default name.

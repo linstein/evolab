@@ -1,4 +1,4 @@
-# @evolab/launcher
+# @jupyterlab/launcher
 
 A JupyterLab package that provides a launcher for various activities,
 including notebooks, consoles, text editors, and terminals.

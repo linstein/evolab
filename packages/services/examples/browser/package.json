@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/example-services-browser",
+  "name": "@jupyterlab/example-services-browser",
   "version": "2.2.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@evolab/coreutils": "^4.2.0",
+    "@jupyterlab/coreutils": "^4.2.0",
     "@evolab/services": "^5.2.0",
     "@lumino/coreutils": "^1.4.2"
   },

@@ -3,7 +3,7 @@
 
 import 'jest';
 
-import { defaultSanitizer } from '@evolab/apputils';
+import { defaultSanitizer } from '@jupyterlab/apputils';
 
 describe('defaultSanitizer', () => {
   describe('#sanitize()', () => {

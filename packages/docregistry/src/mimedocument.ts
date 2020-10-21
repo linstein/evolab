@@ -1,15 +1,15 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { showErrorMessage, Printing } from '@evolab/apputils';
+import { showErrorMessage, Printing } from '@jupyterlab/apputils';
 
-import { ActivityMonitor } from '@evolab/coreutils';
+import { ActivityMonitor } from '@jupyterlab/coreutils';
 
 import {
   IRenderMime,
   IRenderMimeRegistry,
   MimeModel
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 import { PromiseDelegate, JSONExt, PartialJSONObject } from '@lumino/coreutils';
 

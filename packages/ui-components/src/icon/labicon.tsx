@@ -296,7 +296,7 @@ export class LabIcon implements LabIcon.ILabIcon, VirtualElement.IRenderer {
    * stylesheet names and/or custom stylesheet objects. If array,
    * the given stylesheets will be merged.
    *
-   *   See @evolab/ui-components/src/style/icon.ts for details
+   *   See @jupyterlab/ui-components/src/style/icon.ts for details
    *
    * @param elementPosition - optional position for the inner svg element
    *
@@ -581,7 +581,7 @@ export class LabIcon implements LabIcon.ILabIcon, VirtualElement.IRenderer {
    * stylesheet names and/or custom stylesheet objects. If array,
    * the given stylesheets will be merged.
    *
-   *   See @evolab/ui-components/src/style/icon.ts for details
+   *   See @jupyterlab/ui-components/src/style/icon.ts for details
    *
    * @param elementPosition - optional position for the inner svg element
    *

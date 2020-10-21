@@ -3,17 +3,17 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { DataConnector } from '@evolab/statedb';
+import { DataConnector } from '@jupyterlab/statedb';
 
-import { InspectionHandler, InspectorPanel } from '@evolab/inspector';
+import { InspectionHandler, InspectorPanel } from '@jupyterlab/inspector';
 
 import {
   IRenderMimeRegistry,
   RenderMimeRegistry,
   standardRendererFactories
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
-import { ISchemaValidator } from '@evolab/settingregistry';
+import { ISchemaValidator } from '@jupyterlab/settingregistry';
 
 import { ReadonlyJSONObject } from '@lumino/coreutils';
 

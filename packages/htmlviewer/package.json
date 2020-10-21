@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/htmlviewer",
+  "name": "@jupyterlab/htmlviewer",
   "version": "2.2.0",
   "description": "A viewer for HTML documents.",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -32,10 +32,10 @@
     "watch": "tsc -w --listEmittedFiles"
   },
   "dependencies": {
-    "@evolab/apputils": "^2.2.0",
-    "@evolab/coreutils": "^4.2.0",
+    "@jupyterlab/apputils": "^2.2.0",
+    "@jupyterlab/coreutils": "^4.2.0",
     "@evolab/docregistry": "^2.2.0",
-    "@evolab/ui-components": "^2.2.0",
+    "@jupyterlab/ui-components": "^2.2.0",
     "@lumino/coreutils": "^1.4.2",
     "@lumino/signaling": "^1.3.5",
     "react": "~16.9.0"

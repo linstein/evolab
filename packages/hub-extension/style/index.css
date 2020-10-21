@@ -4,6 +4,6 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-@import url('~@evolab/application/style/index.css');
-@import url('~@evolab/apputils/style/index.css');
-@import url('~@evolab/mainmenu/style/index.css');
+@import url('~@jupyterlab/application/style/index.css');
+@import url('~@jupyterlab/apputils/style/index.css');
+@import url('~@jupyterlab/mainmenu/style/index.css');

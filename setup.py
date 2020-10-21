@@ -69,8 +69,8 @@ def check_assets():
     # Representative files that should exist after a successful build
     targets = [
         'static/package.json',
-        'schemas/@evolab/shortcuts-extension/shortcuts.json',
-        'themes/@evolab/theme-light-extension/index.css'
+        'schemas/@jupyterlab/shortcuts-extension/shortcuts.json',
+        'themes/@jupyterlab/theme-light-extension/index.css'
     ]
 
     for t in targets:

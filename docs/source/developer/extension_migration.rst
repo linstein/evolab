@@ -7,10 +7,10 @@ This is a migration guide for updating extensions that support JupyterLab 1.x
 to work in JupyterLab 2.x. We will look at two examples of extensions that
 cover most of the APIs that extension authors might be using:
 
-- ``@evolab/debugger`` migration pull request:
+- ``@jupyterlab/debugger`` migration pull request:
   https://github.com/jupyterlab/debugger/pull/337/files
 
-- ``@evolab/shortcutui`` migration pull request:
+- ``@jupyterlab/shortcutui`` migration pull request:
   https://github.com/jupyterlab/jupyterlab-shortcutui/pull/53/files
 
 Upgrading library versions
@@ -98,11 +98,11 @@ the new ``@lumino`` namespaced packages:
   - ``p-`` DOM events such as ``p-dragenter`` should be updated to ``lm-``,
     e.g. ``lm-dragenter``
 
-Updating former ``@evolab/coreutils`` imports
+Updating former ``@jupyterlab/coreutils`` imports
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 JupyterLab 2.0 introduces several new packages with classes and tokens that
-have been moved out of ``@evolab/coreutils`` into their own packages. These
+have been moved out of ``@jupyterlab/coreutils`` into their own packages. These
 exports have been moved.
 
 .. tip::
@@ -112,25 +112,25 @@ exports have been moved.
 ============================  =================================
  Export                        Package
 ============================  =================================
- ``DataConnector``             ``@evolab/statedb``
+ ``DataConnector``             ``@jupyterlab/statedb``
  ``Debouncer``                 ``@lumino/polling``
- ``DefaultSchemaValidator``    ``@evolab/settingregistry``
- ``IDataConnector``            ``@evolab/statedb``
- ``IObjectPool``               ``@evolab/statedb``
+ ``DefaultSchemaValidator``    ``@jupyterlab/settingregistry``
+ ``IDataConnector``            ``@jupyterlab/statedb``
+ ``IObjectPool``               ``@jupyterlab/statedb``
  ``IPoll``                     ``@lumino/polling``
  ``IRateLimiter``              ``@lumino/polling``
- ``IRestorable``               ``@evolab/statedb``
- ``IRestorer``                 ``@evolab/statedb``
- ``ISchemaValidator``          ``@evolab/settingregistry``
- ``ISettingRegistry``          ``@evolab/settingregistry``
- ``IStateDB``                  ``@evolab/statedb``
- ``nbformat``                  ``@evolab/nbformat``
+ ``IRestorable``               ``@jupyterlab/statedb``
+ ``IRestorer``                 ``@jupyterlab/statedb``
+ ``ISchemaValidator``          ``@jupyterlab/settingregistry``
+ ``ISettingRegistry``          ``@jupyterlab/settingregistry``
+ ``IStateDB``                  ``@jupyterlab/statedb``
+ ``nbformat``                  ``@jupyterlab/nbformat``
  ``Poll``                      ``@lumino/polling``
  ``RateLimiter``               ``@lumino/polling``
- ``RestorablePool``            ``@evolab/statedb``
- ``SettingRegistry``           ``@evolab/settingregistry``
- ``Settings``                  ``@evolab/settingregistry``
- ``StateDB``                   ``@evolab/statedb``
+ ``RestorablePool``            ``@jupyterlab/statedb``
+ ``SettingRegistry``           ``@jupyterlab/settingregistry``
+ ``Settings``                  ``@jupyterlab/settingregistry``
+ ``StateDB``                   ``@jupyterlab/statedb``
  ``Throttler``                 ``@lumino/polling``
 ============================  =================================
 
@@ -150,7 +150,7 @@ Any widget that matches the ``interface IDocumentWidget`` has a
 ``context: DocumentRegistry.IContext`` attribute with a
 ``sessionContext: ISessionContext`` attribute.
 
-For example, consider how the ``@evolab/debugger`` extension's
+For example, consider how the ``@jupyterlab/debugger`` extension's
 ``DebuggerService`` updated its ``isAvailable()`` method.
 
 .. figure:: extension_migration_session.png
@@ -174,5 +174,5 @@ Using the new icon system and ``LabIcon``
 .. note::
 
   For full API documentation and examples of how to use
-  the new icon support based on ``LabIcon`` from ``@evolab/ui-components``,
+  the new icon support based on ``LabIcon`` from ``@jupyterlab/ui-components``,
   `consult the repository <https://github.com/jupyterlab/jupyterlab/tree/master/packages/ui-components#readme>`__.

@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/ui-components-extension",
+  "name": "@jupyterlab/ui-components-extension",
   "version": "2.2.0",
   "description": "JupyterLab - UI component plugins",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -34,8 +34,8 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/application": "^2.2.0",
-    "@evolab/ui-components": "^2.2.0"
+    "@jupyterlab/application": "^2.2.0",
+    "@jupyterlab/ui-components": "^2.2.0"
   },
   "devDependencies": {
     "rimraf": "~3.0.0",

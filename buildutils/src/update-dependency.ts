@@ -241,27 +241,27 @@ Examples
 
       update-dependency --minimal --regex '.*' ^latest
 
-  Update all packages, that does not start with '@evolab',
+  Update all packages, that does not start with '@jupyterlab',
   to the latest version and use the same version specifier currently
   being used
 
-      update:dependency --regex '^(?!@evolab).*' latest --dry-run
+      update:dependency --regex '^(?!@jupyterlab).*' latest --dry-run
 
   Print the log of the above without actually making any changes.
 
   update-dependency --dry-run --minimal --regex '.*' ^latest
 
-  Update all packages starting with '@evolab/' to the version
+  Update all packages starting with '@jupyterlab/' to the version
   the 'latest' tag currently points to, with a caret range:
 
-      update-dependency --regex '^@evolab/' ^latest
+      update-dependency --regex '^@jupyterlab/' ^latest
 
-  Update all packages starting with '@evolab/' in all lerna
+  Update all packages starting with '@jupyterlab/' in all lerna
   workspaces and the root package.json to whatever version the 'next'
   tag for each package currently points to (with a caret tag).
   Update the version range only if the change is substantial.
 
-      update-dependency --lerna --regex --minimal '^@evolab/' ^next
+      update-dependency --lerna --regex --minimal '^@jupyterlab/' ^next
 `);
 });
 

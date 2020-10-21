@@ -5,21 +5,21 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 import {
   IThemeManager,
   InputDialog,
   WidgetTracker
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 import {
   CSVViewer,
   TextRenderConfig,
   CSVViewerFactory,
   TSVViewerFactory
-} from '@evolab/csvviewer';
+} from '@jupyterlab/csvviewer';
 import { IDocumentWidget } from '@evolab/docregistry';
-import { ISearchProviderRegistry } from '@evolab/documentsearch';
-import { IEditMenu, IMainMenu } from '@evolab/mainmenu';
+import { ISearchProviderRegistry } from '@jupyterlab/documentsearch';
+import { IEditMenu, IMainMenu } from '@jupyterlab/mainmenu';
 import { DataGrid } from '@lumino/datagrid';
 import { CSVSearchProvider } from './searchprovider';
 
@@ -34,7 +34,7 @@ const FACTORY_TSV = 'TSVTable';
  */
 const csv: JupyterFrontEndPlugin<void> = {
   activate: activateCsv,
-  id: '@evolab/csvviewer-extension:csv',
+  id: '@jupyterlab/csvviewer-extension:csv',
   requires: [],
   optional: [
     ILayoutRestorer,
@@ -50,7 +50,7 @@ const csv: JupyterFrontEndPlugin<void> = {
  */
 const tsv: JupyterFrontEndPlugin<void> = {
   activate: activateTsv,
-  id: '@evolab/csvviewer-extension:tsv',
+  id: '@jupyterlab/csvviewer-extension:tsv',
   requires: [],
   optional: [
     ILayoutRestorer,

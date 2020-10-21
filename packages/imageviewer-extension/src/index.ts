@@ -5,9 +5,9 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { ICommandPalette, WidgetTracker } from '@evolab/apputils';
+import { ICommandPalette, WidgetTracker } from '@jupyterlab/apputils';
 
 import { IDocumentWidget, DocumentRegistry } from '@evolab/docregistry';
 
@@ -15,7 +15,7 @@ import {
   ImageViewer,
   ImageViewerFactory,
   IImageTracker
-} from '@evolab/imageviewer';
+} from '@jupyterlab/imageviewer';
 
 /**
  * The command IDs used by the image widget plugin.
@@ -68,7 +68,7 @@ const TEXT_FILE_REGEX = new RegExp(`\.(${TEXT_FILE_TYPES.join('|')})$`);
  */
 const plugin: JupyterFrontEndPlugin<IImageTracker> = {
   activate,
-  id: '@evolab/imageviewer-extension:plugin',
+  id: '@jupyterlab/imageviewer-extension:plugin',
   provides: IImageTracker,
   optional: [ICommandPalette, ILayoutRestorer],
   autoStart: true

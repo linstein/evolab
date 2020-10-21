@@ -10,9 +10,9 @@ import {
   ToolbarButton,
   ToolbarButtonComponent,
   UseSignal
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { ActivityMonitor } from '@evolab/coreutils';
+import { ActivityMonitor } from '@jupyterlab/coreutils';
 
 import {
   ABCWidgetFactory,
@@ -21,7 +21,7 @@ import {
   IDocumentWidget
 } from '@evolab/docregistry';
 
-import { refreshIcon } from '@evolab/ui-components';
+import { refreshIcon } from '@jupyterlab/ui-components';
 
 import { Token } from '@lumino/coreutils';
 
@@ -38,7 +38,7 @@ export interface IHTMLViewerTracker extends IWidgetTracker<HTMLViewer> {}
  * The HTML viewer tracker token.
  */
 export const IHTMLViewerTracker = new Token<IHTMLViewerTracker>(
-  '@evolab/htmlviewer:IHTMLViewerTracker'
+  '@jupyterlab/htmlviewer:IHTMLViewerTracker'
 );
 /**
  * The timeout to wait for change activity to have ceased before rendering.

@@ -4,11 +4,11 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
-import { ILoggerRegistry, LogLevel } from '@evolab/logconsole';
+import { ILoggerRegistry, LogLevel } from '@jupyterlab/logconsole';
 
 import { INotebookTracker, NotebookPanel } from '@evolab/notebook';
 

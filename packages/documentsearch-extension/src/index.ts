@@ -5,9 +5,9 @@ import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin,
   ILabShell
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { ICommandPalette } from '@evolab/apputils';
+import { ICommandPalette } from '@jupyterlab/apputils';
 
 import {
   ISearchProviderRegistry,
@@ -15,15 +15,15 @@ import {
   SearchProviderRegistry,
   CodeMirrorSearchProvider,
   NotebookSearchProvider
-} from '@evolab/documentsearch';
+} from '@jupyterlab/documentsearch';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 import { Widget } from '@lumino/widgets';
 
 const SEARCHABLE_CLASS = 'jp-mod-searchable';
 
 const labShellWidgetListener: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/documentsearch:labShellWidgetListener',
+  id: '@jupyterlab/documentsearch:labShellWidgetListener',
   requires: [ILabShell, ISearchProviderRegistry],
   autoStart: true,
   activate: (
@@ -70,7 +70,7 @@ const labShellWidgetListener: JupyterFrontEndPlugin<void> = {
  * Initialization data for the document-search extension.
  */
 const extension: JupyterFrontEndPlugin<ISearchProviderRegistry> = {
-  id: '@evolab/documentsearch:plugin',
+  id: '@jupyterlab/documentsearch:plugin',
   provides: ISearchProviderRegistry,
   optional: [ICommandPalette, IMainMenu],
   autoStart: true,

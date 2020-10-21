@@ -12,11 +12,11 @@ import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin,
   IRouter
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { ICommandPalette, showDialog, Dialog } from '@evolab/apputils';
+import { ICommandPalette, showDialog, Dialog } from '@jupyterlab/apputils';
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 
 import {
   IMainMenu,
@@ -29,11 +29,11 @@ import {
   SettingsMenu,
   ViewMenu,
   TabsMenu
-} from '@evolab/mainmenu';
+} from '@jupyterlab/mainmenu';
 
 import { ServerConnection } from '@evolab/services';
 
-import { jupyterIcon } from '@evolab/ui-components';
+import { jupyterIcon } from '@jupyterlab/ui-components';
 
 /**
  * A namespace for command IDs of semantic extension points.
@@ -117,7 +117,7 @@ export namespace CommandIDs {
  * A service providing an interface to the main menu.
  */
 const plugin: JupyterFrontEndPlugin<IMainMenu> = {
-  id: '@evolab/mainmenu-extension:plugin',
+  id: '@jupyterlab/mainmenu-extension:plugin',
   requires: [IRouter],
   optional: [ICommandPalette, ILabShell],
   provides: IMainMenu,

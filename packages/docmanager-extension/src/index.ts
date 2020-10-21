@@ -6,7 +6,7 @@ import {
   ILabStatus,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   showDialog,
@@ -14,9 +14,9 @@ import {
   Dialog,
   ICommandPalette,
   ISessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { IChangedArgs, Time } from '@evolab/coreutils';
+import { IChangedArgs, Time } from '@jupyterlab/coreutils';
 
 import {
   renameDialog,
@@ -28,13 +28,13 @@ import {
 
 import { DocumentRegistry } from '@evolab/docregistry';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 
 import { Contents, Kernel } from '@evolab/services';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { IStatusBar } from '@evolab/statusbar';
+import { IStatusBar } from '@jupyterlab/statusbar';
 
 import { each, map, some, toArray } from '@lumino/algorithm';
 

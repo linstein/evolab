@@ -5,19 +5,19 @@ import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin,
   ILayoutRestorer
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { WidgetTracker } from '@evolab/apputils';
+import { WidgetTracker } from '@jupyterlab/apputils';
 
 import { MimeDocumentFactory, MimeDocument } from '@evolab/docregistry';
 
 import { INotebookTracker } from '@evolab/notebook';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { reactIcon } from '@evolab/ui-components';
+import { reactIcon } from '@jupyterlab/ui-components';
 
-import { RenderedVDOM, IVDOMTracker } from '@evolab/vdom';
+import { RenderedVDOM, IVDOMTracker } from '@jupyterlab/vdom';
 
 /**
  * The MIME type for VDOM.
@@ -30,7 +30,7 @@ export const MIME_TYPE = 'application/vdom.v1+json';
 const FACTORY_NAME = 'VDOM';
 
 const plugin: JupyterFrontEndPlugin<IVDOMTracker> = {
-  id: '@evolab/vdom-extension:factory',
+  id: '@jupyterlab/vdom-extension:factory',
   requires: [IRenderMimeRegistry],
   optional: [INotebookTracker, ILayoutRestorer],
   provides: IVDOMTracker,

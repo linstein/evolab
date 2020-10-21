@@ -4,15 +4,15 @@
 import 'jest';
 // Distributed under the terms of the Modified BSD License.
 
-import { InputDialog } from '@evolab/apputils';
+import { InputDialog } from '@jupyterlab/apputils';
 
 import {
   acceptDialog,
   dismissDialog,
   waitForDialog
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   describe('InputDialog', () => {
     describe('getBoolean()', () => {
       it('should accept at least the title argument', async () => {

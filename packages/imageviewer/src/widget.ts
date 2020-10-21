@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
-import { Printing } from '@evolab/apputils';
+import { Printing } from '@jupyterlab/apputils';
 
 import {
   ABCWidgetFactory,

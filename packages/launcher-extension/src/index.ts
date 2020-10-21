@@ -5,10 +5,10 @@ import {
   ILabShell,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
-import { ICommandPalette, MainAreaWidget } from '@evolab/apputils';
-import { ILauncher, LauncherModel, Launcher } from '@evolab/launcher';
-import { launcherIcon } from '@evolab/ui-components';
+} from '@jupyterlab/application';
+import { ICommandPalette, MainAreaWidget } from '@jupyterlab/apputils';
+import { ILauncher, LauncherModel, Launcher } from '@jupyterlab/launcher';
+import { launcherIcon } from '@jupyterlab/ui-components';
 
 import { toArray } from '@lumino/algorithm';
 import { JSONObject } from '@lumino/coreutils';
@@ -26,7 +26,7 @@ namespace CommandIDs {
  */
 const plugin: JupyterFrontEndPlugin<ILauncher> = {
   activate,
-  id: '@evolab/launcher-extension:plugin',
+  id: '@jupyterlab/launcher-extension:plugin',
   requires: [ILabShell],
   optional: [ICommandPalette],
   provides: ILauncher,

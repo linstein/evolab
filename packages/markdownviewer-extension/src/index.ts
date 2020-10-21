@@ -5,25 +5,25 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { WidgetTracker } from '@evolab/apputils';
+import { WidgetTracker } from '@jupyterlab/apputils';
 
 import {
   MarkdownViewer,
   MarkdownViewerFactory,
   MarkdownDocument,
   IMarkdownViewerTracker
-} from '@evolab/markdownviewer';
+} from '@jupyterlab/markdownviewer';
 
 import {
   IRenderMimeRegistry,
   markdownRendererFactory
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
 /**
  * The command IDs used by the markdownviewer plugin.
@@ -43,7 +43,7 @@ const FACTORY = 'Markdown Preview';
  */
 const plugin: JupyterFrontEndPlugin<IMarkdownViewerTracker> = {
   activate,
-  id: '@evolab/markdownviewer-extension:plugin',
+  id: '@jupyterlab/markdownviewer-extension:plugin',
   provides: IMarkdownViewerTracker,
   requires: [ILayoutRestorer, IRenderMimeRegistry, ISettingRegistry],
   autoStart: true

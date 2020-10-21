@@ -3,11 +3,11 @@
 
 import 'jest';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { OutputModel } from '../src';
 
-import { NBTestUtils } from '@evolab/testutils';
+import { NBTestUtils } from '@jupyterlab/testutils';
 
 const DEFAULT_EXECUTE: nbformat.IOutput = {
   output_type: 'execute_result',

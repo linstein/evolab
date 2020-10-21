@@ -11,9 +11,9 @@ import {
   ObservableValue,
   ObservableUndoableList,
   ObservableJSON
-} from '@evolab/observables';
+} from '@jupyterlab/observables';
 
-describe('@evolab/observables', () => {
+describe('@jupyterlab/observables', () => {
   describe('ObservableValue', () => {
     describe('#constructor', () => {
       it('should accept no arguments', () => {

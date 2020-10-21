@@ -4,7 +4,7 @@ import 'jest';
 
 import { Contents, ContentsManager, Drive, ServerConnection } from '../../src';
 
-import { expectFailure, JupyterServer } from '@evolab/testutils';
+import { expectFailure, JupyterServer } from '@jupyterlab/testutils';
 
 import { DEFAULT_FILE, makeSettings, handleRequest } from '../utils';
 

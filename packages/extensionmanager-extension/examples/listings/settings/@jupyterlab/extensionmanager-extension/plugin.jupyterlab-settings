@@ -1,6 +1,6 @@
 {
     // Extension Manager
-    // @evolab/extensionmanager-extension:plugin
+    // @jupyterlab/extensionmanager-extension:plugin
     // Extension manager settings.
     // *********************************************
 

@@ -15,9 +15,9 @@ import { BreadCrumbs, FileBrowserModel } from '../src';
 
 import { ServiceManager } from '@evolab/services';
 
-import { framePromise, signalToPromise } from '@evolab/testutils';
+import { framePromise, signalToPromise } from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 import { Message, MessageLoop } from '@lumino/messaging';
 

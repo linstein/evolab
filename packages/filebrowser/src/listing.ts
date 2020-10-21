@@ -6,9 +6,9 @@ import {
   DOMUtils,
   showDialog,
   showErrorMessage
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { PathExt, Time } from '@evolab/coreutils';
+import { PathExt, Time } from '@jupyterlab/coreutils';
 
 import {
   IDocumentManager,
@@ -25,7 +25,7 @@ import {
   caretUpIcon,
   classes,
   LabIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import {
   ArrayExt,

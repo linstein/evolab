@@ -19,9 +19,9 @@ import {
   SettingsMenu,
   TabsMenu,
   ViewMenu
-} from '@evolab/mainmenu';
+} from '@jupyterlab/mainmenu';
 
-describe('@evolab/mainmenu', () => {
+describe('@jupyterlab/mainmenu', () => {
   describe('MainMenu', () => {
     let commands: CommandRegistry;
     let mainMenu: MainMenu;

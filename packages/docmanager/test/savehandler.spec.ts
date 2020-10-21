@@ -20,9 +20,9 @@ import {
   signalToPromise,
   testEmission,
   waitForDialog
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 describe('docregistry/savehandler', () => {
   let manager: ServiceManager.IManager;

@@ -1,8 +1,8 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
-import { RenderedJavaScript } from '@evolab/rendermime';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
+import { RenderedJavaScript } from '@jupyterlab/rendermime';
 
 export const TEXT_JAVASCRIPT_MIMETYPE = 'text/javascript';
 export const APPLICATION_JAVASCRIPT_MIMETYPE = 'application/javascript';
@@ -61,7 +61,7 @@ export const rendererFactory: IRenderMime.IRendererFactory = {
 };
 
 const extension: IRenderMime.IExtension = {
-  id: '@evolab/javascript-extension:factory',
+  id: '@jupyterlab/javascript-extension:factory',
   rendererFactory,
   rank: 0,
   dataType: 'string'

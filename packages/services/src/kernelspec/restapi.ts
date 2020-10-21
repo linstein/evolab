@@ -4,7 +4,7 @@
 import { ServerConnection } from '../serverconnection';
 import { validateSpecModels } from './validate';
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 import { PartialJSONObject } from '@lumino/coreutils';
 
 /**

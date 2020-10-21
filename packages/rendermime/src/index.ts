@@ -3,7 +3,7 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-export * from '@evolab/rendermime-interfaces';
+export * from '@jupyterlab/rendermime-interfaces';
 export * from './attachmentmodel';
 export * from './factories';
 export * from './latex';

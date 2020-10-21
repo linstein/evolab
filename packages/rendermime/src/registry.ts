@@ -4,15 +4,15 @@
 |----------------------------------------------------------------------------*/
 import { Contents, Session } from '@evolab/services';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
-import { PathExt, URLExt } from '@evolab/coreutils';
+import { PathExt, URLExt } from '@jupyterlab/coreutils';
 
 import {
   ISessionContext,
   ISanitizer,
   defaultSanitizer
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { ReadonlyPartialJSONObject } from '@lumino/coreutils';
 

@@ -1,3 +1,3 @@
-# @evolab/logconsole
+# @jupyterlab/logconsole
 
 JupyterLab - Log Console

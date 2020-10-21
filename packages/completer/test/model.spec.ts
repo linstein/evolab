@@ -13,7 +13,7 @@ import {
   CompleterModel,
   Completer,
   CompletionHandler
-} from '@evolab/completer';
+} from '@jupyterlab/completer';
 
 function makeState(text: string): Completer.ITextState {
   return {

@@ -9,9 +9,9 @@ import {
   LoggerOutputAreaModel,
   ILogPayload,
   LogLevel
-} from '@evolab/logconsole';
+} from '@jupyterlab/logconsole';
 
-import { RenderMimeRegistry } from '@evolab/rendermime';
+import { RenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import { Signal, ISignal } from '@lumino/signaling';
 

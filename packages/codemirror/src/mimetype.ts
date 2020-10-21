@@ -3,9 +3,9 @@
 
 import { IEditorMimeTypeService } from '@evolab/codeeditor';
 
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { Mode } from './mode';
 

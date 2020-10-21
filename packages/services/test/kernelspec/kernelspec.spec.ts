@@ -4,7 +4,7 @@ import 'jest';
 
 import { KernelSpecAPI } from '../../src';
 
-import { expectFailure, JupyterServer } from '@evolab/testutils';
+import { expectFailure, JupyterServer } from '@jupyterlab/testutils';
 
 import { makeSettings, PYTHON_SPEC, getRequestHandler } from '../utils';
 

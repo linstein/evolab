@@ -23,8 +23,8 @@ import { INotebookModel, NotebookModel } from '../src';
 
 import { Notebook, StaticNotebook } from '../src';
 
-import { framePromise, signalToPromise } from '@evolab/testutils';
-import { JupyterServer } from '@evolab/testutils/lib/start_jupyter_server';
+import { framePromise, signalToPromise } from '@jupyterlab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils/lib/start_jupyter_server';
 
 import * as utils from './utils';
 

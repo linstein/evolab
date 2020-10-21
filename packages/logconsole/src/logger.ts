@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { IOutputAreaModel, OutputAreaModel } from '@evolab/outputarea';
 
@@ -9,7 +9,7 @@ import {
   IRenderMimeRegistry,
   IOutputModel,
   OutputModel
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 import { ISignal, Signal } from '@lumino/signaling';
 

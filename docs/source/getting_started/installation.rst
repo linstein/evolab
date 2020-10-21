@@ -206,7 +206,7 @@ which is required for downloading useful Jupyter extensions or other JavaScript 
 
 Example of typical error message, when ``npm`` cannot connect to own repositories:
 
-+ `ValueError: "@evolab/toc" is not a valid npm package`
++ `ValueError: "@jupyterlab/toc" is not a valid npm package`
 
 .. code:: bash
 

@@ -11,7 +11,7 @@ import { Kernel, KernelMessage } from '../kernel';
 
 import { ServerConnection } from '..';
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
 /**
  * Interface of a session object.

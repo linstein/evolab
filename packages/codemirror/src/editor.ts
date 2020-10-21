@@ -5,7 +5,7 @@
 
 import CodeMirror from 'codemirror';
 
-import { showDialog } from '@evolab/apputils';
+import { showDialog } from '@jupyterlab/apputils';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
@@ -13,7 +13,7 @@ import {
   IObservableMap,
   IObservableString,
   ICollaborator
-} from '@evolab/observables';
+} from '@jupyterlab/observables';
 
 import { ArrayExt } from '@lumino/algorithm';
 

@@ -3,11 +3,11 @@
 
 import 'jest';
 
-import { OutputModel } from '@evolab/rendermime';
+import { OutputModel } from '@jupyterlab/rendermime';
 
 import { OutputAreaModel } from '@evolab/outputarea';
 
-import { NBTestUtils } from '@evolab/testutils';
+import { NBTestUtils } from '@jupyterlab/testutils';
 
 describe('outputarea/model', () => {
   let model: OutputAreaModel;

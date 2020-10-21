@@ -3,12 +3,12 @@
 
 import 'jest';
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
 import { ServerConnection } from '../src';
 
 import { getRequestHandler } from './utils';
-import { JupyterServer } from '@evolab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils';
 
 const server = new JupyterServer();
 

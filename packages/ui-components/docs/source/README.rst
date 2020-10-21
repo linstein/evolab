@@ -1,4 +1,4 @@
-@evolab/ui-components
+@jupyterlab/ui-components
 =========================
 
 .. include:: intro.rst

@@ -3,9 +3,9 @@
 
 import React from 'react';
 
-import { ISessionContext, VDomRenderer, VDomModel } from '@evolab/apputils';
+import { ISessionContext, VDomRenderer, VDomModel } from '@jupyterlab/apputils';
 
-import { Text } from '@evolab/coreutils';
+import { Text } from '@jupyterlab/coreutils';
 
 import { Session } from '@evolab/services';
 

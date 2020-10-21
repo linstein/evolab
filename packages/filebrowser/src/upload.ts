@@ -1,8 +1,8 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { ToolbarButton, showErrorMessage } from '@evolab/apputils';
-import { fileUploadIcon } from '@evolab/ui-components';
+import { ToolbarButton, showErrorMessage } from '@jupyterlab/apputils';
+import { fileUploadIcon } from '@jupyterlab/ui-components';
 
 import { FileBrowserModel } from './model';
 

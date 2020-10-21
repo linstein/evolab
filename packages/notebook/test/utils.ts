@@ -11,7 +11,7 @@ import {
   NotebookModelFactory
 } from '../src';
 
-import { NBTestUtils, Mock } from '@evolab/testutils';
+import { NBTestUtils, Mock } from '@jupyterlab/testutils';
 import { UUID } from '@lumino/coreutils';
 
 /**

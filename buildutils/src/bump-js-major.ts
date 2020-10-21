@@ -17,8 +17,8 @@ export function getDeps(
 ): Set<string> {
   const deps: Set<string> = new Set();
   for (const name in lut) {
-    if ('@evolab/' + pkgName in lut[name]) {
-      const otherName = name.replace('@evolab/', '');
+    if ('@jupyterlab/' + pkgName in lut[name]) {
+      const otherName = name.replace('@jupyterlab/', '');
       deps.add(otherName);
       const otherDeps = getDeps(otherName, lut);
       otherDeps.forEach(dep => {

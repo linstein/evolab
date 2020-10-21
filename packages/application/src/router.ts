@@ -3,7 +3,7 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
 import { CommandRegistry } from '@lumino/commands';
 
@@ -61,7 +61,7 @@ export class Router implements IRouter {
    * If a matching rule's command resolves with the `stop` token during routing,
    * no further matches will execute.
    */
-  readonly stop = new Token<void>('@evolab/application:Router#stop');
+  readonly stop = new Token<void>('@jupyterlab/application:Router#stop');
 
   /**
    * Navigate to a new path within the application.

@@ -4,7 +4,7 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 // @ts-ignore
 __webpack_public_path__ = URLExt.join(PageConfig.getBaseUrl(), 'example/');
 
@@ -17,7 +17,7 @@ import { OutputArea, OutputAreaModel } from '@evolab/outputarea';
 import {
   RenderMimeRegistry,
   standardRendererFactories as initialFactories
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 import { KernelManager } from '@evolab/services';
 

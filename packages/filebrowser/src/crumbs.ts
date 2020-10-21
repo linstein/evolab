@@ -11,13 +11,13 @@ import { IDragEvent } from '@lumino/dragdrop';
 
 import { Widget } from '@lumino/widgets';
 
-import { DOMUtils, showErrorMessage } from '@evolab/apputils';
+import { DOMUtils, showErrorMessage } from '@jupyterlab/apputils';
 
-import { PageConfig, PathExt } from '@evolab/coreutils';
+import { PageConfig, PathExt } from '@jupyterlab/coreutils';
 
 import { renameFile } from '@evolab/docmanager';
 
-import { ellipsesIcon, folderIcon } from '@evolab/ui-components';
+import { ellipsesIcon, folderIcon } from '@jupyterlab/ui-components';
 
 import { FileBrowserModel } from './model';
 

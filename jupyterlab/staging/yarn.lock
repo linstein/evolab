@@ -48,38 +48,38 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.13.1.tgz#c53b4066edae16cd1fd669f687baf031b45fb9d6"
   integrity sha512-D819f34FLHeBN/4xvw0HR0u7U2G7RqjPSggXqf7LktsxWQ48VAfGwvMrhcVuaZV2fF069c/619RdgCCms0DHhw==
 
-"@evolab/application-extension@^2.2.0", "@evolab/application-extension@~2.2.0":
+"@jupyterlab/application-extension@^2.2.0", "@jupyterlab/application-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/application-extension/-/application-extension-2.2.0.tgz#91cbda495f233607aa2853188bf3e9e1898fe7ee"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/application-extension/-/application-extension-2.2.0.tgz#91cbda495f233607aa2853188bf3e9e1898fe7ee"
   integrity sha512-ncH8NzxRQ8g3fgyXNFjFqmjAtOPF/n+EC0QI9oTlunlLq04iY4aMSjQ8cJpeqH1dxLEB05JrLcTjD9I2IPEPHw==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/property-inspector" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/property-inspector" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
     react "~16.9.0"
 
-"@evolab/application@^2.2.0", "@evolab/application@~2.2.0":
+"@jupyterlab/application@^2.2.0", "@jupyterlab/application@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/application/-/application-2.2.0.tgz#65d37cfc6146e28e7aa250667996024134400bfa"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/application/-/application-2.2.0.tgz#65d37cfc6146e28e7aa250667996024134400bfa"
   integrity sha512-dayndJ2MahAORRMDrersVvANmOded5GkKKShUAq/8C24bRkKd8zb/U4IpG1Ge93NWVW6ATHjRst6LxkiR+biOA==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.12.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/application" "^1.8.4"
     "@lumino/commands" "^1.10.1"
@@ -91,18 +91,18 @@
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/apputils-extension@^2.2.0", "@evolab/apputils-extension@~2.2.0":
+"@jupyterlab/apputils-extension@^2.2.0", "@jupyterlab/apputils-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/apputils-extension/-/apputils-extension-2.2.0.tgz#e4af8b13088ba4bc7b116bd5a0640b9ffa3f21d8"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/apputils-extension/-/apputils-extension-2.2.0.tgz#e4af8b13088ba4bc7b116bd5a0640b9ffa3f21d8"
   integrity sha512-sLr9aLLKgWXpNo0WGGEu/WygrEPEVb7PF+IXJnR5JPb6G9269C1KaQ48CUkF6xTO8bjF1XyjF0t29XfFzeKY/A==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
@@ -111,16 +111,16 @@
     "@lumino/widgets" "^1.11.1"
     es6-promise "~4.2.8"
 
-"@evolab/apputils@^2.2.0", "@evolab/apputils@~2.2.0":
+"@jupyterlab/apputils@^2.2.0", "@jupyterlab/apputils@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/apputils/-/apputils-2.2.0.tgz#005d6b4dfd1b805fd968462e95dff0399d9b7dbb"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/apputils/-/apputils-2.2.0.tgz#005d6b4dfd1b805fd968462e95dff0399d9b7dbb"
   integrity sha512-QiPr3otdgOAI6K1FTR39RZI2AlFaeRhsdwB2W/XO+TIIYTRljmL93WuNixZQjgyVBqVhyMwPLPLtE/zt1diPvQ==
   dependencies:
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
@@ -136,21 +136,21 @@
     react-dom "~16.9.0"
     sanitize-html "~1.20.1"
 
-"@evolab/attachments@^2.2.0", "@evolab/attachments@~2.2.0":
+"@jupyterlab/attachments@^2.2.0", "@jupyterlab/attachments@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/attachments/-/attachments-2.2.0.tgz#30c8b755fb6304454f9170e968acbe90f6b568be"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/attachments/-/attachments-2.2.0.tgz#30c8b755fb6304454f9170e968acbe90f6b568be"
   integrity sha512-GeNKuSNpc6v5KjXbek6kSxPYoUaPcPEyTehBpDay3m44H8vo/K5WXCCMu3x+i8JKG+fCsDFSAvnkPKeziGRgpA==
   dependencies:
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@lumino/disposable" "^1.3.5"
     "@lumino/signaling" "^1.3.5"
 
-"@evolab/buildutils@^2.2.0":
+"@jupyterlab/buildutils@^2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/buildutils/-/buildutils-2.2.0.tgz#a574e33ec290bf5ebc701ea89322aea27ad394be"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/buildutils/-/buildutils-2.2.0.tgz#a574e33ec290bf5ebc701ea89322aea27ad394be"
   integrity sha512-8z84o6no88Gx5Y3uglJmutfdhwOb0BDMCzmi5wjbiN1BqEaejOtCj3XIsxTBvdB+ooFqj3WHhsv/r/o2+cd/2g==
   dependencies:
     "@lumino/coreutils" "^1.4.2"
@@ -178,18 +178,18 @@
   resolved "https://registry.yarnpkg.com/@evolab/cells/-/cells-2.2.0.tgz#0110d50cc992e04bb1ff90ebc8c0e73f0059bc8f"
   integrity sha512-Hy/B5JahXKouCNRLTZPEbWryPNh9rhGsO801wG147mPBdVacWWqYafPNFH8LDkXgZcGVJu4TB94+GF6ZlV/oug==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/attachments" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/attachments" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
     "@evolab/codemirror" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/filebrowser" "^2.2.0"
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
     "@evolab/outputarea" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/dragdrop" "^1.5.1"
@@ -199,24 +199,24 @@
     "@lumino/widgets" "^1.11.1"
     react "~16.9.0"
 
-"@evolab/celltags-extension@^2.2.0", "@evolab/celltags-extension@~2.2.0":
+"@jupyterlab/celltags-extension@^2.2.0", "@jupyterlab/celltags-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/celltags-extension/-/celltags-extension-2.2.0.tgz#78d6d68b01d1a427b1505b3486d01705bd1b7d1e"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/celltags-extension/-/celltags-extension-2.2.0.tgz#78d6d68b01d1a427b1505b3486d01705bd1b7d1e"
   integrity sha512-OPiYfwGTvroSelbV8MhG7kzf6ZalvHvnINKAzFFpQJp/+8+KwKIlfnTVZzoPu7Gdy8EyKdn3yXptX9LsyunK0w==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/celltags" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/celltags" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
 
-"@evolab/celltags@^2.2.0", "@evolab/celltags@~2.2.0":
+"@jupyterlab/celltags@^2.2.0", "@jupyterlab/celltags@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/celltags/-/celltags-2.2.0.tgz#4768c66add164a4d2c7f74ec102a0c5f9948e1be"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/celltags/-/celltags-2.2.0.tgz#4768c66add164a4d2c7f74ec102a0c5f9948e1be"
   integrity sha512-Kj3mR/o1QtkVMb1JaJ4N+uveI0Xq52LxA7WZKzfNV3ZMo/egpza/Qc7EkNkBW/WBzOK0sYCiAcjLQPWppDNZDg==
   dependencies:
-    "@evolab/application" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
     "@evolab/cells" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/widgets" "^1.11.1"
 
@@ -225,10 +225,10 @@
   resolved "https://registry.yarnpkg.com/@evolab/codeeditor/-/codeeditor-2.2.0.tgz#124bb0c7e61ab5c15c12ea4c9e95072e3f38900a"
   integrity sha512-BIvvznUEGJ+sjmiyxEKr7OC9O2jDO9mCpoFMV0koPQuQEz/241JltuskM+BeP81CIIyP9yq3Le6qXttsq7dXDQ==
   dependencies:
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
     "@lumino/dragdrop" "^1.5.1"
@@ -241,14 +241,14 @@
   resolved "https://registry.yarnpkg.com/@evolab/codemirror-extension/-/codemirror-extension-2.2.0.tgz#78ce229b03c5ba59b478b21f20f91aee7287d126"
   integrity sha512-5fHpOAWHM+ft9T9HhhDmJMx6eLGGn7Tkbeyh2VEv1/LdZngI9TPvYMDwkiGUF8OHOkJ6I7ECMyIXKms3Kyap1g==
   dependencies:
-    "@evolab/application" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
     "@evolab/codemirror" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/fileeditor" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
+    "@jupyterlab/fileeditor" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
     "@lumino/widgets" "^1.11.1"
     codemirror "~5.53.2"
 
@@ -257,12 +257,12 @@
   resolved "https://registry.yarnpkg.com/@evolab/codemirror/-/codemirror-2.2.0.tgz#0cc6fda9749ae22cc26ee3f52d897b7126a5c28e"
   integrity sha512-mErh3xhemsUWxgDVxwYxaPmrKruXF0ks/GaRJyfbrTA/m8KnAf4jEbCISXeZTQ31EWAjdmkfUO35TVWvFCQYmg==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/statusbar" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
@@ -273,31 +273,31 @@
     codemirror "~5.53.2"
     react "~16.9.0"
 
-"@evolab/completer-extension@^2.2.0", "@evolab/completer-extension@~2.2.0":
+"@jupyterlab/completer-extension@^2.2.0", "@jupyterlab/completer-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/completer-extension/-/completer-extension-2.2.0.tgz#5f77e5864506f4a0eca8a8d31dd37e2f461a78d1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/completer-extension/-/completer-extension-2.2.0.tgz#5f77e5864506f4a0eca8a8d31dd37e2f461a78d1"
   integrity sha512-kHEdvwlG6TKS8Id8qdHKvM6LqsgVrqCaOwqTd2KAlo6RMOxaKA/j+1it1fnODAHIO48IrxEVcdeAKgQsjP/e/A==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/completer" "^2.2.0"
-    "@evolab/console" "^2.2.0"
-    "@evolab/fileeditor" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/completer" "^2.2.0"
+    "@jupyterlab/console" "^2.2.0"
+    "@jupyterlab/fileeditor" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
     "@evolab/services" "^5.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/completer@^2.2.0", "@evolab/completer@~2.2.0":
+"@jupyterlab/completer@^2.2.0", "@jupyterlab/completer@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/completer/-/completer-2.2.0.tgz#c714bd778778d12484c4e162b00a543613c9995f"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/completer/-/completer-2.2.0.tgz#c714bd778778d12484c4e162b00a543613c9995f"
   integrity sha512-cQTKPZvA0lt1bhkn8smjXQ34UIhVxGma2PL2l8/krKcM01FXGZDDg5/Zae/bzTRCF+pEjDsS2ljbcp8MRUDsdQ==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -306,42 +306,42 @@
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/console-extension@^2.2.0", "@evolab/console-extension@~2.2.0":
+"@jupyterlab/console-extension@^2.2.0", "@jupyterlab/console-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/console-extension/-/console-extension-2.2.0.tgz#f463b8f973392e1e70b96df3a5ebe477a751a017"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/console-extension/-/console-extension-2.2.0.tgz#f463b8f973392e1e70b96df3a5ebe477a751a017"
   integrity sha512-rzowgz+zuRa0ONVXeXQQ14Bh0oJooo2kMKM4odcM1/8mEEs9VgJKxCG51Pb3gqJ96+qphLM0y2hz962Ls6aw+w==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/console" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/console" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/filebrowser" "^2.2.0"
-    "@evolab/launcher" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/launcher" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
     "@lumino/properties" "^1.1.6"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/console@^2.2.0", "@evolab/console@~2.2.0":
+"@jupyterlab/console@^2.2.0", "@jupyterlab/console@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/console/-/console-2.2.0.tgz#744298ba51a51e15e35e12bd548ee7d12f54a23c"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/console/-/console-2.2.0.tgz#744298ba51a51e15e35e12bd548ee7d12f54a23c"
   integrity sha512-kNXNqa3QsqPOSeG4/9vQ2dNVuoMLPNaAZgZdyaAxJv8p2nCHTQW7DJ1FI7uHGLxtFVH4M/2cHaTG1Gpikf7X+w==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/cells" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -350,9 +350,9 @@
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/coreutils@^4.2.0", "@evolab/coreutils@~4.2.0":
+"@jupyterlab/coreutils@^4.2.0", "@jupyterlab/coreutils@~4.2.0":
   version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/coreutils/-/coreutils-4.2.0.tgz#13ee2291cad40995f17dee8e6572913d50c83e60"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/coreutils/-/coreutils-4.2.0.tgz#13ee2291cad40995f17dee8e6572913d50c83e60"
   integrity sha512-jxR3Y6ONYL4Pe6I1cT9hgsU7iCuNQfb31FBK9HX62D5ky40O/BN2VYlNX6+lPXXeSEvH4kqKEQfMG1kADK2ONg==
   dependencies:
     "@lumino/coreutils" "^1.4.2"
@@ -363,28 +363,28 @@
     path-posix "~1.0.0"
     url-parse "~1.4.7"
 
-"@evolab/csvviewer-extension@^2.2.0", "@evolab/csvviewer-extension@~2.2.0":
+"@jupyterlab/csvviewer-extension@^2.2.0", "@jupyterlab/csvviewer-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/csvviewer-extension/-/csvviewer-extension-2.2.0.tgz#b49924627138667ba01f3242256100171f9daef0"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/csvviewer-extension/-/csvviewer-extension-2.2.0.tgz#b49924627138667ba01f3242256100171f9daef0"
   integrity sha512-TPGspIDifu+5tFW5atbXgjNGfj+pVFOXIG0YIXdMmzfEzhvRjOwjRt4F4ELGXV/h4gdIop5EsIxmqqBWe4l0bg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/csvviewer" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/csvviewer" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/documentsearch" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
+    "@jupyterlab/documentsearch" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
     "@lumino/datagrid" "^0.6.0"
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/csvviewer@^2.2.0", "@evolab/csvviewer@~2.2.0":
+"@jupyterlab/csvviewer@^2.2.0", "@jupyterlab/csvviewer@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/csvviewer/-/csvviewer-2.2.0.tgz#dd1fc71198aaaed0c98ee76bdd3a1d23731e478e"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/csvviewer/-/csvviewer-2.2.0.tgz#dd1fc71198aaaed0c98ee76bdd3a1d23731e478e"
   integrity sha512-zpccxkizIJrETsWXj8ej7IPsxGrN5TqZmVGiinJc+IvzwVGOyjf64rhvs1lyzsH/ovlNU6mbN+bf6XbNSTPS7w==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docregistry" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
@@ -399,15 +399,15 @@
   resolved "https://registry.yarnpkg.com/@evolab/docmanager-extension/-/docmanager-extension-2.2.0.tgz#cb47ebfd83b227e57c618e2f5f4a895bc58ed89e"
   integrity sha512-Q2BZDFmSeCxtTmLTyhL+OlkjJCv8rt/olkT3V4zyiqciH/zE8OxlxIAvqyQQn/RBzxuAYauw/+RiDy6POdzm6w==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docmanager" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -418,11 +418,11 @@
   resolved "https://registry.yarnpkg.com/@evolab/docmanager/-/docmanager-2.2.0.tgz#b8365e357341e242855b78f866780117f11df481"
   integrity sha512-v8/5SExM66LHXvidEBNXTeqcbvHnSGWsRJqOXedItgYpTioKnWiDrrqDgt5VPJ+pOopsa00knLm8Z9GjzikBEA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docregistry" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/statusbar" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -437,15 +437,15 @@
   resolved "https://registry.yarnpkg.com/@evolab/docregistry/-/docregistry-2.2.0.tgz#45ff2310af556753a3db4688270061b0cca4f1c0"
   integrity sha512-jIjZ+YXYoNtTcZzfNBrf/1VNxLTSiMasaOB9jUsgVy6Z3MYuPrRobBp29ovVoTx8s/xe7sEbJr3MHIepJmuZxw==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
     "@evolab/codemirror" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -453,29 +453,29 @@
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/documentsearch-extension@^2.2.0", "@evolab/documentsearch-extension@~2.2.0":
+"@jupyterlab/documentsearch-extension@^2.2.0", "@jupyterlab/documentsearch-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/documentsearch-extension/-/documentsearch-extension-2.2.0.tgz#af1c2a84ae6403a68180bb5467824e8bcfd1dc9c"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/documentsearch-extension/-/documentsearch-extension-2.2.0.tgz#af1c2a84ae6403a68180bb5467824e8bcfd1dc9c"
   integrity sha512-ceDrgyJhCBI1EJsk/4lfMC9AbrvxFZQ7c029vzQ8seLxCSwX1qAUTZGCJQJL4kKgBHzp18NjnhQ5RuLDC4eQgA==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/documentsearch" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/documentsearch" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/documentsearch@^2.2.0", "@evolab/documentsearch@~2.2.0":
+"@jupyterlab/documentsearch@^2.2.0", "@jupyterlab/documentsearch@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/documentsearch/-/documentsearch-2.2.0.tgz#3fe214be60e09a215d3c06f46004692b39fa4478"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/documentsearch/-/documentsearch-2.2.0.tgz#3fe214be60e09a215d3c06f46004692b39fa4478"
   integrity sha512-CSgp5hkFNu8OmcpIDk5G5sZo2HEJ6mV4qc+VgZVvV1yaSsakst8WqaLvFqBRbKUuYjqG/KIt8cJ1kONCoREcKA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/cells" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
     "@evolab/codemirror" "^2.2.0"
-    "@evolab/fileeditor" "^2.2.0"
+    "@jupyterlab/fileeditor" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -485,28 +485,28 @@
     codemirror "~5.53.2"
     react "~16.9.0"
 
-"@evolab/extensionmanager-extension@^2.2.0", "@evolab/extensionmanager-extension@~2.2.0":
+"@jupyterlab/extensionmanager-extension@^2.2.0", "@jupyterlab/extensionmanager-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/extensionmanager-extension/-/extensionmanager-extension-2.2.0.tgz#45312f894a455c65a1c78d20854e620bec6b87af"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/extensionmanager-extension/-/extensionmanager-extension-2.2.0.tgz#45312f894a455c65a1c78d20854e620bec6b87af"
   integrity sha512-YQ/8gW57b0v0UpMG2hsIe7ZENYAENEzUSq32VtOo++wpPUrXF+jD1D3jH8OTPojF5ksLw2eWJ4i7ohRqE1zmKg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/extensionmanager" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/extensionmanager" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
 
-"@evolab/extensionmanager@^2.2.0", "@evolab/extensionmanager@~2.2.0":
+"@jupyterlab/extensionmanager@^2.2.0", "@jupyterlab/extensionmanager@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/extensionmanager/-/extensionmanager-2.2.0.tgz#3915fc4506eaebd875c5ef424b16ff02a882187c"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/extensionmanager/-/extensionmanager-2.2.0.tgz#3915fc4506eaebd875c5ef424b16ff02a882187c"
   integrity sha512-vCqE26Nepb/g4zR1g6QHup43DtWgtV6Jo38la65b82jH3ZRvgZAlm8cIT+1qJUhqKuH5UppZxAqU8eoj3DvEeQ==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/messaging" "^1.3.3"
     "@lumino/polling" "^1.1.1"
     "@lumino/signaling" "^1.3.5"
@@ -519,18 +519,18 @@
   resolved "https://registry.yarnpkg.com/@evolab/filebrowser-extension/-/filebrowser-extension-2.2.0.tgz#e72bb9a65ebccc8711d9e90313066249ca9e3c71"
   integrity sha512-le4Xv0qQ3/ZEqHvGF8NdhUTKp7R5EGfoZOf50I606VPKFVCQtKH5h1vmBh9Wj+kjCxhKrPACPTdF4IZ1VZhb5w==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docmanager" "^2.2.0"
     "@evolab/filebrowser" "^2.2.0"
-    "@evolab/launcher" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
+    "@jupyterlab/launcher" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/commands" "^1.10.1"
     "@lumino/messaging" "^1.3.3"
@@ -541,14 +541,14 @@
   resolved "https://registry.yarnpkg.com/@evolab/filebrowser/-/filebrowser-2.2.0.tgz#0c1a29e1edb324e92c8598779df77fc31c3485c0"
   integrity sha512-iPXecsNxz8Zdfv1IEXwN1hrgJzuM4ARw/5DZczp6aWZlaODRD6spA4lwkQ08SBAEtwcYDfMpyaEcI3fBjx8UhA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docmanager" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -560,162 +560,162 @@
     "@lumino/widgets" "^1.11.1"
     react "~16.9.0"
 
-"@evolab/fileeditor-extension@^2.2.0", "@evolab/fileeditor-extension@~2.2.0":
+"@jupyterlab/fileeditor-extension@^2.2.0", "@jupyterlab/fileeditor-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/fileeditor-extension/-/fileeditor-extension-2.2.0.tgz#57a7136187c8f0e7175bd12348422d1f1ea24bfe"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/fileeditor-extension/-/fileeditor-extension-2.2.0.tgz#57a7136187c8f0e7175bd12348422d1f1ea24bfe"
   integrity sha512-8WaPJVNEtK8uPfbdqxL6yDGebuBiudR0EgDVoE1AOGbxJ3LRED1dxmufB+SfWnwXzFAKgr209SWtrL6rQ/32jg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
     "@evolab/codemirror" "^2.2.0"
-    "@evolab/console" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/console" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docregistry" "^2.2.0"
     "@evolab/filebrowser" "^2.2.0"
-    "@evolab/fileeditor" "^2.2.0"
-    "@evolab/launcher" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/fileeditor" "^2.2.0"
+    "@jupyterlab/launcher" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/fileeditor@^2.2.0", "@evolab/fileeditor@~2.2.0":
+"@jupyterlab/fileeditor@^2.2.0", "@jupyterlab/fileeditor@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/fileeditor/-/fileeditor-2.2.0.tgz#0df5a47d348015cd91c3307b53e9f15673e780d2"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/fileeditor/-/fileeditor-2.2.0.tgz#0df5a47d348015cd91c3307b53e9f15673e780d2"
   integrity sha512-cZ4/UtWWp+3wEZAmpWHDPcSSnLocCjaQmVwV1c+ybbD5JzjtWNOc8Ndv5WEyL6qno23gWIUUmf0UU62sO/LGhA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/messaging" "^1.3.3"
     "@lumino/widgets" "^1.11.1"
     react "~16.9.0"
 
-"@evolab/help-extension@^2.2.0", "@evolab/help-extension@~2.2.0":
+"@jupyterlab/help-extension@^2.2.0", "@jupyterlab/help-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/help-extension/-/help-extension-2.2.0.tgz#ce169f40f09c2370dc8dfa0be985e5b59f49dcac"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/help-extension/-/help-extension-2.2.0.tgz#ce169f40f09c2370dc8dfa0be985e5b59f49dcac"
   integrity sha512-Zg7Ilmhs+1deTEG2TUDi/3g/mdZMOlWbpaau4xUw4WikszfgEPnvi+UPUMzoWsgbJKh1LF3ruP3lGZZtyjjhhg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/inspector" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/inspector" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/widgets" "^1.11.1"
     react "~16.9.0"
 
-"@evolab/htmlviewer-extension@^2.2.0", "@evolab/htmlviewer-extension@~2.2.0":
+"@jupyterlab/htmlviewer-extension@^2.2.0", "@jupyterlab/htmlviewer-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/htmlviewer-extension/-/htmlviewer-extension-2.2.0.tgz#c1475006cca8bec7fd09f391b7cd9248e50b6e4d"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/htmlviewer-extension/-/htmlviewer-extension-2.2.0.tgz#c1475006cca8bec7fd09f391b7cd9248e50b6e4d"
   integrity sha512-XZy3eByo5ab5ypzXJQmeA0s1v5SJ6IjAFCNq9PoPxox2LRBRsZ7M+2pBOarEYx7NfyAc38fKJlK4D5FtA55dxg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/htmlviewer" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/htmlviewer" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
 
-"@evolab/htmlviewer@^2.2.0", "@evolab/htmlviewer@~2.2.0":
+"@jupyterlab/htmlviewer@^2.2.0", "@jupyterlab/htmlviewer@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/htmlviewer/-/htmlviewer-2.2.0.tgz#fc1de5fb7cdea87e097195fbdb939c3923fc9fd6"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/htmlviewer/-/htmlviewer-2.2.0.tgz#fc1de5fb7cdea87e097195fbdb939c3923fc9fd6"
   integrity sha512-ecTUsJZA9qQrqykv4AV+PUXLFDrb0Y19TT/saqU1v+3CI2G+/Drhx851xrQcNbeflWrBwMJxVMQJ8+12YJ3wiA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/signaling" "^1.3.5"
     react "~16.9.0"
 
-"@evolab/hub-extension@^2.2.0", "@evolab/hub-extension@~2.2.0":
+"@jupyterlab/hub-extension@^2.2.0", "@jupyterlab/hub-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/hub-extension/-/hub-extension-2.2.0.tgz#f99ea572dc6c8d607c12f6489ad81e8f9450f937"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/hub-extension/-/hub-extension-2.2.0.tgz#f99ea572dc6c8d607c12f6489ad81e8f9450f937"
   integrity sha512-JbEfzsAbgKkKLT8+SajauKbaKHE+upbDbrCik0tpuW3oYFMX/W615Dgw5phAd2H7+tuFta7h/yg4+yQhhl4Qtg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/mainmenu" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
     "@evolab/services" "^5.2.0"
 
-"@evolab/imageviewer-extension@^2.2.0", "@evolab/imageviewer-extension@~2.2.0":
+"@jupyterlab/imageviewer-extension@^2.2.0", "@jupyterlab/imageviewer-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/imageviewer-extension/-/imageviewer-extension-2.2.0.tgz#b27d95b73b9bfa0c7ad868dfb1f8b971211b5923"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/imageviewer-extension/-/imageviewer-extension-2.2.0.tgz#b27d95b73b9bfa0c7ad868dfb1f8b971211b5923"
   integrity sha512-htYeM9rVYO6W/S6ydaHc8YjgDMwVX5z0MMgXUH/u+XPn/1aQw/g3YCaUtVArmgrndLB7pPJaEuiMssRmGQB1CA==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/imageviewer" "^2.2.0"
+    "@jupyterlab/imageviewer" "^2.2.0"
 
-"@evolab/imageviewer@^2.2.0", "@evolab/imageviewer@~2.2.0":
+"@jupyterlab/imageviewer@^2.2.0", "@jupyterlab/imageviewer@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/imageviewer/-/imageviewer-2.2.0.tgz#b7a4a199a5c69899d15f8f5868e09f51cf2c5ba3"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/imageviewer/-/imageviewer-2.2.0.tgz#b7a4a199a5c69899d15f8f5868e09f51cf2c5ba3"
   integrity sha512-Gf+2vwDL1WZsLqpkqWtIoX0RQB/4v0zrgoAxpz09cuRwaFyPZUPSACtmaGd/MoaiL+cmtjtIVjbHGPWvCGw3Qg==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docregistry" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/messaging" "^1.3.3"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/inspector-extension@^2.2.0", "@evolab/inspector-extension@~2.2.0":
+"@jupyterlab/inspector-extension@^2.2.0", "@jupyterlab/inspector-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/inspector-extension/-/inspector-extension-2.2.0.tgz#2246f9636a02117f271fecb5a63b54fb55954328"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/inspector-extension/-/inspector-extension-2.2.0.tgz#2246f9636a02117f271fecb5a63b54fb55954328"
   integrity sha512-UNk2NkuikHT4j/dXq/JbPadqEuVF+s5eU3A7XH/oiWknf3TuB/pWU9rUM4mcqna/lXOqQJykMZBafLa8D6ihMg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/console" "^2.2.0"
-    "@evolab/inspector" "^2.2.0"
-    "@evolab/launcher" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/console" "^2.2.0"
+    "@jupyterlab/inspector" "^2.2.0"
+    "@jupyterlab/launcher" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
 
-"@evolab/inspector@^2.2.0", "@evolab/inspector@~2.2.0":
+"@jupyterlab/inspector@^2.2.0", "@jupyterlab/inspector@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/inspector/-/inspector-2.2.0.tgz#071b8553ee6a97329e34e57d3e1499761e043a45"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/inspector/-/inspector-2.2.0.tgz#071b8553ee6a97329e34e57d3e1499761e043a45"
   integrity sha512-WgHLz2rlLMqKTKnxWwWpYa25dAdsDcy3TRg2AUaEsaLEAKGPWAYZBWYWip3NuY6l3WLEFhKDE2ssjAVBrf1vQQ==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/statedb" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
     "@lumino/polling" "^1.1.1"
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/javascript-extension@^2.2.0", "@evolab/javascript-extension@~2.2.0":
+"@jupyterlab/javascript-extension@^2.2.0", "@jupyterlab/javascript-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/javascript-extension/-/javascript-extension-2.2.0.tgz#9b46f70049d06d9e5f1b522c9a037fbc37e61997"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/javascript-extension/-/javascript-extension-2.2.0.tgz#9b46f70049d06d9e5f1b522c9a037fbc37e61997"
   integrity sha512-ZGmlC3D1YaQqXI5nNOgfW5n7SeXXLICfV9SqMcRhMEtqo8UXIsLaNoN4zXKrzDH0rYmlMCLn692D/mXWaLVIdA==
   dependencies:
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
 
-"@evolab/json-extension@^2.2.0", "@evolab/json-extension@~2.2.0":
+"@jupyterlab/json-extension@^2.2.0", "@jupyterlab/json-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/json-extension/-/json-extension-2.2.0.tgz#15a0ffe623f846f46f980b58d13d08bad1ab850f"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/json-extension/-/json-extension-2.2.0.tgz#15a0ffe623f846f46f980b58d13d08bad1ab850f"
   integrity sha512-C7PcOcapwj5dM1+4k4Kq4NqMEEGPHPuyno8rLzv2ICu9n8t5bxT8l7+7yzyfgWdIbab4DwntnVSwC0rQzvj7Bw==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/messaging" "^1.3.3"
     "@lumino/widgets" "^1.11.1"
@@ -724,26 +724,26 @@
     react-highlighter "^0.4.3"
     react-json-tree "^0.11.2"
 
-"@evolab/launcher-extension@^2.2.0", "@evolab/launcher-extension@~2.2.0":
+"@jupyterlab/launcher-extension@^2.2.0", "@jupyterlab/launcher-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/launcher-extension/-/launcher-extension-2.2.0.tgz#7d7b120605669a219306c82e35e36201e18a120f"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/launcher-extension/-/launcher-extension-2.2.0.tgz#7d7b120605669a219306c82e35e36201e18a120f"
   integrity sha512-1E8raW4cuCXsFP9UCPXPekwrq5IyzPXhixUlXl1B+seOoBnZUEIdA25rHCgCF6jzX7Jold9I0atIUtsu6yUorw==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/launcher" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/launcher" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/launcher@^2.2.0", "@evolab/launcher@~2.2.0":
+"@jupyterlab/launcher@^2.2.0", "@jupyterlab/launcher@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/launcher/-/launcher-2.2.0.tgz#6c3096e096d6599d7d5950e7c89c1b1486dc4b7d"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/launcher/-/launcher-2.2.0.tgz#6c3096e096d6599d7d5950e7c89c1b1486dc4b7d"
   integrity sha512-2MdBtvIp2ryWWMP82ttawVqNx+GARS1hdHxzdptYGb3IR02r5wt+5f/6W9nVaPtmJdE2oE7o5OnqcWoCgmJfkw==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
@@ -757,32 +757,32 @@
   resolved "https://registry.yarnpkg.com/@evolab/logconsole-extension/-/logconsole-extension-2.2.0.tgz#ea819dea4da3ede5b96fa9fc1dca440e525b253e"
   integrity sha512-w0BieEcpKuSBlCWMMW2RnYu0/0dXYi9zH1lC+txit1vnkOSqw9/buXRe+NYa3h5klss0jGfYvX6cG9r+ggOA/Q==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/logconsole" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/nbformat" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/logconsole" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
     react "~16.9.0"
 
-"@evolab/logconsole@^2.2.0", "@evolab/logconsole@~2.2.0":
+"@jupyterlab/logconsole@^2.2.0", "@jupyterlab/logconsole@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/logconsole/-/logconsole-2.2.0.tgz#b37dadc30c96e2f21b2c8204f7e8fb2c403c1ff9"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/logconsole/-/logconsole-2.2.0.tgz#b37dadc30c96e2f21b2c8204f7e8fb2c403c1ff9"
   integrity sha512-hLcgEJkhSc7bQ7q9JEHWD/sSQGN3Y83uaVHQlme79/i50YqdfunHorp85lpJXUnLwSpneL0WdKg4APqPPdCq1Q==
   dependencies:
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/nbformat" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
     "@evolab/outputarea" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -790,181 +790,181 @@
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/mainmenu-extension@^2.2.0", "@evolab/mainmenu-extension@~2.2.0":
+"@jupyterlab/mainmenu-extension@^2.2.0", "@jupyterlab/mainmenu-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/mainmenu-extension/-/mainmenu-extension-2.2.0.tgz#4397fce0982e77576f7eb4aeabdf5e0e6d7f8b41"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/mainmenu-extension/-/mainmenu-extension-2.2.0.tgz#4397fce0982e77576f7eb4aeabdf5e0e6d7f8b41"
   integrity sha512-jQ7xX8KelcaTzvRDqvmtULyWbKxpJzDgzqBWDDX+Htako/3puRpW7AhuiG6hUcm7kGYG3Xw6cYN2f7WynXRxJg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/mainmenu" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/disposable" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/mainmenu@^2.2.0", "@evolab/mainmenu@~2.2.0":
+"@jupyterlab/mainmenu@^2.2.0", "@jupyterlab/mainmenu@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/mainmenu/-/mainmenu-2.2.0.tgz#59dc5f739838a55932444c21fc43d3f16c2ae192"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/mainmenu/-/mainmenu-2.2.0.tgz#59dc5f739838a55932444c21fc43d3f16c2ae192"
   integrity sha512-udHMhRDOA6h0QnCzI1zPdYBAcioRC7lAT0c2pU5JhPbf0PYd/PZrK/LQN8ZyDmF5NT/1LYzKBGRZGTbVxjGhCg==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/markdownviewer-extension@^2.2.0", "@evolab/markdownviewer-extension@~2.2.0":
+"@jupyterlab/markdownviewer-extension@^2.2.0", "@jupyterlab/markdownviewer-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/markdownviewer-extension/-/markdownviewer-extension-2.2.0.tgz#d0afb4b2e73bcc693d4f4a301903be9d68091936"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/markdownviewer-extension/-/markdownviewer-extension-2.2.0.tgz#d0afb4b2e73bcc693d4f4a301903be9d68091936"
   integrity sha512-jGkS/ypBcQD1RJbsA6Eye/UbaG+uzhaGt+iALUNs3+OHxHYuiDuBRG5+1tcHthyT2ZrC7jJFuph9entybUiyoA==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/markdownviewer" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/markdownviewer" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
 
-"@evolab/markdownviewer@^2.2.0", "@evolab/markdownviewer@~2.2.0":
+"@jupyterlab/markdownviewer@^2.2.0", "@jupyterlab/markdownviewer@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/markdownviewer/-/markdownviewer-2.2.0.tgz#725c4092780d8e37643f3aaa8d75fb692321c81d"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/markdownviewer/-/markdownviewer-2.2.0.tgz#725c4092780d8e37643f3aaa8d75fb692321c81d"
   integrity sha512-0bwkE940PhWCUONiUf0Vxb2anPkaGNLJr3T1bkHZe0K3G6OK5DAZtO0RSQv7TgGDXd/SWEc1aKcSCmMLUMKOXA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/messaging" "^1.3.3"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/mathjax2-extension@^2.2.0", "@evolab/mathjax2-extension@~2.2.0":
+"@jupyterlab/mathjax2-extension@^2.2.0", "@jupyterlab/mathjax2-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/mathjax2-extension/-/mathjax2-extension-2.2.0.tgz#9c142fd4d69d2a731047ca41d97807a01f072695"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/mathjax2-extension/-/mathjax2-extension-2.2.0.tgz#9c142fd4d69d2a731047ca41d97807a01f072695"
   integrity sha512-W52fKUHmZ83OfrmxUO88fSQYFshcwuYcofz6Tzltml2LN48NlWCzZ+fwa+t2itd3+UYP/iFNCSLFNhW0hWrHQg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/mathjax2" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/mathjax2" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
 
-"@evolab/mathjax2@^2.2.0", "@evolab/mathjax2@~2.2.0":
+"@jupyterlab/mathjax2@^2.2.0", "@jupyterlab/mathjax2@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/mathjax2/-/mathjax2-2.2.0.tgz#f5a8bb4290a464567a1a8845741ddf36553f4a05"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/mathjax2/-/mathjax2-2.2.0.tgz#f5a8bb4290a464567a1a8845741ddf36553f4a05"
   integrity sha512-DysP5E/Jam3Ew0URGsI54QOh7BgCCvhfONcDzn88kWPiidvxS0tSmsPkkOcAyGYH2pO1CSDcWVYsSokvBOz2qA==
   dependencies:
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
 
-"@evolab/metapackage@~2.2.0":
+"@jupyterlab/metapackage@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/metapackage/-/metapackage-2.2.0.tgz#d70c63f876c9e27dfdbdce5bad1c4fc7e15928eb"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/metapackage/-/metapackage-2.2.0.tgz#d70c63f876c9e27dfdbdce5bad1c4fc7e15928eb"
   integrity sha512-HIInQatl2ZxHJI1NjLG38LCU49s2prTW8sOor2v9qkYg3sPlAoY0glqbLI+n8ubYj56iDG//Tx1w1EDivcn6zQ==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/application-extension" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/apputils-extension" "^2.2.0"
-    "@evolab/attachments" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/application-extension" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/apputils-extension" "^2.2.0"
+    "@jupyterlab/attachments" "^2.2.0"
     "@evolab/cells" "^2.2.0"
-    "@evolab/celltags" "^2.2.0"
-    "@evolab/celltags-extension" "^2.2.0"
+    "@jupyterlab/celltags" "^2.2.0"
+    "@jupyterlab/celltags-extension" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
     "@evolab/codemirror" "^2.2.0"
     "@evolab/codemirror-extension" "^2.2.0"
-    "@evolab/completer" "^2.2.0"
-    "@evolab/completer-extension" "^2.2.0"
-    "@evolab/console" "^2.2.0"
-    "@evolab/console-extension" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/csvviewer" "^2.2.0"
-    "@evolab/csvviewer-extension" "^2.2.0"
+    "@jupyterlab/completer" "^2.2.0"
+    "@jupyterlab/completer-extension" "^2.2.0"
+    "@jupyterlab/console" "^2.2.0"
+    "@jupyterlab/console-extension" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/csvviewer" "^2.2.0"
+    "@jupyterlab/csvviewer-extension" "^2.2.0"
     "@evolab/docmanager" "^2.2.0"
     "@evolab/docmanager-extension" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/documentsearch" "^2.2.0"
-    "@evolab/documentsearch-extension" "^2.2.0"
-    "@evolab/extensionmanager" "^2.2.0"
-    "@evolab/extensionmanager-extension" "^2.2.0"
+    "@jupyterlab/documentsearch" "^2.2.0"
+    "@jupyterlab/documentsearch-extension" "^2.2.0"
+    "@jupyterlab/extensionmanager" "^2.2.0"
+    "@jupyterlab/extensionmanager-extension" "^2.2.0"
     "@evolab/filebrowser" "^2.2.0"
     "@evolab/filebrowser-extension" "^2.2.0"
-    "@evolab/fileeditor" "^2.2.0"
-    "@evolab/fileeditor-extension" "^2.2.0"
-    "@evolab/help-extension" "^2.2.0"
-    "@evolab/htmlviewer" "^2.2.0"
-    "@evolab/htmlviewer-extension" "^2.2.0"
-    "@evolab/hub-extension" "^2.2.0"
-    "@evolab/imageviewer" "^2.2.0"
-    "@evolab/imageviewer-extension" "^2.2.0"
-    "@evolab/inspector" "^2.2.0"
-    "@evolab/inspector-extension" "^2.2.0"
-    "@evolab/javascript-extension" "^2.2.0"
-    "@evolab/json-extension" "^2.2.0"
-    "@evolab/launcher" "^2.2.0"
-    "@evolab/launcher-extension" "^2.2.0"
-    "@evolab/logconsole" "^2.2.0"
+    "@jupyterlab/fileeditor" "^2.2.0"
+    "@jupyterlab/fileeditor-extension" "^2.2.0"
+    "@jupyterlab/help-extension" "^2.2.0"
+    "@jupyterlab/htmlviewer" "^2.2.0"
+    "@jupyterlab/htmlviewer-extension" "^2.2.0"
+    "@jupyterlab/hub-extension" "^2.2.0"
+    "@jupyterlab/imageviewer" "^2.2.0"
+    "@jupyterlab/imageviewer-extension" "^2.2.0"
+    "@jupyterlab/inspector" "^2.2.0"
+    "@jupyterlab/inspector-extension" "^2.2.0"
+    "@jupyterlab/javascript-extension" "^2.2.0"
+    "@jupyterlab/json-extension" "^2.2.0"
+    "@jupyterlab/launcher" "^2.2.0"
+    "@jupyterlab/launcher-extension" "^2.2.0"
+    "@jupyterlab/logconsole" "^2.2.0"
     "@evolab/logconsole-extension" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/mainmenu-extension" "^2.2.0"
-    "@evolab/markdownviewer" "^2.2.0"
-    "@evolab/markdownviewer-extension" "^2.2.0"
-    "@evolab/mathjax2" "^2.2.0"
-    "@evolab/mathjax2-extension" "^2.2.0"
-    "@evolab/nbconvert-css" "^2.2.0"
-    "@evolab/nbformat" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/mainmenu-extension" "^2.2.0"
+    "@jupyterlab/markdownviewer" "^2.2.0"
+    "@jupyterlab/markdownviewer-extension" "^2.2.0"
+    "@jupyterlab/mathjax2" "^2.2.0"
+    "@jupyterlab/mathjax2-extension" "^2.2.0"
+    "@jupyterlab/nbconvert-css" "^2.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
     "@evolab/notebook-extension" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
+    "@jupyterlab/observables" "^3.2.0"
     "@evolab/outputarea" "^2.2.0"
-    "@evolab/pdf-extension" "^2.2.0"
-    "@evolab/property-inspector" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/rendermime-extension" "^2.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
-    "@evolab/running" "^2.2.0"
-    "@evolab/running-extension" "^2.2.0"
+    "@jupyterlab/pdf-extension" "^2.2.0"
+    "@jupyterlab/property-inspector" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime-extension" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/running" "^2.2.0"
+    "@jupyterlab/running-extension" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/settingeditor" "^2.2.0"
-    "@evolab/settingeditor-extension" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/shortcuts-extension" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
-    "@evolab/statusbar-extension" "^2.2.0"
-    "@evolab/tabmanager-extension" "^2.2.0"
-    "@evolab/terminal" "^2.2.0"
-    "@evolab/terminal-extension" "^2.2.0"
-    "@evolab/theme-dark-extension" "^2.2.0"
-    "@evolab/theme-light-extension" "^2.2.0"
-    "@evolab/tooltip" "^2.2.0"
-    "@evolab/tooltip-extension" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
-    "@evolab/ui-components-extension" "^2.2.0"
-    "@evolab/vdom" "^2.2.0"
-    "@evolab/vdom-extension" "^2.2.0"
-    "@evolab/vega5-extension" "^2.2.0"
+    "@jupyterlab/settingeditor" "^2.2.0"
+    "@jupyterlab/settingeditor-extension" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/shortcuts-extension" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
+    "@jupyterlab/statusbar-extension" "^2.2.0"
+    "@jupyterlab/tabmanager-extension" "^2.2.0"
+    "@jupyterlab/terminal" "^2.2.0"
+    "@jupyterlab/terminal-extension" "^2.2.0"
+    "@jupyterlab/theme-dark-extension" "^2.2.0"
+    "@jupyterlab/theme-light-extension" "^2.2.0"
+    "@jupyterlab/tooltip" "^2.2.0"
+    "@jupyterlab/tooltip-extension" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components-extension" "^2.2.0"
+    "@jupyterlab/vdom" "^2.2.0"
+    "@jupyterlab/vdom-extension" "^2.2.0"
+    "@jupyterlab/vega5-extension" "^2.2.0"
 
-"@evolab/nbconvert-css@^2.2.0", "@evolab/nbconvert-css@~2.2.0":
+"@jupyterlab/nbconvert-css@^2.2.0", "@jupyterlab/nbconvert-css@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/nbconvert-css/-/nbconvert-css-2.2.0.tgz#5a2949372a41657d3a8350ca8f86e7263ab836b2"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/nbconvert-css/-/nbconvert-css-2.2.0.tgz#5a2949372a41657d3a8350ca8f86e7263ab836b2"
   integrity sha512-u+6lubAGWRiVT4x9gSAiGQlCNvlqKdAyLl/0KoKkuEYwLLiH3eaIYliqOoFZM5OkReHBC+aT+g3myic0MaxKkw==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/cells" "^2.2.0"
     "@evolab/codemirror" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
     "@evolab/outputarea" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
 
-"@evolab/nbformat@^2.2.0", "@evolab/nbformat@~2.2.0":
+"@jupyterlab/nbformat@^2.2.0", "@jupyterlab/nbformat@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/nbformat/-/nbformat-2.2.0.tgz#b3acb2144e9b6c1579085f7c67709d85e6ce3fcf"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/nbformat/-/nbformat-2.2.0.tgz#b3acb2144e9b6c1579085f7c67709d85e6ce3fcf"
   integrity sha512-BD88hlx2u4zFf976yJUdny84UvY8iQRWk+eZ6+Aj4XEFdY0j79evac7L7KEusZRnOq9uV4juAlZMUo2+iRPIIQ==
   dependencies:
     "@lumino/coreutils" "^1.4.2"
@@ -974,24 +974,24 @@
   resolved "https://registry.yarnpkg.com/@evolab/notebook-extension/-/notebook-extension-2.2.0.tgz#6a98d25e89448ef226d000b01d55fddf1dcb736b"
   integrity sha512-MPyTj8ieuQUqENoxKdM11J/2tmkZoVvOt0ztfYjuBbPlM9aL0H9c0vP2k44Ly+VAE4Rx3FmCG75Zkq+hhkzxiQ==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/cells" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docmanager" "^2.2.0"
     "@evolab/filebrowser" "^2.2.0"
-    "@evolab/launcher" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/nbformat" "^2.2.0"
+    "@jupyterlab/launcher" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
-    "@evolab/property-inspector" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/property-inspector" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
@@ -1004,17 +1004,17 @@
   resolved "https://registry.yarnpkg.com/@evolab/notebook/-/notebook-2.2.0.tgz#3f240eb17f6a447d43f1374ee6e20432f35cad14"
   integrity sha512-sFjUjaBWLK4bkZ04czbaSJSqisYel6wyjtQZ43Nv3AEQya0AjW37b++1G0f5TdvE//lJTC4OCGDNTZAVVCbK9g==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/cells" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/statusbar" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/domutils" "^1.1.7"
@@ -1026,9 +1026,9 @@
     "@lumino/widgets" "^1.11.1"
     react "~16.9.0"
 
-"@evolab/observables@^3.2.0", "@evolab/observables@~3.2.0":
+"@jupyterlab/observables@^3.2.0", "@jupyterlab/observables@~3.2.0":
   version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/observables/-/observables-3.2.0.tgz#866d9c9f3bdb2fda5c3262647deb72b5cd009ae2"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/observables/-/observables-3.2.0.tgz#866d9c9f3bdb2fda5c3262647deb72b5cd009ae2"
   integrity sha512-BZ6lwmeFMjFq9ffl5wkJCjvjiGAVkydWGPWIf7ebvQriTQ6ALI6eG/aqniQLhd2yE0jEiLWhaxApiFGQmLtQPA==
   dependencies:
     "@lumino/algorithm" "^1.2.3"
@@ -1042,11 +1042,11 @@
   resolved "https://registry.yarnpkg.com/@evolab/outputarea/-/outputarea-2.2.0.tgz#044515c9557dabf81636c3a724077c56c24b9fa9"
   integrity sha512-ZMhcCHD6mEnvZ0DMvfnuKqDAOKDrbjS5F1ibTpdamohoLoECNc+NcU2j0TgyHwPEEFjU0uKlsVPPmus27uQxpA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@evolab/services" "^5.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
@@ -1056,57 +1056,57 @@
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/pdf-extension@^2.2.0", "@evolab/pdf-extension@~2.2.0":
+"@jupyterlab/pdf-extension@^2.2.0", "@jupyterlab/pdf-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/pdf-extension/-/pdf-extension-2.2.0.tgz#4407fec06c6d0e5f307003dd4d5817ad20f2c0b2"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/pdf-extension/-/pdf-extension-2.2.0.tgz#4407fec06c6d0e5f307003dd4d5817ad20f2c0b2"
   integrity sha512-9MqH8Eqn7AocztipeIEssEksw0xYrhHD99CaPMUUrOXGz23TAz89X5Uj3XHYyjkE8ydCj20n2jMPX1PJ7UdiPg==
   dependencies:
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/property-inspector@^2.2.0", "@evolab/property-inspector@~2.2.0":
+"@jupyterlab/property-inspector@^2.2.0", "@jupyterlab/property-inspector@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/property-inspector/-/property-inspector-2.2.0.tgz#51c502ea139e5762474637b070cde7af78505015"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/property-inspector/-/property-inspector-2.2.0.tgz#51c502ea139e5762474637b070cde7af78505015"
   integrity sha512-Tfgd1kW5q0XycmFwY1SeXG2bSkvt1xpfKCwt7ClalzEPAz49oY8juMpwAd0pk2Lcd1OX+W+zyIG+nJRZN6IZ0Q==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
     "@lumino/signaling" "^1.3.5"
     "@lumino/widgets" "^1.11.1"
     react "~16.9.0"
 
-"@evolab/rendermime-extension@^2.2.0", "@evolab/rendermime-extension@~2.2.0":
+"@jupyterlab/rendermime-extension@^2.2.0", "@jupyterlab/rendermime-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/rendermime-extension/-/rendermime-extension-2.2.0.tgz#6354693853b44afea62cac61c3e2d872b58703d8"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/rendermime-extension/-/rendermime-extension-2.2.0.tgz#6354693853b44afea62cac61c3e2d872b58703d8"
   integrity sha512-pc9wKuYYezVsydpH4YYSgHgUR2LGGSFyETxoyjgUZSGtH7rio0ucZoy4AA5YoyNqWJGUuk3g5+45ILxwEkwrBQ==
   dependencies:
-    "@evolab/application" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
     "@evolab/docmanager" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
 
-"@evolab/rendermime-interfaces@^2.2.0", "@evolab/rendermime-interfaces@~2.2.0":
+"@jupyterlab/rendermime-interfaces@^2.2.0", "@jupyterlab/rendermime-interfaces@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/rendermime-interfaces/-/rendermime-interfaces-2.2.0.tgz#0b9f807a788a78ad067d6425d8b2c323c82b2b18"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/rendermime-interfaces/-/rendermime-interfaces-2.2.0.tgz#0b9f807a788a78ad067d6425d8b2c323c82b2b18"
   integrity sha512-2gdYvRzq+IfOKgI751aZY9Gr8of3UeVZ03O2nLyiSlHa6lWhKuzXDPPrKk3NiToOlc2rJSUy+Y9Oj+TONjfvKg==
   dependencies:
     "@lumino/coreutils" "^1.4.2"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/rendermime@^2.2.0", "@evolab/rendermime@~2.2.0":
+"@jupyterlab/rendermime@^2.2.0", "@jupyterlab/rendermime@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/rendermime/-/rendermime-2.2.0.tgz#773982c89c881c322c8778512542f5fda2ee7fb0"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/rendermime/-/rendermime-2.2.0.tgz#773982c89c881c322c8778512542f5fda2ee7fb0"
   integrity sha512-wTls25TElx0iAjALKxgWyLW+QGFCAXnyH0XiGkQULrbUauRuoArPQ1hKMcz4KL6XJjydMg6s9cqV9gQ9o3yJ8Q==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codemirror" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@evolab/services" "^5.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
@@ -1116,25 +1116,25 @@
     lodash.escape "^4.0.1"
     marked "^0.8.0"
 
-"@evolab/running-extension@^2.2.0", "@evolab/running-extension@~2.2.0":
+"@jupyterlab/running-extension@^2.2.0", "@jupyterlab/running-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/running-extension/-/running-extension-2.2.0.tgz#71163f4d2b87d3ad0c94e42abfc63eee1638328a"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/running-extension/-/running-extension-2.2.0.tgz#71163f4d2b87d3ad0c94e42abfc63eee1638328a"
   integrity sha512-Zf02yIpG2ocpUNGn/UUAbvQeZgVYTJH/WfGll2xJr22aboFTXY7COmWd/tu88v8zvV3SYgTIYkW9t5NtKwFANQ==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/running" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/running" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
 
-"@evolab/running@^2.2.0", "@evolab/running@~2.2.0":
+"@jupyterlab/running@^2.2.0", "@jupyterlab/running@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/running/-/running-2.2.0.tgz#60aab7ef87d60ee06752e33f97e1924bbd3ee093"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/running/-/running-2.2.0.tgz#60aab7ef87d60ee06752e33f97e1924bbd3ee093"
   integrity sha512-AEHx6yJdOYuP7/r/FtIlHxxAbkM6MvbebjxwIUiriwc+xRjK4m2zj4wiB84tdoEaYONiWrlBjz0NSdrnjVY0hA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
     "@lumino/signaling" "^1.3.5"
@@ -1145,11 +1145,11 @@
   resolved "https://registry.yarnpkg.com/@evolab/services/-/services-5.2.0.tgz#896e5515d1403fe1d4b001f7adfdcc8bddcbc48d"
   integrity sha512-FeQlZDJjJXlRwfTjn6OtKIkiKVqIlRUV8qIC48cvruR55pmIXMcISkpKg2f4yRf4QYfyjEBcDJDA4Qy37Qx4bA==
   dependencies:
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/nbformat" "^2.2.0"
-    "@evolab/observables" "^3.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/nbformat" "^2.2.0"
+    "@jupyterlab/observables" "^3.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -1158,33 +1158,33 @@
     node-fetch "^2.6.0"
     ws "^7.2.0"
 
-"@evolab/settingeditor-extension@^2.2.0", "@evolab/settingeditor-extension@~2.2.0":
+"@jupyterlab/settingeditor-extension@^2.2.0", "@jupyterlab/settingeditor-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/settingeditor-extension/-/settingeditor-extension-2.2.0.tgz#d87d9258e66f6a80a2339b8c8d2a5430c96a79ce"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/settingeditor-extension/-/settingeditor-extension-2.2.0.tgz#d87d9258e66f6a80a2339b8c8d2a5430c96a79ce"
   integrity sha512-B7pBx8cBvirttLWmsz5GP/wf41Xlt73wZxJRfpncqF5sKQiGk7QRXOAyfIvs+bnzFT3EyEwmHgkiMpLqsSBsLg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/settingeditor" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/settingeditor" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/disposable" "^1.3.5"
 
-"@evolab/settingeditor@^2.2.0", "@evolab/settingeditor@~2.2.0":
+"@jupyterlab/settingeditor@^2.2.0", "@jupyterlab/settingeditor@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/settingeditor/-/settingeditor-2.2.0.tgz#ecadb1376dd4dbba17df11488aa7a52cd6d540b6"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/settingeditor/-/settingeditor-2.2.0.tgz#ecadb1376dd4dbba17df11488aa7a52cd6d540b6"
   integrity sha512-BxEjHkULTMmtd92UJJ/PK97IPhibN86HDUNWT3CmkwevxuOzkEFq9MN9ebYforhzwIGaIXaMCWidSOcfvQqchA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/inspector" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statedb" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/inspector" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/messaging" "^1.3.3"
@@ -1193,12 +1193,12 @@
     react "~16.9.0"
     react-dom "~16.9.0"
 
-"@evolab/settingregistry@^2.2.0", "@evolab/settingregistry@~2.2.0":
+"@jupyterlab/settingregistry@^2.2.0", "@jupyterlab/settingregistry@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/settingregistry/-/settingregistry-2.2.0.tgz#9f05bb1dbcfe76863dd9de6539c3b92c95bafeb8"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/settingregistry/-/settingregistry-2.2.0.tgz#9f05bb1dbcfe76863dd9de6539c3b92c95bafeb8"
   integrity sha512-C/UIzUJaZqrh4IREabzkYHdhOTMZDXdwoNSodpGVSVY3QAZnjkTA1YtHCyohryd+nJ8H+lIH+rGz1HOrorvZnA==
   dependencies:
-    "@evolab/statedb" "^2.2.0"
+    "@jupyterlab/statedb" "^2.2.0"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -1206,20 +1206,20 @@
     ajv "^6.10.2"
     json5 "^2.1.1"
 
-"@evolab/shortcuts-extension@^2.2.0", "@evolab/shortcuts-extension@~2.2.0":
+"@jupyterlab/shortcuts-extension@^2.2.0", "@jupyterlab/shortcuts-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/shortcuts-extension/-/shortcuts-extension-2.2.0.tgz#cc08ab2a02dfb5c5fe480b4d6e47837b60e8d04b"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/shortcuts-extension/-/shortcuts-extension-2.2.0.tgz#cc08ab2a02dfb5c5fe480b4d6e47837b60e8d04b"
   integrity sha512-qqjQRBQLrE8TCz5ugqrFt7xUjOjZcjmLhvxdfbcvhI/4nLY4oKaA0c6qE6aHjxBF8JL/y7TAyucYOUq9glTD4A==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
     "@lumino/commands" "^1.10.1"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
 
-"@evolab/statedb@^2.2.0", "@evolab/statedb@~2.2.0":
+"@jupyterlab/statedb@^2.2.0", "@jupyterlab/statedb@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/statedb/-/statedb-2.2.0.tgz#4d7e708832f968f011c34e4802efec02c693dd50"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/statedb/-/statedb-2.2.0.tgz#4d7e708832f968f011c34e4802efec02c693dd50"
   integrity sha512-53izqdjTjVAdxF9qsAQc4tkKYYICtDVeTr+STdOj59Qbz5EiAPnR9o/fE87eSG+LwqrZSQKs1Bw/yRiTWiU7BQ==
   dependencies:
     "@lumino/commands" "^1.10.1"
@@ -1228,33 +1228,33 @@
     "@lumino/properties" "^1.1.6"
     "@lumino/signaling" "^1.3.5"
 
-"@evolab/statusbar-extension@^2.2.0", "@evolab/statusbar-extension@~2.2.0":
+"@jupyterlab/statusbar-extension@^2.2.0", "@jupyterlab/statusbar-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/statusbar-extension/-/statusbar-extension-2.2.0.tgz#3645245c116baad8b11ebe573b00d7e5cc820e1b"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/statusbar-extension/-/statusbar-extension-2.2.0.tgz#3645245c116baad8b11ebe573b00d7e5cc820e1b"
   integrity sha512-IroqKa/sSFrhUgrlQTjjzL0z7u7NJ54cz9kG9q375svNr+ozlH2Voc5K5tVjsY42H39/8e4v3XDGAU4YSwem7A==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/cells" "^2.2.0"
-    "@evolab/console" "^2.2.0"
+    "@jupyterlab/console" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/fileeditor" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
+    "@jupyterlab/fileeditor" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/statusbar" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/statusbar" "^2.2.0"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/statusbar@^2.2.0", "@evolab/statusbar@~2.2.0":
+"@jupyterlab/statusbar@^2.2.0", "@jupyterlab/statusbar@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/statusbar/-/statusbar-2.2.0.tgz#877cb010afb499d0412944595029bfbd8451331b"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/statusbar/-/statusbar-2.2.0.tgz#877cb010afb499d0412944595029bfbd8451331b"
   integrity sha512-W4gv0kIgqT4nQcctCi8Bb2Wutdcdsy1GMd6fuP/fCRAUqSoDyIGesC1nx/V8+GBEgzBAehSQhFi+4P6Opo6ZyQ==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/disposable" "^1.3.5"
@@ -1266,39 +1266,39 @@
     react "~16.9.0"
     typestyle "^2.0.4"
 
-"@evolab/tabmanager-extension@^2.2.0", "@evolab/tabmanager-extension@~2.2.0":
+"@jupyterlab/tabmanager-extension@^2.2.0", "@jupyterlab/tabmanager-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/tabmanager-extension/-/tabmanager-extension-2.2.0.tgz#4b7eeaa3fdae8a4e403828d5228257b70fbffe00"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/tabmanager-extension/-/tabmanager-extension-2.2.0.tgz#4b7eeaa3fdae8a4e403828d5228257b70fbffe00"
   integrity sha512-he6eBwS7vdqrc3bXBsv8EU75jNqDJw/DwTpWfXDi9aBHLdH5tIUIh9UInHyMgiWyBKGphz86amOKc6U1wfZVmw==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/terminal-extension@^2.2.0", "@evolab/terminal-extension@~2.2.0":
+"@jupyterlab/terminal-extension@^2.2.0", "@jupyterlab/terminal-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/terminal-extension/-/terminal-extension-2.2.0.tgz#692b1cffc1f8ab4cf6dcf069e2cd8cd68ab89305"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/terminal-extension/-/terminal-extension-2.2.0.tgz#692b1cffc1f8ab4cf6dcf069e2cd8cd68ab89305"
   integrity sha512-zNHj2hguBq/XsXckCxFHBOmcp5gT6xz07rZ+UShRyDG2DLOin3IkFTrp803n5vdDHnvZbLEg8Tu+k9ctGuHkTA==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
-    "@evolab/launcher" "^2.2.0"
-    "@evolab/mainmenu" "^2.2.0"
-    "@evolab/running" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/launcher" "^2.2.0"
+    "@jupyterlab/mainmenu" "^2.2.0"
+    "@jupyterlab/running" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/settingregistry" "^2.2.0"
-    "@evolab/terminal" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/settingregistry" "^2.2.0"
+    "@jupyterlab/terminal" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/terminal@^2.2.0", "@evolab/terminal@~2.2.0":
+"@jupyterlab/terminal@^2.2.0", "@jupyterlab/terminal@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/terminal/-/terminal-2.2.0.tgz#9e0683809ed78e3dc0787bf3e0dd25a5b4632275"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/terminal/-/terminal-2.2.0.tgz#9e0683809ed78e3dc0787bf3e0dd25a5b4632275"
   integrity sha512-EfjUkUs/51AFNuQ3d2j3phfTr+aQCRWsFv32jFB1F4/W6fojwr54f74SvVH+ZR6BFTmaS7Eismoz+8pK4gCiCA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/services" "^5.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/domutils" "^1.1.7"
@@ -1307,69 +1307,69 @@
     xterm "~4.2.0"
     xterm-addon-fit "~0.3.0"
 
-"@evolab/theme-dark-extension@^2.2.0", "@evolab/theme-dark-extension@~2.2.0":
+"@jupyterlab/theme-dark-extension@^2.2.0", "@jupyterlab/theme-dark-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/theme-dark-extension/-/theme-dark-extension-2.2.0.tgz#ced1ccb5e83b4a81f6cc64988cfc88daba704e10"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/theme-dark-extension/-/theme-dark-extension-2.2.0.tgz#ced1ccb5e83b4a81f6cc64988cfc88daba704e10"
   integrity sha512-4QYroIW98qX1HSg+YOobj8n1r93eqhWmoB39ZqQTkbYryv268579NP20moW75CGFkKyxp28oOy6Q0u8iV4ew+A==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
 
-"@evolab/theme-light-extension@^2.2.0", "@evolab/theme-light-extension@~2.2.0":
+"@jupyterlab/theme-light-extension@^2.2.0", "@jupyterlab/theme-light-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/theme-light-extension/-/theme-light-extension-2.2.0.tgz#6d3c2658f8291b55923f1655834267a39a7640f4"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/theme-light-extension/-/theme-light-extension-2.2.0.tgz#6d3c2658f8291b55923f1655834267a39a7640f4"
   integrity sha512-GNZ3BWntAmzlUURGZwHYGFzYzVNv+xbG7BF7TE3uNLGAGnLP2E//1Z6xwERYd3xOP6yQZYRGY0yQT1HJ+AXEEg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
 
-"@evolab/tooltip-extension@^2.2.0", "@evolab/tooltip-extension@~2.2.0":
+"@jupyterlab/tooltip-extension@^2.2.0", "@jupyterlab/tooltip-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/tooltip-extension/-/tooltip-extension-2.2.0.tgz#b90dec4b037f4cdb8439fb92befab522c443b24f"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/tooltip-extension/-/tooltip-extension-2.2.0.tgz#b90dec4b037f4cdb8439fb92befab522c443b24f"
   integrity sha512-HUMg4elKQIfadjHqbO3r9GJR+1xee4vGKmhWrWvQ1gzMfw925wY3go0HDyKtGEpjWEZhr0X2fH15QxyBDa/wJQ==
   dependencies:
-    "@evolab/application" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/console" "^2.2.0"
-    "@evolab/coreutils" "^4.2.0"
-    "@evolab/fileeditor" "^2.2.0"
+    "@jupyterlab/console" "^2.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
+    "@jupyterlab/fileeditor" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
-    "@evolab/tooltip" "^2.2.0"
+    "@jupyterlab/tooltip" "^2.2.0"
     "@lumino/algorithm" "^1.2.3"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/tooltip@^2.2.0", "@evolab/tooltip@~2.2.0":
+"@jupyterlab/tooltip@^2.2.0", "@jupyterlab/tooltip@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/tooltip/-/tooltip-2.2.0.tgz#cbe942b7817cc71c10e56e05cb6ed563921514f8"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/tooltip/-/tooltip-2.2.0.tgz#cbe942b7817cc71c10e56e05cb6ed563921514f8"
   integrity sha512-3QNw1gxzILs+9UVyoAwoz3YxMh9xUg3dxlWAI+8T0hHlIm1yERCCyS9ET9a3bgWe1IYPQe1gSvcWNyEpEq8/QA==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/codeeditor" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
     "@evolab/services" "^5.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/messaging" "^1.3.3"
     "@lumino/widgets" "^1.11.1"
 
-"@evolab/ui-components-extension@^2.2.0", "@evolab/ui-components-extension@~2.2.0":
+"@jupyterlab/ui-components-extension@^2.2.0", "@jupyterlab/ui-components-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/ui-components-extension/-/ui-components-extension-2.2.0.tgz#45e94a5149dbd31eece54f7f5e9a8750c0cdf9e1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/ui-components-extension/-/ui-components-extension-2.2.0.tgz#45e94a5149dbd31eece54f7f5e9a8750c0cdf9e1"
   integrity sha512-CXDc5kxLpTfJC+bxjR00ddqMpEMHpkfJKLoojvyaKr2eNHS3DN1Jab5/ySRMj3WaEbRqVMMLjtIc3a1fqIj1Cg==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
 
-"@evolab/ui-components@^2.2.0", "@evolab/ui-components@~2.2.0":
+"@jupyterlab/ui-components@^2.2.0", "@jupyterlab/ui-components@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/ui-components/-/ui-components-2.2.0.tgz#fe4edfc589789b154cbe0302c513dcdf2708a5e8"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/ui-components/-/ui-components-2.2.0.tgz#fe4edfc589789b154cbe0302c513dcdf2708a5e8"
   integrity sha512-ggMP82+IRMH9fJmQqYm/F/qmeDLCnyOzG5113LKWEorPiEdvp68ufc8cZLHxd0q4KIeI5grmvqnqwJxAdEEMvA==
   dependencies:
     "@blueprintjs/core" "^3.22.2"
     "@blueprintjs/select" "^3.11.2"
-    "@evolab/coreutils" "^4.2.0"
+    "@jupyterlab/coreutils" "^4.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/signaling" "^1.3.5"
     "@lumino/virtualdom" "^1.6.1"
@@ -1378,27 +1378,27 @@
     react-dom "~16.9.0"
     typestyle "^2.0.4"
 
-"@evolab/vdom-extension@^2.2.0", "@evolab/vdom-extension@~2.2.0":
+"@jupyterlab/vdom-extension@^2.2.0", "@jupyterlab/vdom-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/vdom-extension/-/vdom-extension-2.2.0.tgz#f8fa844bdd223231fd71788980ea8fdf7d04d693"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/vdom-extension/-/vdom-extension-2.2.0.tgz#f8fa844bdd223231fd71788980ea8fdf7d04d693"
   integrity sha512-OrdmmzD1tFXBH+RybxeiP1TwsJkctOxnz2l0sK1WaHdSTamLmpDFpYmisY+Zf3VnsQTfnUVrZqOJYStokuqu+w==
   dependencies:
-    "@evolab/application" "^2.2.0"
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/application" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
     "@evolab/notebook" "^2.2.0"
-    "@evolab/rendermime" "^2.2.0"
-    "@evolab/ui-components" "^2.2.0"
-    "@evolab/vdom" "^2.2.0"
+    "@jupyterlab/rendermime" "^2.2.0"
+    "@jupyterlab/ui-components" "^2.2.0"
+    "@jupyterlab/vdom" "^2.2.0"
 
-"@evolab/vdom@^2.2.0", "@evolab/vdom@~2.2.0":
+"@jupyterlab/vdom@^2.2.0", "@jupyterlab/vdom@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/vdom/-/vdom-2.2.0.tgz#b6906a054996426c8ed4976cc0b4fc790e323e91"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/vdom/-/vdom-2.2.0.tgz#b6906a054996426c8ed4976cc0b4fc790e323e91"
   integrity sha512-2v/pNtg4fKiK+hRk9ZQC84bkSK1VLggFyFYGmt5qkPF+Ebw38arpwNNCUxrNQjZ5L21mqkXGzapz5xoN/3qHsQ==
   dependencies:
-    "@evolab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.0"
     "@evolab/docregistry" "^2.2.0"
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@evolab/services" "^5.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/messaging" "^1.3.3"
@@ -1407,12 +1407,12 @@
     react "~16.9.0"
     react-dom "~16.9.0"
 
-"@evolab/vega5-extension@^2.2.0", "@evolab/vega5-extension@~2.2.0":
+"@jupyterlab/vega5-extension@^2.2.0", "@jupyterlab/vega5-extension@~2.2.0":
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@evolab/vega5-extension/-/vega5-extension-2.2.0.tgz#afaf129b1e102ed100a9436b858ce5117c3803f8"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/vega5-extension/-/vega5-extension-2.2.0.tgz#afaf129b1e102ed100a9436b858ce5117c3803f8"
   integrity sha512-/3h8zOy4zf8se4uShr3i6RlQq1VTHX9iseRdGqLyMzpJAtvJYO6wNdGg9Am1SkqNZHi/gkVhKaZdaGNfUk3x+Q==
   dependencies:
-    "@evolab/rendermime-interfaces" "^2.2.0"
+    "@jupyterlab/rendermime-interfaces" "^2.2.0"
     "@lumino/coreutils" "^1.4.2"
     "@lumino/widgets" "^1.11.1"
     vega "^5.9.0"

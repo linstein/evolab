@@ -14,7 +14,7 @@ import { CommandPalette } from '@lumino/widgets';
  * The command palette token.
  */
 export const ICommandPalette = new Token<ICommandPalette>(
-  '@evolab/apputils:ICommandPalette'
+  '@jupyterlab/apputils:ICommandPalette'
 );
 /* tslint:enable */
 

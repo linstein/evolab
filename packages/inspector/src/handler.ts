@@ -3,11 +3,11 @@
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { Text } from '@evolab/coreutils';
+import { Text } from '@jupyterlab/coreutils';
 
-import { IDataConnector } from '@evolab/statedb';
+import { IDataConnector } from '@jupyterlab/statedb';
 
-import { MimeModel, IRenderMimeRegistry } from '@evolab/rendermime';
+import { MimeModel, IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import { ReadonlyJSONObject } from '@lumino/coreutils';
 

@@ -1,14 +1,14 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 // @ts-ignore
 __webpack_public_path__ = URLExt.join(PageConfig.getBaseUrl(), 'example/');
 
-import '@evolab/application/style/index.css';
+import '@jupyterlab/application/style/index.css';
 import '@evolab/codemirror/style/index.css';
 import '@evolab/filebrowser/style/index.css';
-import '@evolab/theme-light-extension/style/index.css';
+import '@jupyterlab/theme-light-extension/style/index.css';
 import '../index.css';
 
 import { each } from '@lumino/algorithm';
@@ -19,7 +19,7 @@ import { DockPanel, Menu, SplitPanel, Widget } from '@lumino/widgets';
 
 import { ServiceManager } from '@evolab/services';
 
-import { Dialog, ToolbarButton, showDialog } from '@evolab/apputils';
+import { Dialog, ToolbarButton, showDialog } from '@jupyterlab/apputils';
 
 import {
   CodeMirrorEditorFactory,
@@ -32,9 +32,9 @@ import { DocumentRegistry } from '@evolab/docregistry';
 
 import { FileBrowser, FileBrowserModel } from '@evolab/filebrowser';
 
-import { FileEditorFactory } from '@evolab/fileeditor';
+import { FileEditorFactory } from '@jupyterlab/fileeditor';
 
-import { addIcon } from '@evolab/ui-components';
+import { addIcon } from '@jupyterlab/ui-components';
 
 function main(): void {
   const manager = new ServiceManager();

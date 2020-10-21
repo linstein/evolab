@@ -8,7 +8,7 @@ import { PromiseDelegate, Token } from '@lumino/coreutils';
  * The default window resolver token.
  */
 export const IWindowResolver = new Token<IWindowResolver>(
-  '@evolab/apputils:IWindowResolver'
+  '@jupyterlab/apputils:IWindowResolver'
 );
 /* tslint:enable */
 
@@ -64,7 +64,7 @@ namespace Private {
   /**
    * The internal prefix for private local storage keys.
    */
-  const PREFIX = '@evolab/statedb:StateDB';
+  const PREFIX = '@jupyterlab/statedb:StateDB';
 
   /**
    * The local storage beacon key.

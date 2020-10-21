@@ -3,11 +3,11 @@
 
 import 'jest';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 const VALIDATE = nbformat.validateMimeValue;
 
-describe('@evolab/nbformat', () => {
+describe('@jupyterlab/nbformat', () => {
   describe('validateMimeValue', () => {
     it('should return true for a valid json object', () => {
       expect(VALIDATE('application/json', { foo: 1 })).toBe(true);

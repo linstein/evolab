@@ -7,10 +7,10 @@ import { Context } from '@evolab/docregistry';
 
 import { INotebookModel, NotebookPanel, Notebook } from '../src';
 
-import { Toolbar } from '@evolab/apputils';
+import { Toolbar } from '@jupyterlab/apputils';
 
-import { initNotebookContext } from '@evolab/testutils';
-import { JupyterServer } from '@evolab/testutils/lib/start_jupyter_server';
+import { initNotebookContext } from '@jupyterlab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils/lib/start_jupyter_server';
 
 import * as utils from './utils';
 

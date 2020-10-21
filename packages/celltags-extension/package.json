@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/celltags-extension",
+  "name": "@jupyterlab/celltags-extension",
   "version": "2.2.0",
   "description": "An extension for manipulating tags in cell metadata",
   "keywords": [
@@ -38,8 +38,8 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/application": "^2.2.0",
-    "@evolab/celltags": "^2.2.0",
+    "@jupyterlab/application": "^2.2.0",
+    "@jupyterlab/celltags": "^2.2.0",
     "@evolab/notebook": "^2.2.0"
   },
   "devDependencies": {

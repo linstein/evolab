@@ -23,7 +23,7 @@ import {
   sleep,
   framePromise,
   acceptDialog
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 import * as utils from './utils';
 import { PromiseDelegate } from '@lumino/coreutils';

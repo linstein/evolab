@@ -1,6 +1,6 @@
 import { Widget } from '@lumino/widgets';
 
-import { addIcon } from '@evolab/ui-components';
+import { addIcon } from '@jupyterlab/ui-components';
 
 import { TagTool } from './tool';
 

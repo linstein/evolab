@@ -31,8 +31,8 @@ void inquirer.prompt(questions).then(answers => {
   fs.copySync(path.resolve(path.join(__dirname, '..', 'template')), dest);
   const jsonPath = path.join(dest, 'package.json');
   const data = utils.readJSONFile(jsonPath);
-  if (name.indexOf('@evolab/') === -1) {
-    name = '@evolab/' + name;
+  if (name.indexOf('@jupyterlab/') === -1) {
+    name = '@jupyterlab/' + name;
   }
   data.name = name;
   data.description = description;

@@ -5,7 +5,7 @@ import 'jest';
 
 // import { expect } from 'chai';
 
-import { Dialog, showDialog } from '@evolab/apputils';
+import { Dialog, showDialog } from '@jupyterlab/apputils';
 
 import { each } from '@lumino/algorithm';
 
@@ -21,7 +21,7 @@ import {
   acceptDialog,
   dismissDialog,
   waitForDialog
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 class TestDialog extends Dialog<any> {
   methods: string[] = [];
@@ -54,7 +54,7 @@ class ValueWidget extends Widget {
   }
 }
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   describe('Dialog', () => {
     let dialog: TestDialog;
 

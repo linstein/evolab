@@ -40,17 +40,17 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/apputils": "^2.2.0",
+    "@jupyterlab/apputils": "^2.2.0",
     "@evolab/cells": "^2.2.0",
     "@evolab/codeeditor": "^2.2.0",
-    "@evolab/coreutils": "^4.2.0",
+    "@jupyterlab/coreutils": "^4.2.0",
     "@evolab/docregistry": "^2.2.0",
-    "@evolab/nbformat": "^2.2.0",
-    "@evolab/observables": "^3.2.0",
-    "@evolab/rendermime": "^2.2.0",
+    "@jupyterlab/nbformat": "^2.2.0",
+    "@jupyterlab/observables": "^3.2.0",
+    "@jupyterlab/rendermime": "^2.2.0",
     "@evolab/services": "^5.2.0",
-    "@evolab/statusbar": "^2.2.0",
-    "@evolab/ui-components": "^2.2.0",
+    "@jupyterlab/statusbar": "^2.2.0",
+    "@jupyterlab/ui-components": "^2.2.0",
     "@lumino/algorithm": "^1.2.3",
     "@lumino/coreutils": "^1.4.2",
     "@lumino/domutils": "^1.1.7",
@@ -63,7 +63,7 @@
     "react": "~16.9.0"
   },
   "devDependencies": {
-    "@evolab/testutils": "^2.2.0",
+    "@jupyterlab/testutils": "^2.2.0",
     "@types/jest": "^24.0.23",
     "jest": "^25.2.3",
     "rimraf": "~3.0.0",

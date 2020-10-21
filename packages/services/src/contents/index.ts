@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { URLExt, PathExt } from '@evolab/coreutils';
+import { URLExt, PathExt } from '@jupyterlab/coreutils';
 
-import { ModelDB } from '@evolab/observables';
+import { ModelDB } from '@jupyterlab/observables';
 
 import { PartialJSONObject } from '@lumino/coreutils';
 

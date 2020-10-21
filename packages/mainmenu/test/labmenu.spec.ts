@@ -7,9 +7,9 @@ import { ArrayExt } from '@lumino/algorithm';
 
 import { CommandRegistry } from '@lumino/commands';
 
-import { JupyterLabMenu } from '@evolab/mainmenu';
+import { JupyterLabMenu } from '@jupyterlab/mainmenu';
 
-describe('@evolab/mainmenu', () => {
+describe('@jupyterlab/mainmenu', () => {
   describe('JupyterLabMenu', () => {
     let commands: CommandRegistry;
     let menu: JupyterLabMenu;

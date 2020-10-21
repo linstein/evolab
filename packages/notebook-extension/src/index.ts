@@ -5,7 +5,7 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   Dialog,
@@ -15,19 +15,19 @@ import {
   showDialog,
   WidgetTracker,
   sessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { CodeCell } from '@evolab/cells';
 
 import { IEditorServices } from '@evolab/codeeditor';
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 
 import { IDocumentManager } from '@evolab/docmanager';
 
 import { IFileBrowserFactory } from '@evolab/filebrowser';
 
-import { ILauncher } from '@evolab/launcher';
+import { ILauncher } from '@jupyterlab/launcher';
 
 import {
   IEditMenu,
@@ -37,9 +37,9 @@ import {
   IMainMenu,
   IRunMenu,
   IViewMenu
-} from '@evolab/mainmenu';
+} from '@jupyterlab/mainmenu';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import {
   NotebookTools,
@@ -56,19 +56,19 @@ import {
   NotebookTrustStatus
 } from '@evolab/notebook';
 
-import { IPropertyInspectorProvider } from '@evolab/property-inspector';
+import { IPropertyInspectorProvider } from '@jupyterlab/property-inspector';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import { ServiceManager } from '@evolab/services';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { IStateDB } from '@evolab/statedb';
+import { IStateDB } from '@jupyterlab/statedb';
 
-import { IStatusBar } from '@evolab/statusbar';
+import { IStatusBar } from '@jupyterlab/statusbar';
 
-import { buildIcon, notebookIcon } from '@evolab/ui-components';
+import { buildIcon, notebookIcon } from '@jupyterlab/ui-components';
 
 import { ArrayExt } from '@lumino/algorithm';
 

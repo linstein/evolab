@@ -8,9 +8,9 @@ import { CommandRegistry } from '@lumino/commands';
 import { DisposableDelegate, IDisposable } from '@lumino/disposable';
 import { CommandPalette } from '@lumino/widgets';
 
-import { ILayoutRestorer, JupyterFrontEnd } from '@evolab/application';
-import { ICommandPalette, IPaletteItem } from '@evolab/apputils';
-import { CommandPaletteSvg, paletteIcon } from '@evolab/ui-components';
+import { ILayoutRestorer, JupyterFrontEnd } from '@jupyterlab/application';
+import { ICommandPalette, IPaletteItem } from '@jupyterlab/apputils';
+import { CommandPaletteSvg, paletteIcon } from '@jupyterlab/ui-components';
 
 /**
  * The command IDs used by the apputils extension.

@@ -5,9 +5,9 @@ import {
   showErrorMessage,
   VDomModel,
   VDomRenderer
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { classes, LabIcon } from '@evolab/ui-components';
+import { classes, LabIcon } from '@jupyterlab/ui-components';
 
 import {
   ArrayExt,
@@ -50,7 +50,7 @@ const KERNEL_CATEGORIES = ['Notebook', 'Console'];
 /**
  * The launcher token.
  */
-export const ILauncher = new Token<ILauncher>('@evolab/launcher:ILauncher');
+export const ILauncher = new Token<ILauncher>('@jupyterlab/launcher:ILauncher');
 /* tslint:enable */
 
 /**

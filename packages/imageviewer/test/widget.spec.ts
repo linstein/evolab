@@ -18,11 +18,11 @@ import {
   DocumentWidget
 } from '@evolab/docregistry';
 
-import { ImageViewer, ImageViewerFactory } from '@evolab/imageviewer';
+import { ImageViewer, ImageViewerFactory } from '@jupyterlab/imageviewer';
 
-import { createFileContext } from '@evolab/testutils';
+import { createFileContext } from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 class LogImage extends ImageViewer {
   methods: string[] = [];

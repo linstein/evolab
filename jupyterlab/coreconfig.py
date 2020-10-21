@@ -25,14 +25,14 @@ def _get_default_core_data():
 
 def _is_lab_package(name):
     """Whether a package name is in the lab namespace"""
-    return name.startswith('@evolab/')
+    return name.startswith('@jupyterlab/')
 
 
 def _only_nonlab(collection):
     """Filter a dict/sequence to remove all lab packages
 
     This is useful to take the default values of e.g. singletons and filter
-    away the '@evolab/' namespace packages, but leave any others (e.g.
+    away the '@jupyterlab/' namespace packages, but leave any others (e.g.
     lumino and react).
     """
     if isinstance(collection, dict):
@@ -116,7 +116,7 @@ class CoreConfig:
         data = self._data
         # Clear all dependencies
         if lab_only:
-            # Clear all "@evolab/" dependencies
+            # Clear all "@jupyterlab/" dependencies
             data['dependencies'] = _only_nonlab(data['dependencies'])
             data['resolutions'] = _only_nonlab(data['resolutions'])
             data['jupyterlab']['extensions'] = _only_nonlab(

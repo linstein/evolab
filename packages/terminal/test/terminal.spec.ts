@@ -15,7 +15,7 @@ import {
   framePromise,
   testEmission,
   JupyterServer
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 const server = new JupyterServer();
 

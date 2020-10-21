@@ -13,7 +13,7 @@ import { CodeEditor, CodeEditorWrapper } from '@evolab/codeeditor';
 
 import { CodeMirrorEditor } from '@evolab/codemirror';
 
-import { framePromise } from '@evolab/testutils';
+import { framePromise } from '@jupyterlab/testutils';
 
 class LogEditor extends CodeMirrorEditor {
   methods: string[] = [];

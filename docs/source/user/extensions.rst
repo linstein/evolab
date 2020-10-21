@@ -369,9 +369,9 @@ This is an example of a blacklist file.
    {
    "blacklist": [
       {
-         "name": "@evolab-examples/launcher",
+         "name": "@jupyterlab-examples/launcher",
          "type": "jupyterlab",
-         "reason": "@evolab-examples/launcher is blacklisted for test purpose - Do NOT take this for granted!!!",
+         "reason": "@jupyterlab-examples/launcher is blacklisted for test purpose - Do NOT take this for granted!!!",
          "creation_date": "2020-03-11T03:28:56.782Z",
          "last_update_date":  "2020-03-11T03:28:56.782Z"
       }
@@ -379,7 +379,7 @@ This is an example of a blacklist file.
    }
 
 
-In the following whitelist example a ``@evolab/*`` will whitelist
+In the following whitelist example a ``@jupyterlab/*`` will whitelist
 all jupyterlab organization extensions.
 
 .. code:: json
@@ -387,9 +387,9 @@ all jupyterlab organization extensions.
    {
    "whitelist": [
       {
-         "name": "@evolab/*",
+         "name": "@jupyterlab/*",
          "type": "jupyterlab",
-         "reason": "All @evolab org extensions are whitelisted, of course...",
+         "reason": "All @jupyterlab org extensions are whitelisted, of course...",
          "creation_date": "2020-03-11T03:28:56.782Z",
          "last_update_date":  "2020-03-11T03:28:56.782Z"
       }
@@ -624,19 +624,19 @@ are an array of strings. The following sequence of checks are performed
 against the patterns in ``disabledExtensions`` and ``deferredExtensions``.
 
 -  If an identical string match occurs between a config value and a
-   package name (e.g., ``"@evolab/apputils-extension"``), then the
+   package name (e.g., ``"@jupyterlab/apputils-extension"``), then the
    entire package is disabled (or deferred).
 -  If the string value is compiled as a regular expression and tests
    positive against a package name (e.g.,
-   ``"disabledExtensions": ["@evolab/apputils*$"]``), then the
+   ``"disabledExtensions": ["@jupyterlab/apputils*$"]``), then the
    entire package is disabled (or deferred).
 -  If an identical string match occurs between a config value and an
    individual plugin ID within a package (e.g.,
-   ``"disabledExtensions": ["@evolab/apputils-extension:settings"]``),
+   ``"disabledExtensions": ["@jupyterlab/apputils-extension:settings"]``),
    then that specific plugin is disabled (or deferred).
 -  If the string value is compiled as a regular expression and tests
    positive against an individual plugin ID within a package (e.g.,
-   ``"disabledExtensions": ["^@evolab/apputils-extension:set.*$"]``),
+   ``"disabledExtensions": ["^@jupyterlab/apputils-extension:set.*$"]``),
    then that specific plugin is disabled (or deferred).
 
 An example of a ``page_config.json`` file is:
@@ -645,7 +645,7 @@ An example of a ``page_config.json`` file is:
 
     {
         "disabledExtensions": [
-            "@evolab/toc"
+            "@jupyterlab/toc"
         ],
         "terminalsAvailable": false
     }
@@ -665,7 +665,7 @@ added in the application settings directory (by default this is the
 .. code:: json
 
   {
-    "@evolab/apputils-extension:themes": {
+    "@jupyterlab/apputils-extension:themes": {
       "theme": "JupyterLab Dark"
     }
   }
@@ -685,10 +685,10 @@ that have been explicitly uninstalled. An example of a
 
     {
         "uninstalled_core_extensions": [
-            "@evolab/markdownwidget-extension"
+            "@jupyterlab/markdownwidget-extension"
         ],
         "local_extensions": {
-            "@evolab/python-tests": "/path/to/my/extension"
+            "@jupyterlab/python-tests": "/path/to/my/extension"
         }
     }
 

@@ -489,7 +489,7 @@ We have integrated the `JupyterLab Status Bar package <https://github.com/jupyte
 JupyterHub Integration
 ^^^^^^^^^^^^^^^^^^^^^^
 
-* We now include the JupyterHub extension in core JupyterLab, so you no longer need to install ``@evolab/hub-extension``. (`#6451 <https://github.com/jupyterlab/jupyterlab/pull/6451>`__, `#6428 <https://github.com/jupyterlab/jupyterlab/issues/6428>`__)
+* We now include the JupyterHub extension in core JupyterLab, so you no longer need to install ``@jupyterlab/hub-extension``. (`#6451 <https://github.com/jupyterlab/jupyterlab/pull/6451>`__, `#6428 <https://github.com/jupyterlab/jupyterlab/issues/6428>`__)
 * JupyterLab now has a File > Logout menu entry when running with JupyterHub (`#6087 <https://github.com/jupyterlab/jupyterlab/pull/6087>`__, `#5966 <https://github.com/jupyterlab/jupyterlab/issues/5966>`__)
 
 
@@ -608,7 +608,7 @@ Extension Development Changes
 * Adds the ability for extensions to register new CodeMirror modes (`#5829 <https://github.com/jupyterlab/jupyterlab/pull/5829>`__)
 * We have removed the ``JUPYTERLAB_xxx_LOADER`` Webpack loaders, instead you should use the loader directly in the URL as Webpack supports it (`#5709 <https://github.com/jupyterlab/jupyterlab/pull/5709>`__, `#4406 <https://github.com/jupyterlab/jupyterlab/issues/4406>`__)
 * Adds the ability to handle fragments for document widgets (`#5630 <https://github.com/jupyterlab/jupyterlab/pull/5630>`__, `#5599 <https://github.com/jupyterlab/jupyterlab/issues/5599>`__)
-* We have added a  ``@evolab/ui-components`` package that contains reusable React components to be used internally and in extensions. Feel free to use this to create extension UIs with consistent styles (`#5538 <https://github.com/jupyterlab/jupyterlab/pull/5538>`__)
+* We have added a  ``@jupyterlab/ui-components`` package that contains reusable React components to be used internally and in extensions. Feel free to use this to create extension UIs with consistent styles (`#5538 <https://github.com/jupyterlab/jupyterlab/pull/5538>`__)
 * The ``showErrorMessage`` function now lets you customize the buttons it uses (`#5513 <https://github.com/jupyterlab/jupyterlab/pull/5513>`__)
 * We now provide helpers for using React components within JupyterLab. If you were previously using ``ReactElementWidget`` you should switch to using ``ReactWidget``. (`#5479 <https://github.com/jupyterlab/jupyterlab/pull/5479>`__, `#5766 <https://github.com/jupyterlab/jupyterlab/issues/5766>`__, `#6595 <https://github.com/jupyterlab/jupyterlab/pull/6595>`__, `#6595 <https://github.com/jupyterlab/jupyterlab/pull/6595>`__)
 * The share link command has been moved to its own extension so that it can be overridden (`#5460 <https://github.com/jupyterlab/jupyterlab/pull/5460>`__, `#5388 <https://github.com/jupyterlab/jupyterlab/issues/5388>`__)
@@ -1096,7 +1096,7 @@ Changes for developers
    key, and a new ``IUpdateDisplayDataMsg`` type was added for update
    display messages.
    (`#4697 <https://github.com/jupyterlab/jupyterlab/pull/4697>`__)
--  The ``uuid`` function from ``@evolab/coreutils`` is removed.
+-  The ``uuid`` function from ``@jupyterlab/coreutils`` is removed.
    Instead import ``UUID`` from ``@phosphor/coreutils`` and use
    ``UUID.uuid4()`` .
    (`#4604 <https://github.com/jupyterlab/jupyterlab/pull/4604>`__)

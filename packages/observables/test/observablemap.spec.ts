@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { ObservableMap } from '@evolab/observables';
+import { ObservableMap } from '@jupyterlab/observables';
 
-describe('@evolab/observables', () => {
+describe('@jupyterlab/observables', () => {
   describe('ObservableMap', () => {
     describe('#constructor()', () => {
       it('should accept no arguments', () => {

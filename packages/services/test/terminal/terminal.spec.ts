@@ -2,11 +2,11 @@
 
 import 'jest';
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
 import { Terminal, TerminalManager } from '../../src';
 
-import { testEmission, JupyterServer } from '@evolab/testutils';
+import { testEmission, JupyterServer } from '@jupyterlab/testutils';
 
 import { handleRequest } from '../utils';
 

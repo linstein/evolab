@@ -5,7 +5,7 @@ import 'jest';
 
 import { UUID } from '@lumino/coreutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 import { CSVViewer, GridSearchService } from '../src';
 

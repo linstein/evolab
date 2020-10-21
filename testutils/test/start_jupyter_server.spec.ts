@@ -6,7 +6,7 @@ import 'jest';
 const fetch = require('node-fetch');
 
 import { JupyterServer } from '../src';
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
 describe('JupyterServer', () => {
   it('should start the server', async () => {

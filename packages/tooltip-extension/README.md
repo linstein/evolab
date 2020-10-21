@@ -1,3 +1,3 @@
-# @evolab/tooltip-extension
+# @jupyterlab/tooltip-extension
 
-A JupyterLab extension which provides an entry-point, commands, and keyboard shortcuts for the [@evolab/tooltip](../tooltip) package.
+A JupyterLab extension which provides an entry-point, commands, and keyboard shortcuts for the [@jupyterlab/tooltip](../tooltip) package.

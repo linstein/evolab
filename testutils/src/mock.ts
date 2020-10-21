@@ -3,7 +3,7 @@
 
 import 'jest';
 
-import { ISessionContext, SessionContext } from '@evolab/apputils';
+import { ISessionContext, SessionContext } from '@jupyterlab/apputils';
 
 import { Context, TextModelFactory } from '@evolab/docregistry';
 
@@ -26,7 +26,7 @@ import { UUID } from '@lumino/coreutils';
 
 import { Signal } from '@lumino/signaling';
 
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
 // The default kernel name
 export const DEFAULT_NAME = 'python3';
@@ -366,7 +366,7 @@ export const SessionContextMock = jest.fn<
       null
     );
   const thisObject: ISessionContext = {
-    ...jest.requireActual('@evolab/apputils'),
+    ...jest.requireActual('@jupyterlab/apputils'),
     ...options,
     path: session.path,
     type: session.type,

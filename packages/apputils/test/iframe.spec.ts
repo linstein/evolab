@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { IFrame } from '@evolab/apputils';
+import { IFrame } from '@jupyterlab/apputils';
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   describe('IFrame', () => {
     describe('#constructor()', () => {
       it('should create a new iframe widget', () => {

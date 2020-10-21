@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { VDomModel, VDomRenderer } from '@evolab/apputils';
+import { VDomModel, VDomRenderer } from '@jupyterlab/apputils';
 
-import { framePromise } from '@evolab/testutils';
+import { framePromise } from '@jupyterlab/testutils';
 
 import { Widget } from '@lumino/widgets';
 
@@ -36,7 +36,7 @@ class TestWidgetNoModel extends VDomRenderer {
   }
 }
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   describe('VDomModel', () => {
     describe('#constructor()', () => {
       it('should create a VDomModel', () => {

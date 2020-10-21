@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { showErrorMessage } from '@evolab/apputils';
+import { showErrorMessage } from '@jupyterlab/apputils';
 
-import { ActivityMonitor } from '@evolab/coreutils';
+import { ActivityMonitor } from '@jupyterlab/coreutils';
 
 import {
   ABCWidgetFactory,
@@ -15,7 +15,7 @@ import {
   IRenderMime,
   IRenderMimeRegistry,
   MimeModel
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 import { PromiseDelegate } from '@lumino/coreutils';
 

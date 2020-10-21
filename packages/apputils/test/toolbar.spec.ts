@@ -8,7 +8,7 @@ import {
   ToolbarButton,
   CommandToolbarButton,
   SessionContext
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { toArray } from '@lumino/algorithm';
 
@@ -24,7 +24,7 @@ import {
   createSessionContext,
   framePromise,
   JupyterServer
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 const server = new JupyterServer();
 
@@ -36,7 +36,7 @@ afterAll(async () => {
   await server.shutdown();
 });
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   let widget: Toolbar<Widget>;
 
   beforeEach(async () => {

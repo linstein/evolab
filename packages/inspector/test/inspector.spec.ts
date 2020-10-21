@@ -7,7 +7,7 @@ import { Signal } from '@lumino/signaling';
 
 import { Widget } from '@lumino/widgets';
 
-import { IInspector, InspectorPanel } from '@evolab/inspector';
+import { IInspector, InspectorPanel } from '@jupyterlab/inspector';
 
 class TestInspectorPanel extends InspectorPanel {
   methods: string[] = [];

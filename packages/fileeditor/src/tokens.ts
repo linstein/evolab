@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IWidgetTracker } from '@evolab/apputils';
+import { IWidgetTracker } from '@jupyterlab/apputils';
 
 import { IDocumentWidget } from '@evolab/docregistry';
 
@@ -20,6 +20,6 @@ export interface IEditorTracker
  * The editor tracker token.
  */
 export const IEditorTracker = new Token<IEditorTracker>(
-  '@evolab/fileeditor:IEditorTracker'
+  '@jupyterlab/fileeditor:IEditorTracker'
 );
 /* tslint:enable */

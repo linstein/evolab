@@ -9,14 +9,14 @@ import { Widget } from '@lumino/widgets';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
 /* tslint:disable */
 /**
  * The tooltip manager token.
  */
 export const ITooltipManager = new Token<ITooltipManager>(
-  '@evolab/tooltip:ITooltipManager'
+  '@jupyterlab/tooltip:ITooltipManager'
 );
 /* tslint:enable */
 

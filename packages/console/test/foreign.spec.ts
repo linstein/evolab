@@ -13,11 +13,11 @@ import { Panel } from '@lumino/widgets';
 
 import { CodeCellModel, CodeCell } from '@evolab/cells';
 
-import { defaultRenderMime, NBTestUtils } from '@evolab/testutils';
+import { defaultRenderMime, NBTestUtils } from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
-import { ISessionContext } from '@evolab/apputils';
+import { ISessionContext } from '@jupyterlab/apputils';
 
 import { ForeignHandler } from '../src';
 
@@ -96,7 +96,7 @@ const relevantTypes = [
   return acc;
 }, new Set<string>());
 
-describe('@evolab/console', () => {
+describe('@jupyterlab/console', () => {
   describe('ForeignHandler', () => {
     let foreign: ISessionContext;
     let handler: TestHandler;

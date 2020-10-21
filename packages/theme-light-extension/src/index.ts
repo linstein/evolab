@@ -4,18 +4,18 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { IThemeManager } from '@evolab/apputils';
+import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
  * A plugin for the Jupyter Light Theme.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/theme-light-extension:plugin',
+  id: '@jupyterlab/theme-light-extension:plugin',
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    const style = '@evolab/theme-light-extension/index.css';
+    const style = '@jupyterlab/theme-light-extension/index.css';
 
     manager.register({
       name: 'JupyterLab Light',

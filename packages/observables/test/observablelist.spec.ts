@@ -5,9 +5,9 @@ import 'jest';
 
 import { toArray } from '@lumino/algorithm';
 
-import { ObservableList } from '@evolab/observables';
+import { ObservableList } from '@jupyterlab/observables';
 
-describe('@evolab/observables', () => {
+describe('@jupyterlab/observables', () => {
   describe('ObservableList', () => {
     describe('#constructor()', () => {
       it('should accept no arguments', () => {

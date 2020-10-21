@@ -1,17 +1,17 @@
 import React from 'react';
 
-import { VDomRenderer, VDomModel } from '@evolab/apputils';
+import { VDomRenderer, VDomModel } from '@jupyterlab/apputils';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
 import {
   interactiveItem,
   Popup,
   showPopup,
   TextItem
-} from '@evolab/statusbar';
+} from '@jupyterlab/statusbar';
 
 import { Mode } from '.';
 

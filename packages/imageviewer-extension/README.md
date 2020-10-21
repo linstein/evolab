@@ -1,3 +1,3 @@
-# @evolab/imageviewer-extension
+# @jupyterlab/imageviewer-extension
 
-An extension for JupyterLab which provides an entry point, commands, and keyboard shortcuts for the [@evolab/imageviewer](../imageviewer) package.
+An extension for JupyterLab which provides an entry point, commands, and keyboard shortcuts for the [@jupyterlab/imageviewer](../imageviewer) package.

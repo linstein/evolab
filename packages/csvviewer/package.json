@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/csvviewer",
+  "name": "@jupyterlab/csvviewer",
   "version": "2.2.0",
   "description": "JupyterLab - CSV Widget",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -40,8 +40,8 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/apputils": "^2.2.0",
-    "@evolab/coreutils": "^4.2.0",
+    "@jupyterlab/apputils": "^2.2.0",
+    "@jupyterlab/coreutils": "^4.2.0",
     "@evolab/docregistry": "^2.2.0",
     "@lumino/algorithm": "^1.2.3",
     "@lumino/coreutils": "^1.4.2",
@@ -52,7 +52,7 @@
     "@lumino/widgets": "^1.11.1"
   },
   "devDependencies": {
-    "@evolab/testutils": "^2.2.0",
+    "@jupyterlab/testutils": "^2.2.0",
     "@types/jest": "^24.0.23",
     "canvas": "^2.6.1",
     "csv-spectrum": "^1.0.0",

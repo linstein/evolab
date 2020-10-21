@@ -4,7 +4,7 @@
 |----------------------------------------------------------------------------*/
 import { ReadonlyPartialJSONObject } from '@lumino/coreutils';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 /**
  * The default mime model implementation.

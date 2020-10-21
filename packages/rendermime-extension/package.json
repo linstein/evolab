@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/rendermime-extension",
+  "name": "@jupyterlab/rendermime-extension",
   "version": "2.2.0",
   "description": "A rendermime extension for JupyterLab",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -33,9 +33,9 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/application": "^2.2.0",
+    "@jupyterlab/application": "^2.2.0",
     "@evolab/docmanager": "^2.2.0",
-    "@evolab/rendermime": "^2.2.0"
+    "@jupyterlab/rendermime": "^2.2.0"
   },
   "devDependencies": {
     "rimraf": "~3.0.0",

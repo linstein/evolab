@@ -4,18 +4,18 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { IThemeManager } from '@evolab/apputils';
+import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
  * A plugin for the Jupyter Dark Theme.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/theme-dark-extension:plugin',
+  id: '@jupyterlab/theme-dark-extension:plugin',
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    const style = '@evolab/theme-dark-extension/index.css';
+    const style = '@jupyterlab/theme-dark-extension/index.css';
 
     manager.register({
       name: 'JupyterLab Dark',

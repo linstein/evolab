@@ -161,7 +161,7 @@ browser supports overriding the behavior of this item.
 
    import {
      JupyterFrontEnd, JupyterFrontEndPlugin
-   } from '@evolab/application';
+   } from '@jupyterlab/application';
 
 
    const shareFile: JupyterFrontEndPlugin<void> = {

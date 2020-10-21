@@ -7,9 +7,9 @@ import { Signal } from '@lumino/signaling';
 
 import { Widget } from '@lumino/widgets';
 
-import { StatusBar } from '@evolab/statusbar';
+import { StatusBar } from '@jupyterlab/statusbar';
 
-describe('@evolab/statusbar', () => {
+describe('@jupyterlab/statusbar', () => {
   describe('StatusBar', () => {
     let statusBar: StatusBar;
 

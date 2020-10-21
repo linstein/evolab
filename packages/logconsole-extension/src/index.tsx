@@ -6,7 +6,7 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   CommandToolbarButton,
@@ -14,33 +14,33 @@ import {
   MainAreaWidget,
   WidgetTracker,
   ReactWidget
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
 import {
   ILoggerRegistry,
   LogConsolePanel,
   LoggerRegistry,
   LogLevel
-} from '@evolab/logconsole';
+} from '@jupyterlab/logconsole';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 
 import { INotebookTracker, NotebookPanel } from '@evolab/notebook';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { IStatusBar } from '@evolab/statusbar';
+import { IStatusBar } from '@jupyterlab/statusbar';
 
 import {
   addIcon,
   clearIcon,
   HTMLSelect,
   listIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import { UUID } from '@lumino/coreutils';
 

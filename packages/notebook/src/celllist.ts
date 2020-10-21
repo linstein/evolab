@@ -20,7 +20,7 @@ import {
   IObservableList,
   IObservableUndoableList,
   IModelDB
-} from '@evolab/observables';
+} from '@jupyterlab/observables';
 
 import { NotebookModel } from './model';
 

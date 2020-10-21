@@ -3,7 +3,7 @@
 
 import { editorServices } from '@evolab/codemirror';
 
-import { defaultRenderMime } from '@evolab/testutils';
+import { defaultRenderMime } from '@jupyterlab/testutils';
 
 import { CodeConsole, ConsolePanel } from '../src';
 

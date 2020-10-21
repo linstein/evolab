@@ -5,17 +5,17 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   ICommandPalette,
   WidgetTracker,
   ISessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { CodeEditor, IEditorServices } from '@evolab/codeeditor';
 
-import { IConsoleTracker } from '@evolab/console';
+import { IConsoleTracker } from '@jupyterlab/console';
 
 import { IDocumentWidget } from '@evolab/docregistry';
 
@@ -26,15 +26,15 @@ import {
   FileEditorFactory,
   IEditorTracker,
   TabSpaceStatus
-} from '@evolab/fileeditor';
+} from '@jupyterlab/fileeditor';
 
-import { ILauncher } from '@evolab/launcher';
+import { ILauncher } from '@jupyterlab/launcher';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { IStatusBar } from '@evolab/statusbar';
+import { IStatusBar } from '@jupyterlab/statusbar';
 
 import { JSONObject } from '@lumino/coreutils';
 
@@ -49,7 +49,7 @@ export { Commands } from './commands';
  */
 const plugin: JupyterFrontEndPlugin<IEditorTracker> = {
   activate,
-  id: '@evolab/fileeditor-extension:plugin',
+  id: '@jupyterlab/fileeditor-extension:plugin',
   requires: [
     IConsoleTracker,
     IEditorServices,
@@ -72,7 +72,7 @@ const plugin: JupyterFrontEndPlugin<IEditorTracker> = {
  * switch tabs vs spaces and tab widths for text editors.
  */
 export const tabSpaceStatus: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/fileeditor-extension:tab-space-status',
+  id: '@jupyterlab/fileeditor-extension:tab-space-status',
   autoStart: true,
   requires: [IEditorTracker, ISettingRegistry],
   optional: [IStatusBar],
@@ -116,7 +116,7 @@ export const tabSpaceStatus: JupyterFrontEndPlugin<void> = {
       };
     };
     void Promise.all([
-      settingRegistry.load('@evolab/fileeditor-extension:plugin'),
+      settingRegistry.load('@jupyterlab/fileeditor-extension:plugin'),
       app.restored
     ]).then(([settings]) => {
       updateSettings(settings);
@@ -125,7 +125,7 @@ export const tabSpaceStatus: JupyterFrontEndPlugin<void> = {
 
     // Add the status item.
     statusBar.registerStatusItem(
-      '@evolab/fileeditor-extension:tab-space-status',
+      '@jupyterlab/fileeditor-extension:tab-space-status',
       {
         item,
         align: 'right',

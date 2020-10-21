@@ -14,7 +14,7 @@ import {
   expectFailure,
   JupyterServer,
   flakyIt as it
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 import {
   makeSettings,

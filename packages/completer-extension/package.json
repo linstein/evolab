@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/completer-extension",
+  "name": "@jupyterlab/completer-extension",
   "version": "2.2.0",
   "description": "JupyterLab - Completer Extension",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -36,10 +36,10 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/application": "^2.2.0",
-    "@evolab/completer": "^2.2.0",
-    "@evolab/console": "^2.2.0",
-    "@evolab/fileeditor": "^2.2.0",
+    "@jupyterlab/application": "^2.2.0",
+    "@jupyterlab/completer": "^2.2.0",
+    "@jupyterlab/console": "^2.2.0",
+    "@jupyterlab/fileeditor": "^2.2.0",
     "@evolab/notebook": "^2.2.0",
     "@evolab/services": "^5.2.0",
     "@lumino/algorithm": "^1.2.3",

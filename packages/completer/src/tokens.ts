@@ -3,7 +3,7 @@
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IDataConnector } from '@evolab/statedb';
+import { IDataConnector } from '@jupyterlab/statedb';
 
 import { Token } from '@lumino/coreutils';
 
@@ -16,7 +16,7 @@ import { CompletionHandler } from './handler';
  * The completion manager token.
  */
 export const ICompletionManager = new Token<ICompletionManager>(
-  '@evolab/completer:ICompletionManager'
+  '@jupyterlab/completer:ICompletionManager'
 );
 /* tslint:enable */
 

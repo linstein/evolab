@@ -2,11 +2,11 @@
 // Distributed under the terms of the Modified BSD License.
 //
 
-import { VDomRenderer, VDomModel, WidgetTracker } from '@evolab/apputils';
+import { VDomRenderer, VDomModel, WidgetTracker } from '@jupyterlab/apputils';
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
-import { GroupItem, ProgressBar, TextItem } from '@evolab/statusbar';
+import { GroupItem, ProgressBar, TextItem } from '@jupyterlab/statusbar';
 
 import { ArrayExt } from '@lumino/algorithm';
 

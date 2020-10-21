@@ -9,7 +9,7 @@ import { IDataConnector } from './interfaces';
 /**
  * The default state database token.
  */
-export const IStateDB = new Token<IStateDB>('@evolab/coreutils:IStateDB');
+export const IStateDB = new Token<IStateDB>('@jupyterlab/coreutils:IStateDB');
 /* tslint:enable */
 
 /**

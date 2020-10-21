@@ -5,7 +5,7 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   Dialog,
@@ -14,17 +14,17 @@ import {
   MainAreaWidget,
   showDialog,
   WidgetTracker
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 
-import { IInspector } from '@evolab/inspector';
+import { IInspector } from '@jupyterlab/inspector';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 
 import { KernelMessage } from '@evolab/services';
 
-import { jupyterIcon, jupyterlabWordmarkIcon } from '@evolab/ui-components';
+import { jupyterIcon, jupyterlabWordmarkIcon } from '@jupyterlab/ui-components';
 
 import { Menu } from '@lumino/widgets';
 
@@ -91,7 +91,7 @@ RESOURCES.sort((a: any, b: any) => {
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   activate,
-  id: '@evolab/help-extension:plugin',
+  id: '@jupyterlab/help-extension:plugin',
   requires: [IMainMenu],
   optional: [ICommandPalette, ILayoutRestorer, IInspector],
   autoStart: true

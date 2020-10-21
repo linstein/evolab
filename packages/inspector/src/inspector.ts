@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { Printing } from '@evolab/apputils';
+import { Printing } from '@jupyterlab/apputils';
 
 import { Panel, PanelLayout, Widget } from '@lumino/widgets';
 

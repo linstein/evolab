@@ -3,19 +3,19 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { JupyterFrontEndPlugin } from '@evolab/application';
+import { JupyterFrontEndPlugin } from '@jupyterlab/application';
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
-import { ILatexTypesetter } from '@evolab/rendermime';
+import { ILatexTypesetter } from '@jupyterlab/rendermime';
 
-import { MathJaxTypesetter } from '@evolab/mathjax2';
+import { MathJaxTypesetter } from '@jupyterlab/mathjax2';
 
 /**
  * The MathJax latexTypesetter plugin.
  */
 const plugin: JupyterFrontEndPlugin<ILatexTypesetter> = {
-  id: '@evolab/mathjax2-extension:plugin',
+  id: '@jupyterlab/mathjax2-extension:plugin',
   autoStart: true,
   provides: ILatexTypesetter,
   activate: () => {

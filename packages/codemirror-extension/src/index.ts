@@ -9,9 +9,9 @@ import {
   ILabShell,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { IEditMenu, IMainMenu } from '@evolab/mainmenu';
+import { IEditMenu, IMainMenu } from '@jupyterlab/mainmenu';
 
 import { IEditorServices } from '@evolab/codeeditor';
 
@@ -24,11 +24,11 @@ import {
 
 import { IDocumentWidget } from '@evolab/docregistry';
 
-import { IEditorTracker, FileEditor } from '@evolab/fileeditor';
+import { IEditorTracker, FileEditor } from '@jupyterlab/fileeditor';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { IStatusBar } from '@evolab/statusbar';
+import { IStatusBar } from '@jupyterlab/statusbar';
 
 /**
  * The command IDs used by the codemirror plugin.

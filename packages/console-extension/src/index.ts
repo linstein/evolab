@@ -6,7 +6,7 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   Dialog,
@@ -16,17 +16,17 @@ import {
   sessionContextDialogs,
   showDialog,
   WidgetTracker
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { IEditorServices } from '@evolab/codeeditor';
 
-import { ConsolePanel, IConsoleTracker } from '@evolab/console';
+import { ConsolePanel, IConsoleTracker } from '@jupyterlab/console';
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 
 import { IFileBrowserFactory } from '@evolab/filebrowser';
 
-import { ILauncher } from '@evolab/launcher';
+import { ILauncher } from '@jupyterlab/launcher';
 
 import {
   IEditMenu,
@@ -35,13 +35,13 @@ import {
   IKernelMenu,
   IMainMenu,
   IRunMenu
-} from '@evolab/mainmenu';
+} from '@jupyterlab/mainmenu';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { consoleIcon } from '@evolab/ui-components';
+import { consoleIcon } from '@jupyterlab/ui-components';
 
 import { find } from '@lumino/algorithm';
 
@@ -98,7 +98,7 @@ namespace CommandIDs {
  * The console widget tracker provider.
  */
 const tracker: JupyterFrontEndPlugin<IConsoleTracker> = {
-  id: '@evolab/console-extension:tracker',
+  id: '@jupyterlab/console-extension:tracker',
   provides: IConsoleTracker,
   requires: [
     ConsolePanel.IContentFactory,
@@ -123,7 +123,7 @@ const tracker: JupyterFrontEndPlugin<IConsoleTracker> = {
  * The console widget content factory.
  */
 const factory: JupyterFrontEndPlugin<ConsolePanel.IContentFactory> = {
-  id: '@evolab/console-extension:factory',
+  id: '@jupyterlab/console-extension:factory',
   provides: ConsolePanel.IContentFactory,
   requires: [IEditorServices],
   autoStart: true,
@@ -267,7 +267,7 @@ async function activateConsole(
 
     const interactionMode: string = (
       await settingRegistry.get(
-        '@evolab/console-extension:tracker',
+        '@jupyterlab/console-extension:tracker',
         'interactionMode'
       )
     ).composite as string;
@@ -288,7 +288,7 @@ async function activateConsole(
     return panel;
   }
 
-  const pluginId = '@evolab/console-extension:tracker';
+  const pluginId = '@jupyterlab/console-extension:tracker';
   let interactionMode: string;
   async function updateSettings() {
     interactionMode = (await settingRegistry.get(pluginId, 'interactionMode'))

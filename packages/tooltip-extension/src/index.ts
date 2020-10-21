@@ -9,24 +9,24 @@ import { JSONObject } from '@lumino/coreutils';
 
 import { Widget } from '@lumino/widgets';
 
-import { Text } from '@evolab/coreutils';
+import { Text } from '@jupyterlab/coreutils';
 
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IConsoleTracker } from '@evolab/console';
+import { IConsoleTracker } from '@jupyterlab/console';
 
-import { IEditorTracker } from '@evolab/fileeditor';
+import { IEditorTracker } from '@jupyterlab/fileeditor';
 
 import { INotebookTracker } from '@evolab/notebook';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { ITooltipManager, Tooltip } from '@evolab/tooltip';
+import { ITooltipManager, Tooltip } from '@jupyterlab/tooltip';
 
 /**
  * The command IDs used by the tooltip plugin.
@@ -45,7 +45,7 @@ namespace CommandIDs {
  * The main tooltip manager plugin.
  */
 const manager: JupyterFrontEndPlugin<ITooltipManager> = {
-  id: '@evolab/tooltip-extension:manager',
+  id: '@jupyterlab/tooltip-extension:manager',
   autoStart: true,
   provides: ITooltipManager,
   activate: (app: JupyterFrontEnd): ITooltipManager => {
@@ -88,7 +88,7 @@ const manager: JupyterFrontEndPlugin<ITooltipManager> = {
  * The console tooltip plugin.
  */
 const consoles: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/tooltip-extension:consoles',
+  id: '@jupyterlab/tooltip-extension:consoles',
   autoStart: true,
   requires: [ITooltipManager, IConsoleTracker],
   activate: (
@@ -123,7 +123,7 @@ const consoles: JupyterFrontEndPlugin<void> = {
  * The notebook tooltip plugin.
  */
 const notebooks: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/tooltip-extension:notebooks',
+  id: '@jupyterlab/tooltip-extension:notebooks',
   autoStart: true,
   requires: [ITooltipManager, INotebookTracker],
   activate: (
@@ -158,7 +158,7 @@ const notebooks: JupyterFrontEndPlugin<void> = {
  * The file editor tooltip plugin.
  */
 const files: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/tooltip-extension:files',
+  id: '@jupyterlab/tooltip-extension:files',
   autoStart: true,
   requires: [ITooltipManager, IEditorTracker, IRenderMimeRegistry],
   activate: (

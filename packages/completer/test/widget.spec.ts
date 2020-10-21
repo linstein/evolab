@@ -19,9 +19,9 @@ import {
   Completer,
   CompletionHandler,
   CompleterModel
-} from '@evolab/completer';
+} from '@jupyterlab/completer';
 
-import { framePromise, sleep } from '@evolab/testutils';
+import { framePromise, sleep } from '@jupyterlab/testutils';
 
 const TEST_ITEM_CLASS = 'jp-TestItem';
 

@@ -1,13 +1,13 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { showErrorMessage, Toolbar, ToolbarButton } from '@evolab/apputils';
+import { showErrorMessage, Toolbar, ToolbarButton } from '@jupyterlab/apputils';
 
 import { IDocumentManager } from '@evolab/docmanager';
 
 import { Contents, ServerConnection } from '@evolab/services';
 
-import { newFolderIcon, refreshIcon } from '@evolab/ui-components';
+import { newFolderIcon, refreshIcon } from '@jupyterlab/ui-components';
 
 import { IIterator } from '@lumino/algorithm';
 

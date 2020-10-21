@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/rendermime",
+  "name": "@jupyterlab/rendermime",
   "version": "2.2.0",
   "description": "JupyterLab - RenderMime",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -40,12 +40,12 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/apputils": "^2.2.0",
+    "@jupyterlab/apputils": "^2.2.0",
     "@evolab/codemirror": "^2.2.0",
-    "@evolab/coreutils": "^4.2.0",
-    "@evolab/nbformat": "^2.2.0",
-    "@evolab/observables": "^3.2.0",
-    "@evolab/rendermime-interfaces": "^2.2.0",
+    "@jupyterlab/coreutils": "^4.2.0",
+    "@jupyterlab/nbformat": "^2.2.0",
+    "@jupyterlab/observables": "^3.2.0",
+    "@jupyterlab/rendermime-interfaces": "^2.2.0",
     "@evolab/services": "^5.2.0",
     "@lumino/algorithm": "^1.2.3",
     "@lumino/coreutils": "^1.4.2",
@@ -56,8 +56,8 @@
     "marked": "^0.8.0"
   },
   "devDependencies": {
-    "@evolab/mathjax2": "^2.2.0",
-    "@evolab/testutils": "^2.2.0",
+    "@jupyterlab/mathjax2": "^2.2.0",
+    "@jupyterlab/testutils": "^2.2.0",
     "@types/jest": "^24.0.23",
     "@types/lodash.escape": "^4.0.6",
     "@types/marked": "^0.7.2",

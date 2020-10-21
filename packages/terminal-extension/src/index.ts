@@ -8,23 +8,23 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 import {
   ICommandPalette,
   IThemeManager,
   MainAreaWidget,
   WidgetTracker
-} from '@evolab/apputils';
-import { ILauncher } from '@evolab/launcher';
-import { IFileMenu, IMainMenu } from '@evolab/mainmenu';
-import { IRunningSessionManagers, IRunningSessions } from '@evolab/running';
+} from '@jupyterlab/apputils';
+import { ILauncher } from '@jupyterlab/launcher';
+import { IFileMenu, IMainMenu } from '@jupyterlab/mainmenu';
+import { IRunningSessionManagers, IRunningSessions } from '@jupyterlab/running';
 import { Terminal } from '@evolab/services';
-import { ISettingRegistry } from '@evolab/settingregistry';
-import { ITerminalTracker, ITerminal } from '@evolab/terminal';
-import { terminalIcon } from '@evolab/ui-components';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
+import { ITerminalTracker, ITerminal } from '@jupyterlab/terminal';
+import { terminalIcon } from '@jupyterlab/ui-components';
 
 // Name-only import so as to not trigger inclusion in main bundle
-import * as WidgetModuleType from '@evolab/terminal/lib/widget';
+import * as WidgetModuleType from '@jupyterlab/terminal/lib/widget';
 
 /**
  * The command IDs used by the terminal plugin.
@@ -48,7 +48,7 @@ namespace CommandIDs {
  */
 const plugin: JupyterFrontEndPlugin<ITerminalTracker> = {
   activate,
-  id: '@evolab/terminal-extension:plugin',
+  id: '@jupyterlab/terminal-extension:plugin',
   provides: ITerminalTracker,
   requires: [ISettingRegistry],
   optional: [
@@ -447,7 +447,7 @@ namespace Private {
       return widgetReady;
     }
 
-    widgetReady = import('@evolab/terminal/lib/widget');
+    widgetReady = import('@jupyterlab/terminal/lib/widget');
 
     return widgetReady;
   }

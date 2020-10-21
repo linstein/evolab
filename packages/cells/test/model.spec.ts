@@ -5,7 +5,7 @@ import 'jest';
 
 import { toArray } from '@lumino/algorithm';
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
 import {
   CellModel,
@@ -14,11 +14,11 @@ import {
   CodeCellModel
 } from '@evolab/cells';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { OutputAreaModel } from '@evolab/outputarea';
 
-import { NBTestUtils } from '@evolab/testutils';
+import { NBTestUtils } from '@jupyterlab/testutils';
 import { JSONObject } from '@lumino/coreutils';
 
 class TestModel extends CellModel {

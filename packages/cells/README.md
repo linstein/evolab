@@ -5,4 +5,4 @@ These cells are used in both the [notebook](../notebook) and the [code console](
 The result of cell execution is shown in an output area,
 which is implemented in [@evolab/outputarea](../outputarea).
 Markdown and raw cells can have attachments,
-which is implemented in [@evolab/attachments](../attachments).
+which is implemented in [@jupyterlab/attachments](../attachments).

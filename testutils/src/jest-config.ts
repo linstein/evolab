@@ -5,13 +5,13 @@ module.exports = function(baseDir: string) {
     preset: 'ts-jest/presets/js-with-babel',
     moduleNameMapper: {
       '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
-      '\\.(gif|ttf|eot)$': '@evolab/testutils/lib/jest-file-mock.js'
+      '\\.(gif|ttf|eot)$': '@jupyterlab/testutils/lib/jest-file-mock.js'
     },
     transform: {
       '\\.svg$': 'jest-raw-loader',
       '^.+\\.md?$': 'markdown-loader-jest'
     },
-    setupFiles: ['@evolab/testutils/lib/jest-shim.js'],
+    setupFiles: ['@jupyterlab/testutils/lib/jest-shim.js'],
     testPathIgnorePatterns: ['/lib/', '/node_modules/'],
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
     reporters: ['default', 'jest-junit', 'jest-summary-reporter'],

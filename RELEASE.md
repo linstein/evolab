@@ -137,7 +137,7 @@ These lines:
 - [ ] Test the release candidate in a clean environment
 - [ ] Make sure the CI builds pass
   - The build will fail if we publish a new package because by default it is
-    private. Use `npm access public @evolab/<name>` to make it public.
+    private. Use `npm access public @jupyterlab/<name>` to make it public.
   - The build will fail if we forget to include `style/` in the `files:`
     of a package (it will fail on the `jupyter lab build` command because
     webpack cannot find the referenced styles to import.
@@ -240,7 +240,7 @@ rm -rf jupyterlab_apod
   ```
   Set the branch as the default branch (see `github.com/jupyterlab/jupyterlab_apod/settings/branches`).
 - If there were changes to the example in the documentation, submit a PR to JupyterLab
-- Publish the new `@evolab/apod` npm package. Make sure to update the version
+- Publish the new `@jupyterlab/apod` npm package. Make sure to update the version
   number in the last commit of the branch.
   ```bash
   npm publish

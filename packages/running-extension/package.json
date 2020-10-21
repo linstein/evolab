@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/running-extension",
+  "name": "@jupyterlab/running-extension",
   "version": "2.2.0",
   "description": "JupyterLab - Running Sessions Extension",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -35,11 +35,11 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/application": "^2.2.0",
-    "@evolab/coreutils": "^4.2.0",
-    "@evolab/running": "^2.2.0",
+    "@jupyterlab/application": "^2.2.0",
+    "@jupyterlab/coreutils": "^4.2.0",
+    "@jupyterlab/running": "^2.2.0",
     "@evolab/services": "^5.2.0",
-    "@evolab/ui-components": "^2.2.0",
+    "@jupyterlab/ui-components": "^2.2.0",
     "@lumino/algorithm": "^1.2.3"
   },
   "devDependencies": {

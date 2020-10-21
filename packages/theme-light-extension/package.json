@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/theme-light-extension",
+  "name": "@jupyterlab/theme-light-extension",
   "version": "2.2.0",
   "description": "JupyterLab - Default Light Theme",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -32,8 +32,8 @@
     "watch": "tsc -b --watch"
   },
   "dependencies": {
-    "@evolab/application": "^2.2.0",
-    "@evolab/apputils": "^2.2.0"
+    "@jupyterlab/application": "^2.2.0",
+    "@jupyterlab/apputils": "^2.2.0"
   },
   "devDependencies": {
     "rimraf": "~3.0.0",

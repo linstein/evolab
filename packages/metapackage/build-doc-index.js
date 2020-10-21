@@ -1,5 +1,5 @@
 const fs = require('fs-extra');
-const utils = require('@evolab/buildutils');
+const utils = require('@jupyterlab/buildutils');
 
 let index = `<!DOCTYPE html>
 <!--

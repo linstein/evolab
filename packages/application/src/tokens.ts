@@ -16,7 +16,7 @@ import { ISignal } from '@lumino/signaling';
  * to the application server.
  */
 export const IConnectionLost = new Token<IConnectionLost>(
-  '@evolab/apputils:IConnectionLost'
+  '@jupyterlab/apputils:IConnectionLost'
 );
 
 /**
@@ -35,7 +35,7 @@ export type IConnectionLost = (
 /**
  * The URL Router token.
  */
-export const IRouter = new Token<IRouter>('@evolab/application:IRouter');
+export const IRouter = new Token<IRouter>('@jupyterlab/application:IRouter');
 
 /**
  * A static class that routes URLs within the application.

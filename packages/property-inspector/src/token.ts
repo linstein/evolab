@@ -58,5 +58,5 @@ export interface IPropertyInspectorProvider {
  * The property inspector provider token.
  */
 export const IPropertyInspectorProvider = new Token<IPropertyInspectorProvider>(
-  '@evolab/property-inspector:IPropertyInspectorProvider'
+  '@jupyterlab/property-inspector:IPropertyInspectorProvider'
 );

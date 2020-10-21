@@ -22,9 +22,9 @@ import { IMessageHandler, Message, MessageLoop } from '@lumino/messaging';
 
 import { Widget } from '@lumino/widgets';
 
-import { dangerDialog, dismissDialog } from '@evolab/testutils';
+import { dangerDialog, dismissDialog } from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 class WidgetFactory extends ABCWidgetFactory<IDocumentWidget> {
   protected createNewWidget(

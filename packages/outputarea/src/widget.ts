@@ -18,13 +18,13 @@ import { Panel, PanelLayout } from '@lumino/widgets';
 
 import { Widget } from '@lumino/widgets';
 
-import { ISessionContext } from '@evolab/apputils';
+import { ISessionContext } from '@jupyterlab/apputils';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
-import { IOutputModel, IRenderMimeRegistry } from '@evolab/rendermime';
+import { IOutputModel, IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { Kernel, KernelMessage } from '@evolab/services';
 

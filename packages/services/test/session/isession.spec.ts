@@ -2,7 +2,7 @@
 
 import 'jest';
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
 import { UUID } from '@lumino/coreutils';
 
@@ -21,7 +21,7 @@ import {
   testEmission,
   JupyterServer,
   flakyIt as it
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 import { handleRequest, SessionTester, init } from '../utils';
 

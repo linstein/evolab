@@ -22,15 +22,15 @@ import {
   ISessionContext,
   showErrorMessage,
   sessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
-import { IModelDB, ModelDB } from '@evolab/observables';
+import { IModelDB, ModelDB } from '@jupyterlab/observables';
 
-import { RenderMimeRegistry } from '@evolab/rendermime';
+import { RenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { DocumentRegistry } from './registry';
 

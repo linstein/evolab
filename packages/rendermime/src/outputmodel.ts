@@ -13,11 +13,11 @@ import {
 
 import { ISignal, Signal } from '@lumino/signaling';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
-import { IObservableJSON, ObservableJSON } from '@evolab/observables';
+import { IObservableJSON, ObservableJSON } from '@jupyterlab/observables';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { MimeModel } from './mimemodel';
 

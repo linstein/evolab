@@ -5,7 +5,7 @@ import { Widget } from '@lumino/widgets';
 
 import { Token } from '@lumino/coreutils';
 
-import { IWidgetTracker, MainAreaWidget } from '@evolab/apputils';
+import { IWidgetTracker, MainAreaWidget } from '@jupyterlab/apputils';
 
 import { Terminal } from '@evolab/services';
 
@@ -20,7 +20,7 @@ export interface ITerminalTracker
  * The editor tracker token.
  */
 export const ITerminalTracker = new Token<ITerminalTracker>(
-  '@evolab/terminal:ITerminalTracker'
+  '@jupyterlab/terminal:ITerminalTracker'
 );
 /* tslint:enable */
 

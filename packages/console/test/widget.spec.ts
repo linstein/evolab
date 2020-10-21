@@ -7,7 +7,7 @@ import { Message, MessageLoop } from '@lumino/messaging';
 
 import { Widget } from '@lumino/widgets';
 
-import { SessionContext } from '@evolab/apputils';
+import { SessionContext } from '@jupyterlab/apputils';
 
 import { CodeConsole } from '../src';
 
@@ -18,7 +18,7 @@ import {
   RawCell
 } from '@evolab/cells';
 
-import { createSessionContext, NBTestUtils } from '@evolab/testutils';
+import { createSessionContext, NBTestUtils } from '@jupyterlab/testutils';
 
 import {
   createConsoleFactory,

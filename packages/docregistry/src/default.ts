@@ -11,13 +11,13 @@ import { ISignal, Signal } from '@lumino/signaling';
 
 import { Widget } from '@lumino/widgets';
 
-import { MainAreaWidget } from '@evolab/apputils';
+import { MainAreaWidget } from '@jupyterlab/apputils';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IChangedArgs, PathExt } from '@evolab/coreutils';
+import { IChangedArgs, PathExt } from '@jupyterlab/coreutils';
 
-import { IModelDB } from '@evolab/observables';
+import { IModelDB } from '@jupyterlab/observables';
 
 import { DocumentRegistry, IDocumentWidget } from './index';
 

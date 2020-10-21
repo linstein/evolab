@@ -1,1 +1,1 @@
-module.exports = require('@evolab/testutils/lib/babel.config');
+module.exports = require('@jupyterlab/testutils/lib/babel.config');

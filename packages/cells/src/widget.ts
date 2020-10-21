@@ -3,19 +3,19 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { AttachmentsResolver } from '@evolab/attachments';
+import { AttachmentsResolver } from '@jupyterlab/attachments';
 
-import { ISessionContext } from '@evolab/apputils';
+import { ISessionContext } from '@jupyterlab/apputils';
 
-import { IChangedArgs, ActivityMonitor, URLExt } from '@evolab/coreutils';
+import { IChangedArgs, ActivityMonitor, URLExt } from '@jupyterlab/coreutils';
 
 import { CodeEditor, CodeEditorWrapper } from '@evolab/codeeditor';
 
 import { DirListing } from '@evolab/filebrowser';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
-import { IObservableMap, IObservableJSON } from '@evolab/observables';
+import { IObservableMap, IObservableJSON } from '@jupyterlab/observables';
 
 import {
   OutputArea,
@@ -31,7 +31,7 @@ import {
   MimeModel,
   IRenderMimeRegistry,
   imageRendererFactory
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 import { KernelMessage, Kernel } from '@evolab/services';
 

@@ -3,11 +3,11 @@
 
 import 'jest';
 
-import { ILabShell, LayoutRestorer } from '@evolab/application';
+import { ILabShell, LayoutRestorer } from '@jupyterlab/application';
 
-import { WidgetTracker } from '@evolab/apputils';
+import { WidgetTracker } from '@jupyterlab/apputils';
 
-import { StateDB } from '@evolab/statedb';
+import { StateDB } from '@jupyterlab/statedb';
 
 import { CommandRegistry } from '@lumino/commands';
 

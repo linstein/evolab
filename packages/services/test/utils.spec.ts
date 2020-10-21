@@ -11,7 +11,7 @@ import {
   expectFailure,
   isFulfilled,
   testEmission
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 describe('test/utils', () => {
   describe('testEmission', () => {

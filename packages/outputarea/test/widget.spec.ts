@@ -3,7 +3,7 @@
 
 import 'jest';
 
-import { SessionContext } from '@evolab/apputils';
+import { SessionContext } from '@jupyterlab/apputils';
 
 import { KernelManager } from '@evolab/services';
 
@@ -23,7 +23,7 @@ import {
   NBTestUtils,
   JupyterServer,
   flakyIt as it
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 /**
  * The default rendermime instance to use for testing.

@@ -5,7 +5,7 @@ import 'jest';
 import { WorkspaceManager, ServerConnection } from '../../src';
 
 import { init } from '../utils';
-import { JupyterServer } from '@evolab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils';
 
 // Initialize the fetch overrides.
 init();

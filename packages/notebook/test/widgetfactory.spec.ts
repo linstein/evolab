@@ -5,14 +5,14 @@ import 'jest';
 
 import { toArray } from '@lumino/algorithm';
 
-import { ToolbarButton } from '@evolab/apputils';
+import { ToolbarButton } from '@jupyterlab/apputils';
 
 import { DocumentRegistry, Context } from '@evolab/docregistry';
 
 import { INotebookModel, NotebookPanel, NotebookWidgetFactory } from '../src';
 
-import { initNotebookContext } from '@evolab/testutils';
-import { JupyterServer } from '@evolab/testutils/lib/start_jupyter_server';
+import { initNotebookContext } from '@jupyterlab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils/lib/start_jupyter_server';
 import * as utils from './utils';
 
 const contentFactory = utils.createNotebookPanelFactory();

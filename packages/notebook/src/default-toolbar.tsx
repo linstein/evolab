@@ -16,9 +16,9 @@ import {
   ISessionContextDialogs,
   ISessionContext,
   sessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 import { DocumentRegistry } from '@evolab/docregistry';
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 import {
   addIcon,
   copyIcon,
@@ -28,7 +28,7 @@ import {
   pasteIcon,
   runIcon,
   saveIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import { NotebookActions } from './actions';
 import { NotebookPanel } from './panel';

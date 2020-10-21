@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { HoverBox } from '@evolab/apputils';
+import { HoverBox } from '@jupyterlab/apputils';
 
 import { Message } from '@lumino/messaging';
 

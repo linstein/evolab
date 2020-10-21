@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
-describe('@evolab/coreutils', () => {
+describe('@jupyterlab/coreutils', () => {
   describe('URLExt', () => {
     describe('.parse()', () => {
       it('should parse a url into a URLExt object', () => {

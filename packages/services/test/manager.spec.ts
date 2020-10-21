@@ -11,7 +11,7 @@ import {
   TerminalManager,
   WorkspaceManager
 } from '../src';
-import { JupyterServer } from '@evolab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils';
 
 const server = new JupyterServer();
 

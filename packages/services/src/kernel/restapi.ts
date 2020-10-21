@@ -2,7 +2,7 @@
 // Distributed under the terms of the Modified BSD License.
 
 import { ServerConnection } from '../serverconnection';
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 import { validateModel, validateModels } from './validate';
 
 /**

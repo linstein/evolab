@@ -11,7 +11,7 @@ import {
   TerminalAPI
 } from '../../src';
 
-import { testEmission, JupyterServer } from '@evolab/testutils';
+import { testEmission, JupyterServer } from '@jupyterlab/testutils';
 
 const server = new JupyterServer();
 

@@ -9,9 +9,9 @@ import { h, VirtualNode, VirtualDOM } from '@lumino/virtualdom';
 
 import { simulate } from 'simulate-event';
 
-import { CommandLinker } from '@evolab/apputils';
+import { CommandLinker } from '@jupyterlab/apputils';
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   describe('CommandLinker', () => {
     describe('#constructor()', () => {
       it('should create a command linker', () => {

@@ -29,11 +29,11 @@ import {
   FileEditor,
   FileEditorCodeWrapper,
   FileEditorFactory
-} from '@evolab/fileeditor';
+} from '@jupyterlab/fileeditor';
 
-import { framePromise } from '@evolab/testutils';
+import { framePromise } from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 class LogFileEditor extends FileEditor {
   events: string[] = [];

@@ -3,18 +3,18 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { Dialog, ICommandPalette, showDialog } from '@evolab/apputils';
+import { Dialog, ICommandPalette, showDialog } from '@jupyterlab/apputils';
 
 import {
   ConnectionLost,
   IConnectionLost,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 
 import { ServerConnection, ServiceManager } from '@evolab/services';
 
@@ -119,7 +119,7 @@ const hubExtension: JupyterFrontEndPlugin<void> = {
  * Otherwise, it shows an error dialog.
  */
 const connectionlost: JupyterFrontEndPlugin<IConnectionLost> = {
-  id: '@evolab/apputils-extension:connectionlost',
+  id: '@jupyterlab/apputils-extension:connectionlost',
   requires: [JupyterFrontEnd.IPaths],
   activate: (
     app: JupyterFrontEnd,

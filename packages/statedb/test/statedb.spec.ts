@@ -3,7 +3,7 @@
 
 import 'jest';
 
-import { StateDB } from '@evolab/statedb';
+import { StateDB } from '@jupyterlab/statedb';
 
 import { PromiseDelegate, ReadonlyJSONObject } from '@lumino/coreutils';
 

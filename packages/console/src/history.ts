@@ -7,7 +7,7 @@ import { IDisposable } from '@lumino/disposable';
 
 import { Signal } from '@lumino/signaling';
 
-import { ISessionContext } from '@evolab/apputils';
+import { ISessionContext } from '@jupyterlab/apputils';
 
 import { CodeEditor } from '@evolab/codeeditor';
 

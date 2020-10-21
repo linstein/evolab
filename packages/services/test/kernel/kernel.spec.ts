@@ -13,7 +13,7 @@ import {
   testEmission,
   JupyterServer,
   flakyIt as it
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 import {
   KernelTester,

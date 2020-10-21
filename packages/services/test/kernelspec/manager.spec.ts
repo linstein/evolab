@@ -12,7 +12,7 @@ import {
   handleRequest,
   makeSettings
 } from '../utils';
-import { JupyterServer } from '@evolab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils';
 
 class TestManager extends KernelSpecManager {
   intercept: KernelSpec.ISpecModels | null = null;

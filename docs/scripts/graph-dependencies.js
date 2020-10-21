@@ -28,8 +28,8 @@ packages.forEach(function(packagePath) {
     return;
   }
 
-  // Only include packages in the @evolab namespace.
-  if (!name.startsWith('@evolab')) {
+  // Only include packages in the @jupyterlab namespace.
+  if (!name.startsWith('@jupyterlab')) {
     return;
   }
 
@@ -40,7 +40,7 @@ packages.forEach(function(packagePath) {
   }
 
   // Don't include the metapackage.
-  if (name === '@evolab/metapackage') {
+  if (name === '@jupyterlab/metapackage') {
     return;
   }
 
@@ -50,13 +50,13 @@ packages.forEach(function(packagePath) {
     'packages/' + path.basename(packagePath)
   );
 
-  // Remove the '@evolab' part of the name.
+  // Remove the '@jupyterlab' part of the name.
   text.push(`"${shortName}" [URL="${urlLink}"];\n`);
 
   const deps = data.dependencies ?? [];
   for (let dep in deps) {
     // Only include JupyterLab dependencies
-    if (dep.startsWith('@evolab')) {
+    if (dep.startsWith('@jupyterlab')) {
       text.push(`"${shortName}" -> "${dep.split('/')[1]}";\n`);
     }
   }

@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { PromiseDelegate } from '@lumino/coreutils';
 
@@ -128,7 +128,7 @@ export const rendererFactory: IRenderMime.IRendererFactory = {
 
 const extensions: IRenderMime.IExtension | IRenderMime.IExtension[] = [
   {
-    id: '@evolab/pdf-extension:factory',
+    id: '@jupyterlab/pdf-extension:factory',
     rendererFactory,
     dataType: 'string',
     fileTypes: [

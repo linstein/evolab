@@ -9,7 +9,7 @@ import { ISignal, Signal } from '@lumino/signaling';
 
 import { Widget } from '@lumino/widgets';
 
-import { Styling } from '@evolab/apputils';
+import { Styling } from '@jupyterlab/apputils';
 
 /**
  * The supported parsing delimiters.

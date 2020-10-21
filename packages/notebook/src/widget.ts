@@ -32,13 +32,13 @@ import {
 
 import { IEditorMimeTypeService, CodeEditor } from '@evolab/codeeditor';
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
-import { IObservableMap, IObservableList } from '@evolab/observables';
+import { IObservableMap, IObservableList } from '@jupyterlab/observables';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import { INotebookModel } from './model';
 

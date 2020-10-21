@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { WidgetTracker } from '@evolab/apputils';
+import { WidgetTracker } from '@jupyterlab/apputils';
 
-import { IStateDB } from '@evolab/statedb';
+import { IStateDB } from '@jupyterlab/statedb';
 
 import { Token } from '@lumino/coreutils';
 

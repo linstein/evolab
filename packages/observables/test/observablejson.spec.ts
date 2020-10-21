@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { IObservableJSON, ObservableJSON } from '@evolab/observables';
+import { IObservableJSON, ObservableJSON } from '@jupyterlab/observables';
 
-describe('@evolab/observables', () => {
+describe('@jupyterlab/observables', () => {
   describe('ObservableJSON', () => {
     describe('#constructor()', () => {
       it('should create an observable JSON object', () => {

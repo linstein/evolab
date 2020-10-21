@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/documentsearch",
+  "name": "@jupyterlab/documentsearch",
   "version": "2.2.0",
   "description": "Document Search",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
@@ -32,13 +32,13 @@
     "watch": "tsc -w --listEmittedFiles"
   },
   "dependencies": {
-    "@evolab/apputils": "^2.2.0",
+    "@jupyterlab/apputils": "^2.2.0",
     "@evolab/cells": "^2.2.0",
     "@evolab/codeeditor": "^2.2.0",
     "@evolab/codemirror": "^2.2.0",
-    "@evolab/fileeditor": "^2.2.0",
+    "@jupyterlab/fileeditor": "^2.2.0",
     "@evolab/notebook": "^2.2.0",
-    "@evolab/ui-components": "^2.2.0",
+    "@jupyterlab/ui-components": "^2.2.0",
     "@lumino/algorithm": "^1.2.3",
     "@lumino/coreutils": "^1.4.2",
     "@lumino/disposable": "^1.3.5",

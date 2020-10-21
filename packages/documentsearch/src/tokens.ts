@@ -12,7 +12,7 @@ import { ISearchProvider, ISearchProviderConstructor } from './interfaces';
  * The search provider registry token.
  */
 export const ISearchProviderRegistry = new Token<ISearchProviderRegistry>(
-  '@evolab/documentsearch:ISearchProviderRegistry'
+  '@jupyterlab/documentsearch:ISearchProviderRegistry'
 );
 /* tslint:enable */
 

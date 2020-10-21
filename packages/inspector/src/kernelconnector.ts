@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { ISessionContext } from '@evolab/apputils';
+import { ISessionContext } from '@jupyterlab/apputils';
 
-import { DataConnector } from '@evolab/statedb';
+import { DataConnector } from '@jupyterlab/statedb';
 
 import { KernelMessage } from '@evolab/services';
 

@@ -7,13 +7,13 @@ import { JSONExt, JSONObject, JSONValue } from '@lumino/coreutils';
 
 import { ISignal, Signal } from '@lumino/signaling';
 
-import { IAttachmentsModel, AttachmentsModel } from '@evolab/attachments';
+import { IAttachmentsModel, AttachmentsModel } from '@jupyterlab/attachments';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { UUID } from '@lumino/coreutils';
 
@@ -23,7 +23,7 @@ import {
   IObservableValue,
   ObservableValue,
   IObservableMap
-} from '@evolab/observables';
+} from '@jupyterlab/observables';
 
 import { IOutputAreaModel, OutputAreaModel } from '@evolab/outputarea';
 

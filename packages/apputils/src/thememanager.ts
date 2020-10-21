@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IChangedArgs, URLExt } from '@evolab/coreutils';
+import { IChangedArgs, URLExt } from '@jupyterlab/coreutils';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
 import { each } from '@lumino/algorithm';
 

@@ -6,11 +6,11 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
-import { SettingRegistry, ISettingRegistry } from '@evolab/settingregistry';
+import { SettingRegistry, ISettingRegistry } from '@jupyterlab/settingregistry';
 
 import { SettingConnector } from './settingconnector';
 
@@ -18,7 +18,7 @@ import { SettingConnector } from './settingconnector';
  * The default setting registry provider.
  */
 export const settingsPlugin: JupyterFrontEndPlugin<ISettingRegistry> = {
-  id: '@evolab/apputils-extension:settings',
+  id: '@jupyterlab/apputils-extension:settings',
   activate: async (app: JupyterFrontEnd): Promise<ISettingRegistry> => {
     const { isDisabled } = PageConfig.Extension;
     const connector = new SettingConnector(app.serviceManager.settings);

@@ -12,7 +12,7 @@ import { Widget } from '@lumino/widgets';
  * The inspector panel token.
  */
 export const IInspector = new Token<IInspector>(
-  '@evolab/inspector:IInspector'
+  '@jupyterlab/inspector:IInspector'
 );
 /* tslint:enable */
 

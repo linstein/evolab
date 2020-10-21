@@ -5,11 +5,11 @@ import * as React from 'react';
 
 import * as ReactDOM from 'react-dom';
 
-import { ISessionContext, IWidgetTracker } from '@evolab/apputils';
+import { ISessionContext, IWidgetTracker } from '@jupyterlab/apputils';
 
 import { DocumentRegistry, MimeDocument } from '@evolab/docregistry';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { Kernel } from '@evolab/services';
 
@@ -35,7 +35,7 @@ export interface IVDOMTracker extends IWidgetTracker<MimeDocument> {}
  * The VDOM tracker token.
  */
 export const IVDOMTracker = new Token<IVDOMTracker>(
-  '@evolab/vdom:IVDOMTracker'
+  '@jupyterlab/vdom:IVDOMTracker'
 );
 
 /**

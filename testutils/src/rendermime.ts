@@ -8,7 +8,7 @@ import {
   RenderMimeRegistry,
   RenderedHTML,
   standardRendererFactories
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 /**
  * Get a copy of the default rendermime instance.

@@ -5,14 +5,14 @@ import {
   ILabShell,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   ISessionContext,
   ICommandPalette,
   ISessionContextDialogs,
   sessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { Cell, CodeCell } from '@evolab/cells';
 
@@ -20,11 +20,11 @@ import {
   CodeConsole,
   ConsolePanel,
   IConsoleTracker
-} from '@evolab/console';
+} from '@jupyterlab/console';
 
 import { IDocumentWidget } from '@evolab/docregistry';
 
-import { FileEditor, IEditorTracker } from '@evolab/fileeditor';
+import { FileEditor, IEditorTracker } from '@jupyterlab/fileeditor';
 
 import {
   INotebookTracker,
@@ -39,15 +39,15 @@ import {
   MemoryUsage,
   RunningSessions,
   StatusBar
-} from '@evolab/statusbar';
+} from '@jupyterlab/statusbar';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
 import { Title, Widget } from '@lumino/widgets';
 
-export const STATUSBAR_PLUGIN_ID = '@evolab/statusbar-extension:plugin';
+export const STATUSBAR_PLUGIN_ID = '@jupyterlab/statusbar-extension:plugin';
 
 /**
  * Initialization data for the statusbar extension.
@@ -126,7 +126,7 @@ const statusBar: JupyterFrontEndPlugin<IStatusBar> = {
  * A plugin that provides a kernel status item to the status bar.
  */
 export const kernelStatus: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/statusbar-extension:kernel-status',
+  id: '@jupyterlab/statusbar-extension:kernel-status',
   autoStart: true,
   requires: [IStatusBar, INotebookTracker, IConsoleTracker, ILabShell],
   optional: [ISessionContextDialogs],
@@ -186,7 +186,7 @@ export const kernelStatus: JupyterFrontEndPlugin<void> = {
     });
 
     statusBar.registerStatusItem(
-      '@evolab/statusbar-extension:kernel-status',
+      '@jupyterlab/statusbar-extension:kernel-status',
       {
         item,
         align: 'left',
@@ -207,7 +207,7 @@ export const kernelStatus: JupyterFrontEndPlugin<void> = {
  * A plugin providing a line/column status item to the application.
  */
 export const lineColItem: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/statusbar-extension:line-col-status',
+  id: '@jupyterlab/statusbar-extension:line-col-status',
   autoStart: true,
   requires: [
     IStatusBar,
@@ -273,7 +273,7 @@ export const lineColItem: JupyterFrontEndPlugin<void> = {
 
     // Add the status item to the status bar.
     statusBar.registerStatusItem(
-      '@evolab/statusbar-extension:line-col-status',
+      '@jupyterlab/statusbar-extension:line-col-status',
       {
         item,
         align: 'right',
@@ -300,14 +300,14 @@ export const lineColItem: JupyterFrontEndPlugin<void> = {
  * is installed.
  */
 export const memoryUsageItem: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/statusbar-extension:memory-usage-status',
+  id: '@jupyterlab/statusbar-extension:memory-usage-status',
   autoStart: true,
   requires: [IStatusBar],
   activate: (app: JupyterFrontEnd, statusBar: IStatusBar) => {
     const item = new MemoryUsage();
 
     statusBar.registerStatusItem(
-      '@evolab/statusbar-extension:memory-usage-status',
+      '@jupyterlab/statusbar-extension:memory-usage-status',
       {
         item,
         align: 'left',
@@ -324,7 +324,7 @@ export const memoryUsageItem: JupyterFrontEndPlugin<void> = {
  * to the status bar.
  */
 export const runningSessionsItem: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/statusbar-extension:running-sessions-status',
+  id: '@jupyterlab/statusbar-extension:running-sessions-status',
   autoStart: true,
   requires: [IStatusBar],
   activate: (app: JupyterFrontEnd, statusBar: IStatusBar) => {
@@ -334,7 +334,7 @@ export const runningSessionsItem: JupyterFrontEndPlugin<void> = {
     });
 
     statusBar.registerStatusItem(
-      '@evolab/statusbar-extension:running-sessions-status',
+      '@jupyterlab/statusbar-extension:running-sessions-status',
       {
         item,
         align: 'left',

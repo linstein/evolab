@@ -8,7 +8,7 @@ import {
   IRouter,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   Dialog,
@@ -19,13 +19,13 @@ import {
   WindowResolver,
   Printing,
   sessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
-import { IStateDB, StateDB } from '@evolab/statedb';
+import { IStateDB, StateDB } from '@jupyterlab/statedb';
 
-import { jupyterFaviconIcon } from '@evolab/ui-components';
+import { jupyterFaviconIcon } from '@jupyterlab/ui-components';
 
 import { PromiseDelegate } from '@lumino/coreutils';
 
@@ -64,7 +64,7 @@ namespace CommandIDs {
  */
 const palette: JupyterFrontEndPlugin<ICommandPalette> = {
   activate: Palette.activate,
-  id: '@evolab/apputils-extension:palette',
+  id: '@jupyterlab/apputils-extension:palette',
   provides: ICommandPalette,
   autoStart: true
 };
@@ -80,7 +80,7 @@ const palette: JupyterFrontEndPlugin<ICommandPalette> = {
  */
 const paletteRestorer: JupyterFrontEndPlugin<void> = {
   activate: Palette.restore,
-  id: '@evolab/apputils-extension:palette-restorer',
+  id: '@jupyterlab/apputils-extension:palette-restorer',
   requires: [ILayoutRestorer],
   autoStart: true
 };
@@ -89,7 +89,7 @@ const paletteRestorer: JupyterFrontEndPlugin<void> = {
  * The default window name resolver provider.
  */
 const resolver: JupyterFrontEndPlugin<IWindowResolver> = {
-  id: '@evolab/apputils-extension:resolver',
+  id: '@jupyterlab/apputils-extension:resolver',
   autoStart: true,
   provides: IWindowResolver,
   requires: [JupyterFrontEnd.IPaths, IRouter],
@@ -136,7 +136,7 @@ const resolver: JupyterFrontEndPlugin<IWindowResolver> = {
  * The default splash screen provider.
  */
 const splash: JupyterFrontEndPlugin<ISplashScreen> = {
-  id: '@evolab/apputils-extension:splash',
+  id: '@jupyterlab/apputils-extension:splash',
   autoStart: true,
   provides: ISplashScreen,
   activate: app => {
@@ -246,7 +246,7 @@ const splash: JupyterFrontEndPlugin<ISplashScreen> = {
 };
 
 const print: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/apputils-extension:print',
+  id: '@jupyterlab/apputils-extension:print',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
     app.commands.addCommand(CommandIDs.print, {
@@ -275,7 +275,7 @@ const print: JupyterFrontEndPlugin<void> = {
  * auto-saving. Otherwise, it will return a simple in-memory state database.
  */
 const state: JupyterFrontEndPlugin<IStateDB> = {
-  id: '@evolab/apputils-extension:state',
+  id: '@jupyterlab/apputils-extension:state',
   autoStart: true,
   provides: IStateDB,
   requires: [JupyterFrontEnd.IPaths, IRouter],
@@ -451,7 +451,7 @@ const state: JupyterFrontEndPlugin<IStateDB> = {
  * The default session context dialogs extension.
  */
 const sessionDialogs: JupyterFrontEndPlugin<ISessionContextDialogs> = {
-  id: '@evolab/apputils-extension:sessionDialogs',
+  id: '@jupyterlab/apputils-extension:sessionDialogs',
   provides: ISessionContextDialogs,
   autoStart: true,
   activate: () => {
@@ -463,7 +463,7 @@ const sessionDialogs: JupyterFrontEndPlugin<ISessionContextDialogs> = {
  * Utility commands
  */
 const utilityCommands: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/apputils-extension:utilityCommands',
+  id: '@jupyterlab/apputils-extension:utilityCommands',
   autoStart: true,
   activate: app => {
     const { commands } = app;

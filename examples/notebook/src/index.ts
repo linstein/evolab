@@ -1,16 +1,16 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 // @ts-ignore
 __webpack_public_path__ = URLExt.join(PageConfig.getBaseUrl(), 'example/');
 
-import '@evolab/application/style/index.css';
+import '@jupyterlab/application/style/index.css';
 import '@evolab/codemirror/style/index.css';
-import '@evolab/completer/style/index.css';
-import '@evolab/documentsearch/style/index.css';
+import '@jupyterlab/completer/style/index.css';
+import '@jupyterlab/documentsearch/style/index.css';
 import '@evolab/notebook/style/index.css';
-import '@evolab/theme-light-extension/style/index.css';
+import '@jupyterlab/theme-light-extension/style/index.css';
 import '../index.css';
 
 import { CommandRegistry } from '@lumino/commands';
@@ -18,7 +18,7 @@ import { CommandRegistry } from '@lumino/commands';
 import { CommandPalette, SplitPanel, Widget } from '@lumino/widgets';
 
 import { ServiceManager } from '@evolab/services';
-import { MathJaxTypesetter } from '@evolab/mathjax2';
+import { MathJaxTypesetter } from '@jupyterlab/mathjax2';
 
 import {
   NotebookPanel,
@@ -31,7 +31,7 @@ import {
   Completer,
   CompletionHandler,
   KernelConnector
-} from '@evolab/completer';
+} from '@jupyterlab/completer';
 
 import { editorServices } from '@evolab/codemirror';
 
@@ -42,7 +42,7 @@ import { DocumentRegistry } from '@evolab/docregistry';
 import {
   RenderMimeRegistry,
   standardRendererFactories as initialFactories
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 import { SetupCommands } from './commands';
 
 function main(): void {

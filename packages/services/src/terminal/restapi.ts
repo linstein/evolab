@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { URLExt, PageConfig } from '@evolab/coreutils';
+import { URLExt, PageConfig } from '@jupyterlab/coreutils';
 import { ServerConnection } from '../serverconnection';
 
 /**

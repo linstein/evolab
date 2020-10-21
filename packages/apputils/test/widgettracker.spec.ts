@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { WidgetTracker } from '@evolab/apputils';
+import { WidgetTracker } from '@jupyterlab/apputils';
 
-import { signalToPromise, testEmission } from '@evolab/testutils';
+import { signalToPromise, testEmission } from '@jupyterlab/testutils';
 
 import { Panel, Widget } from '@lumino/widgets';
 
@@ -36,7 +36,7 @@ function focus(widget: Widget): void {
   simulate(widget.node, 'focus');
 }
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   describe('WidgetTracker', () => {
     let tracker: WidgetTracker;
 

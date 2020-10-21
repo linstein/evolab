@@ -12,8 +12,8 @@ import {
   showDialog,
   ToolbarButtonComponent,
   UseSignal
-} from '@evolab/apputils';
-import { closeIcon, LabIcon, refreshIcon } from '@evolab/ui-components';
+} from '@jupyterlab/apputils';
+import { closeIcon, LabIcon, refreshIcon } from '@jupyterlab/ui-components';
 
 /**
  * The class name added to a running widget.
@@ -65,7 +65,7 @@ const SHUTDOWN_BUTTON_CLASS = 'jp-RunningSessions-itemShutdown';
  * The running sessions token.
  */
 export const IRunningSessionManagers = new Token<IRunningSessionManagers>(
-  '@evolab/running:IRunningSessionManagers'
+  '@jupyterlab/running:IRunningSessionManagers'
 );
 /* tslint:enable */
 

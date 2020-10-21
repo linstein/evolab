@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { MenuSvg } from '@evolab/ui-components';
+import { MenuSvg } from '@jupyterlab/ui-components';
 
 import { ArrayExt } from '@lumino/algorithm';
 

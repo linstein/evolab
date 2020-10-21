@@ -7,8 +7,8 @@ import React from 'react';
 
 import { buildIcon, runningIcon, html5Icon } from '../src';
 
-import '@evolab/application/style/index.css';
-import '@evolab/theme-light-extension/style/index.css';
+import '@jupyterlab/application/style/index.css';
+import '@jupyterlab/theme-light-extension/style/index.css';
 
 export default {
   // component: LabIcon,

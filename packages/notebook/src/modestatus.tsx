@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-import { VDomRenderer, VDomModel } from '@evolab/apputils';
+import { VDomRenderer, VDomModel } from '@jupyterlab/apputils';
 
-import { Text } from '@evolab/coreutils';
+import { Text } from '@jupyterlab/coreutils';
 
 import { Notebook, NotebookMode } from '.';
 
-import { TextItem } from '@evolab/statusbar';
+import { TextItem } from '@jupyterlab/statusbar';
 
 /**
  * A pure function for rendering a Command/Edit mode component.

@@ -11,13 +11,13 @@ import { Contents, Drive, ServiceManager, Session } from '@evolab/services';
 
 import { toArray } from '@lumino/algorithm';
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
 import { Widget } from '@lumino/widgets';
 
-import { SessionContext } from '@evolab/apputils';
+import { SessionContext } from '@jupyterlab/apputils';
 
-import { MathJaxTypesetter } from '@evolab/mathjax2';
+import { MathJaxTypesetter } from '@jupyterlab/mathjax2';
 
 import {
   MimeModel,
@@ -28,7 +28,7 @@ import {
   standardRendererFactories
 } from '../src';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 class JSONRenderer extends RenderedHTML {
   mimeType = 'text/html';

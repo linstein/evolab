@@ -249,10 +249,10 @@ function main({
   // from.
   if (!jupyterlab) {
     Object.keys(sub).forEach(v => {
-      sub[v] = sub[v].filter(w => !w.startsWith('@evolab/'));
+      sub[v] = sub[v].filter(w => !w.startsWith('@jupyterlab/'));
     });
     Object.keys(sub).forEach(v => {
-      if (v.startsWith('@evolab/') && sub[v].length === 0) {
+      if (v.startsWith('@jupyterlab/') && sub[v].length === 0) {
         delete sub[v];
       }
     });
@@ -275,7 +275,7 @@ commander
   .option('--path [path]', 'Path to package or monorepo to investigate', '.')
   .option(
     '--no-jupyterlab',
-    'Do not include dependency connections TO @evolab org packages nor isolated @evolab org packages'
+    'Do not include dependency connections TO @jupyterlab org packages nor isolated @jupyterlab org packages'
   )
   .option('--no-lumino', 'Do not include @lumino org packages')
   .option('--no-devDependencies', 'Do not include dev dependencies')

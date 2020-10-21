@@ -15,7 +15,7 @@ import {
   IDocumentWidget
 } from '@evolab/docregistry';
 
-import { textEditorIcon } from '@evolab/ui-components';
+import { textEditorIcon } from '@jupyterlab/ui-components';
 
 import { PromiseDelegate } from '@lumino/coreutils';
 

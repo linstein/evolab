@@ -4,12 +4,12 @@
 import 'jest';
 // Distributed under the terms of the Modified BSD License.
 
-import { LoggerRegistry } from '@evolab/logconsole';
+import { LoggerRegistry } from '@jupyterlab/logconsole';
 
 import {
   RenderMimeRegistry,
   IRenderMimeRegistry
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 import { Signal, ISignal } from '@lumino/signaling';
 

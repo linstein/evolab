@@ -6,15 +6,15 @@ import {
   SessionContext,
   sessionContextDialogs,
   MainAreaWidget
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 import { IEditorMimeTypeService } from '@evolab/codeeditor';
-import { PathExt, Time } from '@evolab/coreutils';
+import { PathExt, Time } from '@jupyterlab/coreutils';
 import {
   IRenderMimeRegistry,
   RenderMimeRegistry
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 import { ServiceManager } from '@evolab/services';
-import { consoleIcon } from '@evolab/ui-components';
+import { consoleIcon } from '@jupyterlab/ui-components';
 
 import { Token, UUID } from '@lumino/coreutils';
 import { IDisposable } from '@lumino/disposable';
@@ -271,7 +271,7 @@ export namespace ConsolePanel {
    * The console renderer token.
    */
   export const IContentFactory = new Token<IContentFactory>(
-    '@evolab/console:IContentFactory'
+    '@jupyterlab/console:IContentFactory'
   );
   /* tslint:enable */
 }

@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IWidgetTracker } from '@evolab/apputils';
+import { IWidgetTracker } from '@jupyterlab/apputils';
 
 import { IDocumentWidget } from '@evolab/docregistry';
 
@@ -20,6 +20,6 @@ export interface IImageTracker
  * The image tracker token.
  */
 export const IImageTracker = new Token<IImageTracker>(
-  '@evolab/imageviewer:IImageTracker'
+  '@jupyterlab/imageviewer:IImageTracker'
 );
 /* tslint:enable */

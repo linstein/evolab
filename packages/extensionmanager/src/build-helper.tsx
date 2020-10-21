@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { Dialog, showDialog } from '@evolab/apputils';
+import { Dialog, showDialog } from '@jupyterlab/apputils';
 
 import { Builder } from '@evolab/services';
 

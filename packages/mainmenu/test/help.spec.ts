@@ -5,9 +5,9 @@ import 'jest';
 
 import { CommandRegistry } from '@lumino/commands';
 
-import { HelpMenu } from '@evolab/mainmenu';
+import { HelpMenu } from '@jupyterlab/mainmenu';
 
-describe('@evolab/mainmenu', () => {
+describe('@jupyterlab/mainmenu', () => {
   describe('HelpMenu', () => {
     let commands: CommandRegistry;
     let menu: HelpMenu;

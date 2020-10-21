@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { Text } from '@evolab/coreutils';
+import { Text } from '@jupyterlab/coreutils';
 import {
   Button,
   circleEmptyIcon,
@@ -10,7 +10,7 @@ import {
   LabIcon,
   refreshIcon,
   stopIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import { IIterator, find, map, some } from '@lumino/algorithm';
 import { CommandRegistry } from '@lumino/commands';

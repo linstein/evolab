@@ -142,13 +142,13 @@ if [[ $GROUP == usage ]]; then
     jupyter labextension link extension --no-build --debug
     jupyter labextension unlink extension --no-build --debug
     jupyter labextension link extension --no-build --debug
-    jupyter labextension unlink  @evolab/mock-extension --no-build --debug
+    jupyter labextension unlink  @jupyterlab/mock-extension --no-build --debug
     jupyter labextension install extension  --no-build --debug
     jupyter labextension list --debug
-    jupyter labextension disable @evolab/mock-extension --debug
-    jupyter labextension enable @evolab/mock-extension --debug
+    jupyter labextension disable @jupyterlab/mock-extension --debug
+    jupyter labextension enable @jupyterlab/mock-extension --debug
     jupyter labextension disable @evolab/notebook-extension --debug
-    jupyter labextension uninstall @evolab/mock-extension --no-build --debug
+    jupyter labextension uninstall @jupyterlab/mock-extension --no-build --debug
     jupyter labextension uninstall @evolab/notebook-extension --no-build --debug
     popd
     jupyter lab workspaces export > workspace.json --debug
@@ -180,7 +180,7 @@ if [[ $GROUP == usage ]]; then
     jlpm run get:dependency mocha
     jlpm run update:dependency mocha
     jlpm run remove:dependency mocha
-    jlpm run get:dependency @evolab/buildutils
+    jlpm run get:dependency @jupyterlab/buildutils
     jlpm run get:dependency typescript
     jlpm run get:dependency react-native
 

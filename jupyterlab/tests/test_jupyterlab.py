@@ -223,22 +223,22 @@ class TestExtension(AppHandlerTest):
 
     @pytest.mark.slow
     def test_uninstall_core_extension(self):
-        assert uninstall_extension('@evolab/console-extension') is True
+        assert uninstall_extension('@jupyterlab/console-extension') is True
         app_dir = self.app_dir
         build()
         with open(pjoin(app_dir, 'staging', 'package.json')) as fid:
             data = json.load(fid)
         extensions = data['jupyterlab']['extensions']
-        assert '@evolab/console-extension' not in extensions
-        assert not check_extension('@evolab/console-extension')
+        assert '@jupyterlab/console-extension' not in extensions
+        assert not check_extension('@jupyterlab/console-extension')
 
-        assert install_extension('@evolab/console-extension') is True
+        assert install_extension('@jupyterlab/console-extension') is True
         build()
         with open(pjoin(app_dir, 'staging', 'package.json')) as fid:
             data = json.load(fid)
         extensions = data['jupyterlab']['extensions']
-        assert '@evolab/console-extension' in extensions
-        assert check_extension('@evolab/console-extension')
+        assert '@jupyterlab/console-extension' in extensions
+        assert check_extension('@jupyterlab/console-extension')
 
     def test_install_and_uninstall_pinned(self):
         """
@@ -477,13 +477,13 @@ class TestExtension(AppHandlerTest):
         )
 
         extensions = (
-            '@evolab/application-extension',
-            '@evolab/apputils-extension',
+            '@jupyterlab/application-extension',
+            '@jupyterlab/apputils-extension',
         )
         singletons = (
-            "@evolab/application",
-            "@evolab/apputils",
-            "@evolab/coreutils",
+            "@jupyterlab/application",
+            "@jupyterlab/apputils",
+            "@jupyterlab/coreutils",
             "@evolab/services",
         )
         for name in extensions:
@@ -506,13 +506,13 @@ class TestExtension(AppHandlerTest):
         with open(pkg) as fid:
             data = json.load(fid)
         assert sorted(data['jupyterlab']['extensions'].keys()) == [
-            '@evolab/application-extension',
-            '@evolab/apputils-extension',
-            '@evolab/mock-extension',
+            '@jupyterlab/application-extension',
+            '@jupyterlab/apputils-extension',
+            '@jupyterlab/mock-extension',
         ]
         assert data['jupyterlab']['mimeExtensions'] == {}
         for pkg in data['jupyterlab']['singletonPackages']:
-            if pkg.startswith('@evolab/'):
+            if pkg.startswith('@jupyterlab/'):
                 assert pkg in singletons
 
     def test_load_extension(self):
@@ -631,10 +631,10 @@ class TestExtension(AppHandlerTest):
 
     def test_install_compatible(self):
         core_data = _get_default_core_data()
-        current_app_dep = core_data['dependencies']['@evolab/application']
+        current_app_dep = core_data['dependencies']['@jupyterlab/application']
         def _gen_dep(ver):
             return { "dependencies": {
-                '@evolab/application': ver
+                '@jupyterlab/application': ver
             }}
         def _mock_metadata(registry, name, logger):
             assert name == 'mockextension'

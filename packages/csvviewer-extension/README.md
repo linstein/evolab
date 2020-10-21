@@ -1,3 +1,3 @@
-# @evolab/csvviewer-extension
+# @jupyterlab/csvviewer-extension
 
-An extension for JupyterLab which provides an entry point for the [@evolab/csvviewer](../csvviewer) package.
+An extension for JupyterLab which provides an entry point for the [@jupyterlab/csvviewer](../csvviewer) package.

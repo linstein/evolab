@@ -2,13 +2,13 @@
  * Set up keyboard shortcuts & commands for notebook
  */
 import { CommandRegistry } from '@lumino/commands';
-import { sessionContextDialogs } from '@evolab/apputils';
-import { CompletionHandler } from '@evolab/completer';
+import { sessionContextDialogs } from '@jupyterlab/apputils';
+import { CompletionHandler } from '@jupyterlab/completer';
 import { NotebookPanel, NotebookActions } from '@evolab/notebook';
 import {
   SearchInstance,
   NotebookSearchProvider
-} from '@evolab/documentsearch';
+} from '@jupyterlab/documentsearch';
 import { CommandPalette } from '@lumino/widgets';
 
 /**

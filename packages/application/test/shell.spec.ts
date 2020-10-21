@@ -3,7 +3,7 @@
 
 import 'jest';
 
-import { framePromise } from '@evolab/testutils';
+import { framePromise } from '@jupyterlab/testutils';
 
 import { toArray } from '@lumino/algorithm';
 
@@ -13,7 +13,7 @@ import { Widget } from '@lumino/widgets';
 
 import { simulate } from 'simulate-event';
 
-import { LabShell } from '@evolab/application';
+import { LabShell } from '@jupyterlab/application';
 
 class ContentWidget extends Widget {
   activated = false;

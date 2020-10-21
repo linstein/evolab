@@ -5,9 +5,9 @@ import 'jest';
 
 import { Signal } from '@lumino/signaling';
 
-import { ActivityMonitor } from '@evolab/coreutils';
+import { ActivityMonitor } from '@jupyterlab/coreutils';
 
-import { sleep } from '@evolab/testutils';
+import { sleep } from '@jupyterlab/testutils';
 
 class TestObject {
   one = new Signal<TestObject, number>(this);
@@ -15,7 +15,7 @@ class TestObject {
   two = new Signal<TestObject, string[]>(this);
 }
 
-describe('@evolab/coreutils', () => {
+describe('@jupyterlab/coreutils', () => {
   describe('ActivityMonitor()', () => {
     let testObj: TestObject;
     let signal: Signal<TestObject, number>;

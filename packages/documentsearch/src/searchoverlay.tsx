@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { ReactWidget, UseSignal } from '@evolab/apputils';
+import { ReactWidget, UseSignal } from '@jupyterlab/apputils';
 import {
   caretDownIcon,
   caretDownEmptyThinIcon,
@@ -12,7 +12,7 @@ import {
   closeIcon,
   ellipsesIcon,
   regexIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import { Debouncer } from '@lumino/polling';
 import { Signal } from '@lumino/signaling';

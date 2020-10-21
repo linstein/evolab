@@ -25,7 +25,7 @@ module.exports = {
   excludeNotExported: true,
   ignoreCompilerErrors: false,
   mode: 'library',
-  name: '@evolab',
+  name: '@jupyterlab',
   out: 'docs/api',
   readme: 'README.md',
   theme: 'typedoc-theme',

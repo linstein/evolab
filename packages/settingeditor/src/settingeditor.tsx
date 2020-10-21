@@ -5,13 +5,13 @@
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
-import { IStateDB } from '@evolab/statedb';
+import { IStateDB } from '@jupyterlab/statedb';
 
-import { jupyterIcon } from '@evolab/ui-components';
+import { jupyterIcon } from '@jupyterlab/ui-components';
 
 import { CommandRegistry } from '@lumino/commands';
 

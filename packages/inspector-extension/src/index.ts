@@ -6,28 +6,28 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   ICommandPalette,
   MainAreaWidget,
   WidgetTracker
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { IConsoleTracker } from '@evolab/console';
+import { IConsoleTracker } from '@jupyterlab/console';
 
 import {
   IInspector,
   InspectionHandler,
   InspectorPanel,
   KernelConnector
-} from '@evolab/inspector';
+} from '@jupyterlab/inspector';
 
-import { ILauncher } from '@evolab/launcher';
+import { ILauncher } from '@jupyterlab/launcher';
 
 import { INotebookTracker } from '@evolab/notebook';
 
-import { inspectorIcon } from '@evolab/ui-components';
+import { inspectorIcon } from '@jupyterlab/ui-components';
 
 /**
  * The command IDs used by the inspector plugin.
@@ -40,7 +40,7 @@ namespace CommandIDs {
  * A service providing code introspection.
  */
 const inspector: JupyterFrontEndPlugin<IInspector> = {
-  id: '@evolab/inspector-extension:inspector',
+  id: '@jupyterlab/inspector-extension:inspector',
   optional: [ICommandPalette, ILauncher, ILayoutRestorer],
   provides: IInspector,
   autoStart: true,
@@ -122,7 +122,7 @@ const inspector: JupyterFrontEndPlugin<IInspector> = {
  * An extension that registers consoles for inspection.
  */
 const consoles: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/inspector-extension:consoles',
+  id: '@jupyterlab/inspector-extension:consoles',
   requires: [IInspector, IConsoleTracker, ILabShell],
   autoStart: true,
   activate: (
@@ -183,7 +183,7 @@ const consoles: JupyterFrontEndPlugin<void> = {
  * An extension that registers notebooks for inspection.
  */
 const notebooks: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/inspector-extension:notebooks',
+  id: '@jupyterlab/inspector-extension:notebooks',
   requires: [IInspector, INotebookTracker, ILabShell],
   autoStart: true,
   activate: (

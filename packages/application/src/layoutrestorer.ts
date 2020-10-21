@@ -3,9 +3,9 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { WidgetTracker } from '@evolab/apputils';
+import { WidgetTracker } from '@jupyterlab/apputils';
 
-import { IDataConnector, IRestorer } from '@evolab/statedb';
+import { IDataConnector, IRestorer } from '@jupyterlab/statedb';
 
 import { CommandRegistry } from '@lumino/commands';
 
@@ -30,7 +30,7 @@ import { ILabShell } from './shell';
  * The layout restorer token.
  */
 export const ILayoutRestorer = new Token<ILayoutRestorer>(
-  '@evolab/application:ILayoutRestorer'
+  '@jupyterlab/application:ILayoutRestorer'
 );
 /* tslint:enable */
 

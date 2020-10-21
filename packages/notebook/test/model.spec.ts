@@ -7,13 +7,13 @@ import { ArrayExt, toArray } from '@lumino/algorithm';
 
 import { CodeCellModel } from '@evolab/cells';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { NotebookModel } from '../src';
 
-import { ModelDB } from '@evolab/observables';
+import { ModelDB } from '@jupyterlab/observables';
 
-import { acceptDialog } from '@evolab/testutils';
+import { acceptDialog } from '@jupyterlab/testutils';
 
 import * as utils from './utils';
 

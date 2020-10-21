@@ -8,21 +8,21 @@ import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin,
   ILabStatus
-} from '@evolab/application';
+} from '@jupyterlab/application';
 import {
   ICommandPalette,
   MainAreaWidget,
   WidgetTracker
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 import { IEditorServices } from '@evolab/codeeditor';
-import { IStateDB } from '@evolab/statedb';
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IStateDB } from '@jupyterlab/statedb';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 import {
   ISettingEditorTracker,
   SettingEditor
-} from '@evolab/settingeditor';
-import { ISettingRegistry } from '@evolab/settingregistry';
-import { saveIcon, settingsIcon, undoIcon } from '@evolab/ui-components';
+} from '@jupyterlab/settingeditor';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
+import { saveIcon, settingsIcon, undoIcon } from '@jupyterlab/ui-components';
 import { IDisposable } from '@lumino/disposable';
 
 /**
@@ -40,7 +40,7 @@ namespace CommandIDs {
  * The default setting editor extension.
  */
 const plugin: JupyterFrontEndPlugin<ISettingEditorTracker> = {
-  id: '@evolab/settingeditor-extension:plugin',
+  id: '@jupyterlab/settingeditor-extension:plugin',
   requires: [
     ILayoutRestorer,
     ISettingRegistry,

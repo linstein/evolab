@@ -4,7 +4,7 @@ import { spawn, ChildProcess } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 import { PromiseDelegate, UUID } from '@lumino/coreutils';
 import { sleep } from './common';
 
@@ -172,7 +172,7 @@ namespace Private {
     fs.mkdirSync(schemaDir, { recursive: true });
     const extensionDir = path.join(
       schemaDir,
-      '@evolab',
+      '@jupyterlab',
       'apputils-extension'
     );
     fs.mkdirSync(extensionDir, { recursive: true });

@@ -9,21 +9,21 @@ import { each } from '@lumino/algorithm';
 
 import { Token,UUID } from '@lumino/coreutils';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import {
   ISessionContext,
   Printing,
   showDialog,
   Dialog
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { DocumentWidget, DocumentRegistry } from '@evolab/docregistry';
 
 import { INotebookModel } from './model';
 
 import { Notebook, StaticNotebook } from './widget';
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 import {Private} from "./actions";
 import {CodeCell, MarkdownCell} from "../../cells/src";
 // import {IExecuteReplyMsg} from "../../services/src/kernel/messages";

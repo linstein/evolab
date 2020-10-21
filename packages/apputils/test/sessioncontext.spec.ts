@@ -14,7 +14,7 @@ import {
   Dialog,
   ISessionContext,
   sessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { UUID, PromiseDelegate } from '@lumino/coreutils';
 
@@ -24,7 +24,7 @@ import {
   testEmission,
   JupyterServer,
   flakyIt as it
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 import { SessionAPI } from '@evolab/services';
 
@@ -38,7 +38,7 @@ afterAll(async () => {
   await server.shutdown();
 });
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   describe('SessionContext', () => {
     let kernelManager: KernelManager;
     let sessionManager: SessionManager;

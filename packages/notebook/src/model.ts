@@ -14,7 +14,7 @@ import {
   CellModel
 } from '@evolab/cells';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { UUID } from '@lumino/coreutils';
 
@@ -23,10 +23,10 @@ import {
   IObservableUndoableList,
   IObservableList,
   IModelDB
-} from '@evolab/observables';
+} from '@jupyterlab/observables';
 
 import { CellList } from './celllist';
-import { showDialog, Dialog } from '@evolab/apputils';
+import { showDialog, Dialog } from '@jupyterlab/apputils';
 
 /**
  * The definition of a model object for a notebook widget.

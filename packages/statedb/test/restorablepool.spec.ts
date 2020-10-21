@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { RestorablePool } from '@evolab/statedb';
+import { RestorablePool } from '@jupyterlab/statedb';
 
-import { signalToPromise } from '@evolab/testutils';
+import { signalToPromise } from '@jupyterlab/testutils';
 
 import { IObservableDisposable } from '@lumino/disposable';
 
@@ -39,7 +39,7 @@ class ObservableDisposable implements IObservableDisposable {
   private _isDisposed = false;
 }
 
-describe('@evolab/coreutils', () => {
+describe('@jupyterlab/coreutils', () => {
   describe('RestorablePool', () => {
     let pool: RestorablePool<ObservableDisposable>;
 

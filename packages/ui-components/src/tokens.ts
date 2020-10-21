@@ -13,5 +13,5 @@ export interface ILabIconManager {}
  * The ILabIconManager token.
  */
 export const ILabIconManager = new Token<ILabIconManager>(
-  '@evolab/ui-components:ILabIconManager'
+  '@jupyterlab/ui-components:ILabIconManager'
 );

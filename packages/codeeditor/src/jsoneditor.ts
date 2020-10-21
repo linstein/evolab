@@ -1,8 +1,8 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IObservableJSON } from '@evolab/observables';
-import { checkIcon, undoIcon } from '@evolab/ui-components';
+import { IObservableJSON } from '@jupyterlab/observables';
+import { checkIcon, undoIcon } from '@jupyterlab/ui-components';
 
 import {
   JSONExt,

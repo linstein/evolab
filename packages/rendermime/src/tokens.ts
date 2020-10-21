@@ -5,9 +5,9 @@
 
 import { Token, ReadonlyPartialJSONObject } from '@lumino/coreutils';
 
-import { ISanitizer } from '@evolab/apputils';
+import { ISanitizer } from '@jupyterlab/apputils';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { MimeModel } from './mimemodel';
 
@@ -16,7 +16,7 @@ import { MimeModel } from './mimemodel';
  * The rendermime token.
  */
 export const IRenderMimeRegistry = new Token<IRenderMimeRegistry>(
-  '@evolab/rendermime:IRenderMimeRegistry'
+  '@jupyterlab/rendermime:IRenderMimeRegistry'
 );
 
 export interface IRenderMimeRegistry {
@@ -180,7 +180,7 @@ export namespace IRenderMimeRegistry {
  * The latex typesetter token.
  */
 export const ILatexTypesetter = new Token<IRenderMime.ILatexTypesetter>(
-  '@evolab/rendermime:ILatexTypesetter'
+  '@jupyterlab/rendermime:ILatexTypesetter'
 );
 
 export interface ILatexTypesetter extends IRenderMime.ILatexTypesetter {}

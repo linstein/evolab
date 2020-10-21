@@ -3,22 +3,22 @@
 
 import 'jest';
 
-import { ISessionContext, SessionContext } from '@evolab/apputils';
+import { ISessionContext, SessionContext } from '@jupyterlab/apputils';
 
 import { CodeCell, MarkdownCell, RawCell } from '@evolab/cells';
 
-import { IMimeBundle, CellType } from '@evolab/nbformat';
+import { IMimeBundle, CellType } from '@jupyterlab/nbformat';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import {
   acceptDialog,
   createSessionContext,
   dismissDialog,
   sleep
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
-import { JupyterServer } from '@evolab/testutils/lib/start_jupyter_server';
+import { JupyterServer } from '@jupyterlab/testutils/lib/start_jupyter_server';
 
 import { each } from '@lumino/algorithm';
 

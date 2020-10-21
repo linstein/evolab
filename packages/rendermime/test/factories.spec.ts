@@ -9,7 +9,7 @@ import { JSONObject, JSONValue } from '@lumino/coreutils';
 
 import { Widget } from '@lumino/widgets';
 
-import { defaultSanitizer } from '@evolab/apputils';
+import { defaultSanitizer } from '@jupyterlab/apputils';
 
 import {
   latexRendererFactory,

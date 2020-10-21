@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { Dialog, showDialog, showErrorMessage } from '@evolab/apputils';
+import { Dialog, showDialog, showErrorMessage } from '@jupyterlab/apputils';
 
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
 import { Contents } from '@evolab/services';
 

@@ -7,28 +7,28 @@ import {
   ILayoutRestorer,
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
-import { PathExt } from '@evolab/coreutils';
+} from '@jupyterlab/application';
+import { PathExt } from '@jupyterlab/coreutils';
 import {
   IRunningSessions,
   IRunningSessionManagers,
   RunningSessionManagers,
   RunningSessions
-} from '@evolab/running';
+} from '@jupyterlab/running';
 import { Session } from '@evolab/services';
 import {
   consoleIcon,
   fileIcon,
   notebookIcon,
   runningIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 /**
  * The default running sessions extension.
  */
 const plugin: JupyterFrontEndPlugin<IRunningSessionManagers> = {
   activate,
-  id: '@evolab/running-extension:plugin',
+  id: '@jupyterlab/running-extension:plugin',
   provides: IRunningSessionManagers,
   optional: [ILayoutRestorer],
   autoStart: true

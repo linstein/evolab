@@ -6,7 +6,7 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import { IDocumentManager } from '@evolab/docmanager';
 
@@ -15,7 +15,7 @@ import {
   IRenderMimeRegistry,
   RenderMimeRegistry,
   standardRendererFactories
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 namespace CommandIDs {
   export const handleLink = 'rendermime:handle-local-link';
@@ -25,7 +25,7 @@ namespace CommandIDs {
  * A plugin providing a rendermime registry.
  */
 const plugin: JupyterFrontEndPlugin<IRenderMimeRegistry> = {
-  id: '@evolab/rendermime-extension:plugin',
+  id: '@jupyterlab/rendermime-extension:plugin',
   requires: [],
   optional: [IDocumentManager, ILatexTypesetter],
   provides: IRenderMimeRegistry,

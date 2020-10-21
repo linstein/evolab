@@ -15,7 +15,7 @@ import {
   TextModelFactory
 } from '@evolab/docregistry';
 
-import { RenderMimeRegistry } from '@evolab/rendermime';
+import { RenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import {
   waitForDialog,
@@ -23,10 +23,10 @@ import {
   dismissDialog,
   initNotebookContext,
   NBTestUtils
-} from '@evolab/testutils';
-import { SessionContext } from '@evolab/apputils';
+} from '@jupyterlab/testutils';
+import { SessionContext } from '@jupyterlab/apputils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 describe('docregistry/context', () => {
   let manager: ServiceManager.IManager;

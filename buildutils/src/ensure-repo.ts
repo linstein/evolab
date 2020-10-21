@@ -23,18 +23,18 @@ type Dict<T> = { [key: string]: T };
 
 // Data to ignore.
 const MISSING: Dict<string[]> = {
-  '@evolab/buildutils': ['path'],
-  '@evolab/testutils': ['fs'],
-  '@evolab/vega5-extension': ['vega-embed']
+  '@jupyterlab/buildutils': ['path'],
+  '@jupyterlab/testutils': ['fs'],
+  '@jupyterlab/vega5-extension': ['vega-embed']
 };
 
 const UNUSED: Dict<string[]> = {
-  '@evolab/apputils': ['@types/react'],
-  '@evolab/application': ['@fortawesome/fontawesome-free'],
-  '@evolab/apputils-extension': ['es6-promise'],
+  '@jupyterlab/apputils': ['@types/react'],
+  '@jupyterlab/application': ['@fortawesome/fontawesome-free'],
+  '@jupyterlab/apputils-extension': ['es6-promise'],
   '@evolab/services': ['node-fetch', 'ws'],
-  '@evolab/rendermime': ['@evolab/mathjax2'],
-  '@evolab/testutils': [
+  '@jupyterlab/rendermime': ['@jupyterlab/mathjax2'],
+  '@jupyterlab/testutils': [
     'node-fetch',
     'identity-obj-proxy',
     'jest-raw-loader',
@@ -42,45 +42,45 @@ const UNUSED: Dict<string[]> = {
     'jest-junit',
     'jest-summary-reporter'
   ],
-  '@evolab/test-csvviewer': ['csv-spectrum'],
-  '@evolab/vega5-extension': ['vega', 'vega-lite'],
-  '@evolab/ui-components': ['@blueprintjs/icons']
+  '@jupyterlab/test-csvviewer': ['csv-spectrum'],
+  '@jupyterlab/vega5-extension': ['vega', 'vega-lite'],
+  '@jupyterlab/ui-components': ['@blueprintjs/icons']
 };
 
 // Packages that are allowed to have differing versions
 const DIFFERENT_VERSIONS: Array<string> = ['vega-lite', 'vega', 'vega-embed'];
 
 const SKIP_CSS: Dict<string[]> = {
-  '@evolab/application': ['@evolab/rendermime'],
-  '@evolab/application-extension': ['@evolab/apputils'],
-  '@evolab/completer': ['@evolab/codeeditor'],
-  '@evolab/docmanager': ['@evolab/statusbar'], // Statusbar styles should not be used by status reporters
+  '@jupyterlab/application': ['@jupyterlab/rendermime'],
+  '@jupyterlab/application-extension': ['@jupyterlab/apputils'],
+  '@jupyterlab/completer': ['@evolab/codeeditor'],
+  '@evolab/docmanager': ['@jupyterlab/statusbar'], // Statusbar styles should not be used by status reporters
   '@evolab/docregistry': [
     '@evolab/codeeditor', // Only used for model
     '@evolab/codemirror', // Only used for Mode.findByFileName
-    '@evolab/rendermime' // Only used for model
+    '@jupyterlab/rendermime' // Only used for model
   ],
-  '@evolab/documentsearch': [
+  '@jupyterlab/documentsearch': [
     '@evolab/cells',
     '@evolab/codeeditor',
     '@evolab/codemirror',
-    '@evolab/fileeditor',
+    '@jupyterlab/fileeditor',
     '@evolab/notebook'
   ],
-  '@evolab/filebrowser': ['@evolab/statusbar'],
-  '@evolab/fileeditor': ['@evolab/statusbar'],
-  '@evolab/help-extension': ['@evolab/application'],
-  '@evolab/shortcuts-extension': ['@evolab/application'],
-  '@evolab/tabmanager-extension': ['@evolab/application'],
-  '@evolab/theme-dark-extension': [
-    '@evolab/application',
-    '@evolab/apputils'
+  '@evolab/filebrowser': ['@jupyterlab/statusbar'],
+  '@jupyterlab/fileeditor': ['@jupyterlab/statusbar'],
+  '@jupyterlab/help-extension': ['@jupyterlab/application'],
+  '@jupyterlab/shortcuts-extension': ['@jupyterlab/application'],
+  '@jupyterlab/tabmanager-extension': ['@jupyterlab/application'],
+  '@jupyterlab/theme-dark-extension': [
+    '@jupyterlab/application',
+    '@jupyterlab/apputils'
   ],
-  '@evolab/theme-light-extension': [
-    '@evolab/application',
-    '@evolab/apputils'
+  '@jupyterlab/theme-light-extension': [
+    '@jupyterlab/application',
+    '@jupyterlab/apputils'
   ],
-  '@evolab/ui-extension': ['@blueprintjs/icons']
+  '@jupyterlab/ui-extension': ['@blueprintjs/icons']
 };
 
 const pkgData: Dict<any> = {};
@@ -340,7 +340,7 @@ export async function ensureIntegrity(): Promise<boolean> {
   // Update the metapackage.
   let pkgMessages = ensureMetaPackage();
   if (pkgMessages.length > 0) {
-    const pkgName = '@evolab/metapackage';
+    const pkgName = '@jupyterlab/metapackage';
     if (!messages[pkgName]) {
       messages[pkgName] = [];
     }
@@ -350,12 +350,12 @@ export async function ensureIntegrity(): Promise<boolean> {
   // Validate each package.
   for (const name in locals) {
     // application-top is handled elsewhere
-    if (name === '@evolab/application-top') {
+    if (name === '@jupyterlab/application-top') {
       continue;
     }
     const unused = UNUSED[name] || [];
     // Allow jest-junit to be unused in the test suite.
-    if (name.indexOf('@evolab/test-') === 0) {
+    if (name.indexOf('@jupyterlab/test-') === 0) {
       unused.push('jest-junit');
     }
 
@@ -370,7 +370,7 @@ export async function ensureIntegrity(): Promise<boolean> {
       differentVersions: DIFFERENT_VERSIONS
     };
 
-    if (name === '@evolab/metapackage') {
+    if (name === '@jupyterlab/metapackage') {
       options.noUnused = false;
     }
 
@@ -381,9 +381,9 @@ export async function ensureIntegrity(): Promise<boolean> {
   }
 
   // ensure the icon svg imports
-  pkgMessages = await ensureUiComponents(pkgPaths['@evolab/ui-components']);
+  pkgMessages = await ensureUiComponents(pkgPaths['@jupyterlab/ui-components']);
   if (pkgMessages.length > 0) {
-    const pkgName = '@evolab/ui-components';
+    const pkgName = '@jupyterlab/ui-components';
     if (!messages[pkgName]) {
       messages[pkgName] = [];
     }

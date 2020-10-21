@@ -8,7 +8,7 @@ import { Message, MessageLoop } from '@lumino/messaging';
 
 import { Widget } from '@lumino/widgets';
 
-import { SessionContext, ISessionContext } from '@evolab/apputils';
+import { SessionContext, ISessionContext } from '@jupyterlab/apputils';
 
 import { CodeEditor, CodeEditorWrapper } from '@evolab/codeeditor';
 
@@ -34,7 +34,7 @@ import {
   framePromise,
   NBTestUtils,
   JupyterServer
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 const RENDERED_CLASS = 'jp-mod-rendered';
 const rendermime = NBTestUtils.defaultRenderMime();

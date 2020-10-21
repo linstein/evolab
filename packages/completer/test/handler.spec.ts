@@ -3,7 +3,7 @@
 
 import 'jest';
 
-import { SessionContext, ISessionContext } from '@evolab/apputils';
+import { SessionContext, ISessionContext } from '@jupyterlab/apputils';
 
 import { CodeEditor, CodeEditorWrapper } from '@evolab/codeeditor';
 
@@ -14,9 +14,9 @@ import {
   CompletionHandler,
   CompleterModel,
   KernelConnector
-} from '@evolab/completer';
+} from '@jupyterlab/completer';
 
-import { createSessionContext } from '@evolab/testutils';
+import { createSessionContext } from '@jupyterlab/testutils';
 
 function createEditorWidget(): CodeEditorWrapper {
   const model = new CodeEditor.Model();
@@ -54,7 +54,7 @@ class TestCompletionHandler extends CompletionHandler {
   }
 }
 
-describe('@evolab/completer', () => {
+describe('@jupyterlab/completer', () => {
   let connector: KernelConnector;
   let sessionContext: ISessionContext;
 

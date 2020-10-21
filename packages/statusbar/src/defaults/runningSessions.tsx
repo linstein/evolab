@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import { VDomRenderer, VDomModel } from '@evolab/apputils';
+import { VDomRenderer, VDomModel } from '@jupyterlab/apputils';
 
 import {
   ServiceManager,
@@ -13,7 +13,7 @@ import {
   Session
 } from '@evolab/services';
 
-import { kernelIcon, terminalIcon } from '@evolab/ui-components';
+import { kernelIcon, terminalIcon } from '@jupyterlab/ui-components';
 
 import { GroupItem, interactiveItem, TextItem } from '..';
 

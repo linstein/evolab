@@ -1,15 +1,15 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { showDialog, Dialog } from '@evolab/apputils';
+import { showDialog, Dialog } from '@jupyterlab/apputils';
 
-import { IChangedArgs, PathExt, PageConfig } from '@evolab/coreutils';
+import { IChangedArgs, PathExt, PageConfig } from '@jupyterlab/coreutils';
 
 import { IDocumentManager, shouldOverwrite } from '@evolab/docmanager';
 
 import { Contents, KernelSpec, Session } from '@evolab/services';
 
-import { IStateDB } from '@evolab/statedb';
+import { IStateDB } from '@jupyterlab/statedb';
 
 import {
   ArrayIterator,

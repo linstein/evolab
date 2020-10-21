@@ -276,7 +276,7 @@ Testing Utilities
 ^^^^^^^^^^^^^^^^^
 
 There are some helper functions in ``testutils`` (which is a public npm
-package called ``@evolab/testutils``) that are used by many of the
+package called ``@jupyterlab/testutils``) that are used by many of the
 tests.
 
 For tests that rely on ``@evolab/services`` (starting kernels,

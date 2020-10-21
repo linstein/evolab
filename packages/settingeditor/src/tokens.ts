@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IWidgetTracker, MainAreaWidget } from '@evolab/apputils';
+import { IWidgetTracker, MainAreaWidget } from '@jupyterlab/apputils';
 
 import { Token } from '@lumino/coreutils';
 
@@ -12,7 +12,7 @@ import { SettingEditor } from './settingeditor';
  * The setting editor tracker token.
  */
 export const ISettingEditorTracker = new Token<ISettingEditorTracker>(
-  '@evolab/settingeditor:ISettingEditorTracker'
+  '@jupyterlab/settingeditor:ISettingEditorTracker'
 );
 /* tslint:enable */
 

@@ -5,7 +5,7 @@ import { IEditorMimeTypeService } from '@evolab/codeeditor';
 
 import { ABCWidgetFactory, DocumentRegistry } from '@evolab/docregistry';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import { ToolbarItems } from './default-toolbar';
 
@@ -18,7 +18,7 @@ import { StaticNotebook } from './widget';
 import {
   ISessionContextDialogs,
   sessionContextDialogs
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 /**
  * A widget factory for notebook panels.

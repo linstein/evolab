@@ -24,7 +24,7 @@ declare module '*.svg' {
 // as an alternative to importing svgs one at a time, you can do a glob import
 // using `context.requires`. This is a Webpack only extension. Implementation:
 
-// import { PathExt } from '@evolab/coreutils';
+// import { PathExt } from '@jupyterlab/coreutils';
 //
 // /**
 //  * Import all svgs from a directory. The input argument should be

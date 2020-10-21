@@ -22,9 +22,9 @@ import {
 
 import { ServiceManager } from '@evolab/services';
 
-import { sleep } from '@evolab/testutils';
+import { sleep } from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 class WidgetFactory extends ABCWidgetFactory<IDocumentWidget> {
   protected createNewWidget(

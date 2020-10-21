@@ -8,7 +8,7 @@ require('es6-promise/auto');  // polyfill Promise on IE
 
 import {
   PageConfig
-} from '@evolab/coreutils';
+} from '@jupyterlab/coreutils';
 
 // eslint-disable-next-line no-undef
 __webpack_public_path__ = PageConfig.getOption('fullStaticUrl') + '/';
@@ -21,7 +21,7 @@ require('./imports.css');
  * The main entry point for the application.
  */
 function main() {
-  var JupyterLab = require('@evolab/application').JupyterLab;
+  var JupyterLab = require('@jupyterlab/application').JupyterLab;
   var disabled = [];
   var deferred = [];
   var ignorePlugins = [];

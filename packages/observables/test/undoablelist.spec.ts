@@ -5,7 +5,7 @@ import 'jest';
 
 import { JSONObject } from '@lumino/coreutils';
 
-import { ObservableUndoableList, ISerializer } from '@evolab/observables';
+import { ObservableUndoableList, ISerializer } from '@jupyterlab/observables';
 
 class Test {
   constructor(value: JSONObject) {
@@ -35,7 +35,7 @@ class Serializer implements ISerializer<Test> {
 const serializer = new Serializer();
 const value: JSONObject = { name: 'foo' };
 
-describe('@evolab/observables', () => {
+describe('@jupyterlab/observables', () => {
   describe('ObservableUndoableList', () => {
     describe('#constructor', () => {
       it('should create a new ObservableUndoableList', () => {

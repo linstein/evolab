@@ -5,11 +5,11 @@ import 'jest';
 
 import { CodeMirrorEditorFactory } from '@evolab/codemirror';
 
-import { ObservableJSON } from '@evolab/observables';
+import { ObservableJSON } from '@jupyterlab/observables';
 
 import { JSONEditor } from '@evolab/codeeditor';
 
-import { framePromise } from '@evolab/testutils';
+import { framePromise } from '@jupyterlab/testutils';
 
 import { Message } from '@lumino/messaging';
 

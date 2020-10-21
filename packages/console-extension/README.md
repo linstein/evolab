@@ -1,3 +1,3 @@
-# @evolab/console-extension
+# @jupyterlab/console-extension
 
-An extension for JupyterLab which provides an entry point, commands, and keyboard shortcuts for the [@evolab/console](../console) package.
+An extension for JupyterLab which provides an entry point, commands, and keyboard shortcuts for the [@jupyterlab/console](../console) package.

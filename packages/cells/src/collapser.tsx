@@ -3,7 +3,7 @@
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
 
-import { ReactWidget } from '@evolab/apputils';
+import { ReactWidget } from '@jupyterlab/apputils';
 
 import * as React from 'react';
 

@@ -3,7 +3,7 @@
 
 import 'jest';
 
-import { ISessionContext } from '@evolab/apputils';
+import { ISessionContext } from '@jupyterlab/apputils';
 
 import { KernelMessage } from '@evolab/services';
 
@@ -11,7 +11,7 @@ import { CodeEditor } from '@evolab/codeeditor';
 
 import { CodeMirrorEditor } from '@evolab/codemirror';
 
-import { createSessionContext, signalToPromise } from '@evolab/testutils';
+import { createSessionContext, signalToPromise } from '@jupyterlab/testutils';
 
 import { ConsoleHistory } from '../src';
 

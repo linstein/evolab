@@ -8,7 +8,7 @@ import { JSONObject } from '@lumino/coreutils';
 
 import { ConfigSection, ConfigWithDefaults } from '../../src';
 
-import { expectFailure, JupyterServer } from '@evolab/testutils';
+import { expectFailure, JupyterServer } from '@jupyterlab/testutils';
 
 import { handleRequest, makeSettings, getRequestHandler } from '../utils';
 

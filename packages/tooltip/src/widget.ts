@@ -11,13 +11,13 @@ import { Widget } from '@lumino/widgets';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { HoverBox } from '@evolab/apputils';
+import { HoverBox } from '@jupyterlab/apputils';
 
 import {
   IRenderMime,
   IRenderMimeRegistry,
   MimeModel
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 /**
  * The class name added to each tooltip.

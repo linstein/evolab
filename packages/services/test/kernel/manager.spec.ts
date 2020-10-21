@@ -11,7 +11,7 @@ import {
   sleep,
   JupyterServer,
   flakyIt as it
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 import { makeSettings } from '../utils';
 

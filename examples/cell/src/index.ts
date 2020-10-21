@@ -1,16 +1,16 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { PageConfig, URLExt } from '@evolab/coreutils';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 // @ts-ignore
 __webpack_public_path__ = URLExt.join(PageConfig.getBaseUrl(), 'example/');
 
-import '@evolab/application/style/index.css';
+import '@jupyterlab/application/style/index.css';
 import '@evolab/cells/style/index.css';
-import '@evolab/theme-light-extension/style/index.css';
+import '@jupyterlab/theme-light-extension/style/index.css';
 import '../index.css';
 
-import { SessionContext, Toolbar } from '@evolab/apputils';
+import { SessionContext, Toolbar } from '@jupyterlab/apputils';
 
 import { CodeCellModel, CodeCell } from '@evolab/cells';
 
@@ -21,12 +21,12 @@ import {
   Completer,
   CompletionHandler,
   KernelConnector
-} from '@evolab/completer';
+} from '@jupyterlab/completer';
 
 import {
   RenderMimeRegistry,
   standardRendererFactories as initialFactories
-} from '@evolab/rendermime';
+} from '@jupyterlab/rendermime';
 
 import {
   SessionManager,

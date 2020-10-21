@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/example-notebook",
+  "name": "@jupyterlab/example-notebook",
   "version": "2.2.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "dependencies": {
     "@evolab/codemirror": "^2.2.0",
-    "@evolab/completer": "^2.2.0",
+    "@jupyterlab/completer": "^2.2.0",
     "@evolab/docmanager": "^2.2.0",
     "@evolab/docregistry": "^2.2.0",
-    "@evolab/documentsearch": "^2.2.0",
-    "@evolab/mathjax2": "^2.2.0",
+    "@jupyterlab/documentsearch": "^2.2.0",
+    "@jupyterlab/mathjax2": "^2.2.0",
     "@evolab/notebook": "^2.2.0",
-    "@evolab/rendermime": "^2.2.0",
+    "@jupyterlab/rendermime": "^2.2.0",
     "@evolab/services": "^5.2.0",
-    "@evolab/theme-light-extension": "^2.2.0",
+    "@jupyterlab/theme-light-extension": "^2.2.0",
     "@lumino/commands": "^1.10.1",
     "@lumino/widgets": "^1.11.1",
     "es6-promise": "~4.2.8"

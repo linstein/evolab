@@ -15,11 +15,11 @@ import {
   MimeDocumentFactory
 } from '@evolab/docregistry';
 
-import { RenderedText, IRenderMime } from '@evolab/rendermime';
+import { RenderedText, IRenderMime } from '@jupyterlab/rendermime';
 
-import { defaultRenderMime, testEmission } from '@evolab/testutils';
+import { defaultRenderMime, testEmission } from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 const RENDERMIME = defaultRenderMime();
 

@@ -1,17 +1,17 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { VDomModel, VDomRenderer } from '@evolab/apputils';
+import { VDomModel, VDomRenderer } from '@jupyterlab/apputils';
 
 import {
   ILogger,
   ILoggerRegistry,
   IContentChange
-} from '@evolab/logconsole';
+} from '@jupyterlab/logconsole';
 
-import { GroupItem, TextItem, interactiveItem } from '@evolab/statusbar';
+import { GroupItem, TextItem, interactiveItem } from '@jupyterlab/statusbar';
 
-import { listIcon } from '@evolab/ui-components';
+import { listIcon } from '@jupyterlab/ui-components';
 
 import { Signal } from '@lumino/signaling';
 

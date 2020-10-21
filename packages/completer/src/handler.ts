@@ -3,11 +3,11 @@
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { Text } from '@evolab/coreutils';
+import { Text } from '@jupyterlab/coreutils';
 
-import { LabIcon } from '@evolab/ui-components';
+import { LabIcon } from '@jupyterlab/ui-components';
 
-import { IDataConnector } from '@evolab/statedb';
+import { IDataConnector } from '@jupyterlab/statedb';
 
 import { ReadonlyJSONObject, JSONObject, JSONArray } from '@lumino/coreutils';
 

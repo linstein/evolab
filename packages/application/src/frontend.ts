@@ -1,13 +1,13 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { CommandLinker } from '@evolab/apputils';
+import { CommandLinker } from '@jupyterlab/apputils';
 
 import { DocumentRegistry } from '@evolab/docregistry';
 
 import { ServiceManager } from '@evolab/services';
 
-import { ContextMenuSvg } from '@evolab/ui-components';
+import { ContextMenuSvg } from '@jupyterlab/ui-components';
 
 import { IIterator } from '@lumino/algorithm';
 
@@ -267,7 +267,7 @@ export namespace JupyterFrontEnd {
   /**
    * The application paths dictionary token.
    */
-  export const IPaths = new Token<IPaths>('@evolab/application:IPaths');
+  export const IPaths = new Token<IPaths>('@jupyterlab/application:IPaths');
 
   /**
    * An interface for URL and directory paths used by a Jupyter front-end.
@@ -328,7 +328,7 @@ export namespace JupyterFrontEnd {
    * dependency if it is possible to make it an optional dependency.
    */
   export const ITreeResolver = new Token<ITreeResolver>(
-    '@evolab/application:ITreeResolver'
+    '@jupyterlab/application:ITreeResolver'
   );
 
   /**

@@ -13,7 +13,7 @@ import { CodeEditor } from './';
 
 // import { Kernel } from '@evolab/services';
 //
-// import { ISessionContext } from '@evolab/apputils';
+// import { ISessionContext } from '@jupyterlab/apputils';
 
 /**
  * The class name added to an editor widget that has a primary selection.

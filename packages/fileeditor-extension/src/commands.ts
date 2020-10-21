@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { JupyterFrontEnd } from '@evolab/application';
+import { JupyterFrontEnd } from '@jupyterlab/application';
 
 import {
   ICommandPalette,
@@ -9,23 +9,23 @@ import {
   ISessionContextDialogs,
   sessionContextDialogs,
   Clipboard
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
 import { CodeMirrorEditor } from '@evolab/codemirror';
 
-import { IConsoleTracker } from '@evolab/console';
+import { IConsoleTracker } from '@jupyterlab/console';
 
-import { MarkdownCodeBlocks, PathExt } from '@evolab/coreutils';
+import { MarkdownCodeBlocks, PathExt } from '@jupyterlab/coreutils';
 
 import { IDocumentWidget } from '@evolab/docregistry';
 
 import { IFileBrowserFactory } from '@evolab/filebrowser';
 
-import { FileEditor } from '@evolab/fileeditor';
+import { FileEditor } from '@jupyterlab/fileeditor';
 
-import { ILauncher } from '@evolab/launcher';
+import { ILauncher } from '@jupyterlab/launcher';
 
 import {
   IEditMenu,
@@ -33,9 +33,9 @@ import {
   IMainMenu,
   IRunMenu,
   IViewMenu
-} from '@evolab/mainmenu';
+} from '@jupyterlab/mainmenu';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
 import {
   cutIcon,
@@ -45,7 +45,7 @@ import {
   redoIcon,
   textEditorIcon,
   undoIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import { CommandRegistry } from '@lumino/commands';
 

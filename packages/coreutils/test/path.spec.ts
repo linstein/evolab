@@ -3,11 +3,11 @@
 
 import 'jest';
 
-import { PathExt } from '@evolab/coreutils';
+import { PathExt } from '@jupyterlab/coreutils';
 
 const TESTPATH = 'foo/test/simple/test-path.js';
 
-describe('@evolab/coreutils', () => {
+describe('@jupyterlab/coreutils', () => {
   describe('PathExt', () => {
     describe('.join()', () => {
       it('should join the arguments and normalize the path', () => {

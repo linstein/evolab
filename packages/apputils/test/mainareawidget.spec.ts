@@ -3,13 +3,13 @@
 
 import 'jest';
 
-import { MainAreaWidget, Toolbar } from '@evolab/apputils';
+import { MainAreaWidget, Toolbar } from '@jupyterlab/apputils';
 
 import { MessageLoop } from '@lumino/messaging';
 
 import { Widget } from '@lumino/widgets';
 
-describe('@evolab/apputils', () => {
+describe('@jupyterlab/apputils', () => {
   describe('MainAreaWidget', () => {
     describe('#constructor()', () => {
       it('should create a new main area widget', () => {

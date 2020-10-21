@@ -5,7 +5,7 @@ import expect from 'expect';
 
 import 'jest';
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 
 import { DocumentManager, IDocumentManager } from '@evolab/docmanager';
 
@@ -13,16 +13,16 @@ import { DocumentRegistry, TextModelFactory } from '@evolab/docregistry';
 
 import { Contents, ServiceManager } from '@evolab/services';
 
-import { StateDB } from '@evolab/statedb';
+import { StateDB } from '@jupyterlab/statedb';
 
 import {
   acceptDialog,
   dismissDialog,
   signalToPromises,
   sleep
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
-import * as Mock from '@evolab/testutils/lib/mock';
+import * as Mock from '@jupyterlab/testutils/lib/mock';
 
 import { toArray } from '@lumino/algorithm';
 

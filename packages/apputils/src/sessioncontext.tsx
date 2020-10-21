@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { PathExt, IChangedArgs } from '@evolab/coreutils';
+import { PathExt, IChangedArgs } from '@jupyterlab/coreutils';
 
 import { UUID } from '@lumino/coreutils';
 

@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { PageConfig } from '@evolab/coreutils';
+import { PageConfig } from '@jupyterlab/coreutils';
 // eslint-disable-next-line
 __webpack_public_path__ = PageConfig.getOption('fullStaticUrl') + '/';
 
@@ -10,37 +10,37 @@ __webpack_public_path__ = PageConfig.getOption('fullStaticUrl') + '/';
 require('./build/imports.css');
 
 window.addEventListener('load', async function() {
-  const JupyterLab = require('@evolab/application').JupyterLab;
+  const JupyterLab = require('@jupyterlab/application').JupyterLab;
 
   const mods = [
-    require('@evolab/application-extension'),
-    require('@evolab/apputils-extension'),
+    require('@jupyterlab/application-extension'),
+    require('@jupyterlab/apputils-extension'),
     require('@evolab/codemirror-extension'),
-    require('@evolab/completer-extension'),
-    require('@evolab/console-extension'),
-    require('@evolab/csvviewer-extension'),
+    require('@jupyterlab/completer-extension'),
+    require('@jupyterlab/console-extension'),
+    require('@jupyterlab/csvviewer-extension'),
     require('@evolab/docmanager-extension'),
-    require('@evolab/fileeditor-extension'),
+    require('@jupyterlab/fileeditor-extension'),
     require('@evolab/filebrowser-extension'),
-    require('@evolab/help-extension'),
-    require('@evolab/imageviewer-extension'),
-    require('@evolab/inspector-extension'),
-    require('@evolab/launcher-extension'),
-    require('@evolab/mainmenu-extension'),
-    require('@evolab/markdownviewer-extension'),
-    require('@evolab/mathjax2-extension'),
+    require('@jupyterlab/help-extension'),
+    require('@jupyterlab/imageviewer-extension'),
+    require('@jupyterlab/inspector-extension'),
+    require('@jupyterlab/launcher-extension'),
+    require('@jupyterlab/mainmenu-extension'),
+    require('@jupyterlab/markdownviewer-extension'),
+    require('@jupyterlab/mathjax2-extension'),
     require('@evolab/notebook-extension'),
-    require('@evolab/rendermime-extension'),
-    require('@evolab/running-extension'),
-    require('@evolab/settingeditor-extension'),
-    require('@evolab/shortcuts-extension'),
-    require('@evolab/statusbar-extension'),
-    require('@evolab/tabmanager-extension'),
-    require('@evolab/terminal-extension'),
-    require('@evolab/theme-dark-extension'),
-    require('@evolab/theme-light-extension'),
-    require('@evolab/tooltip-extension'),
-    require('@evolab/ui-components-extension')
+    require('@jupyterlab/rendermime-extension'),
+    require('@jupyterlab/running-extension'),
+    require('@jupyterlab/settingeditor-extension'),
+    require('@jupyterlab/shortcuts-extension'),
+    require('@jupyterlab/statusbar-extension'),
+    require('@jupyterlab/tabmanager-extension'),
+    require('@jupyterlab/terminal-extension'),
+    require('@jupyterlab/theme-dark-extension'),
+    require('@jupyterlab/theme-light-extension'),
+    require('@jupyterlab/tooltip-extension'),
+    require('@jupyterlab/ui-components-extension')
   ];
   const lab = new JupyterLab();
   lab.registerPluginModules(mods);

@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { VDomRenderer, VDomModel } from '@evolab/apputils';
+import { VDomRenderer, VDomModel } from '@jupyterlab/apputils';
 
 import { INotebookModel, Notebook } from '.';
 
 import { Cell } from '@evolab/cells';
 
-import { notTrustedIcon, trustedIcon } from '@evolab/ui-components';
+import { notTrustedIcon, trustedIcon } from '@jupyterlab/ui-components';
 
 import { toArray } from '@lumino/algorithm';
 

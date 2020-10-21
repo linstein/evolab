@@ -4,7 +4,7 @@
 import { IDisplayState, ISearchProvider, IFiltersType } from './interfaces';
 import { createSearchOverlay } from './searchoverlay';
 
-import { MainAreaWidget } from '@evolab/apputils';
+import { MainAreaWidget } from '@jupyterlab/apputils';
 import { IDisposable } from '@lumino/disposable';
 import { ISignal, Signal } from '@lumino/signaling';
 import { Widget } from '@lumino/widgets';

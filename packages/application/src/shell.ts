@@ -3,7 +3,7 @@
 
 import { DocumentRegistry } from '@evolab/docregistry';
 
-import { classes, DockPanelSvg, LabIcon } from '@evolab/ui-components';
+import { classes, DockPanelSvg, LabIcon } from '@jupyterlab/ui-components';
 
 import { ArrayExt, find, IIterator, iter, toArray } from '@lumino/algorithm';
 
@@ -63,7 +63,7 @@ const ACTIVITY_CLASS = 'jp-Activity';
  * The JupyterLab application shell token.
  */
 export const ILabShell = new Token<ILabShell>(
-  '@evolab/application:ILabShell'
+  '@jupyterlab/application:ILabShell'
 );
 /* tslint:enable */
 

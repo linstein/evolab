@@ -5,7 +5,7 @@ import 'jest';
 import { ServerConnection, SettingManager } from '../../src';
 
 import { init } from '../utils';
-import { JupyterServer } from '@evolab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils';
 
 // Initialize the fetch overrides.
 init();
@@ -55,7 +55,7 @@ describe('setting', () => {
 
     describe('#fetch()', () => {
       it('should fetch settings for an extension', async () => {
-        const id = '@evolab/apputils-extension:themes';
+        const id = '@jupyterlab/apputils-extension:themes';
 
         expect((await manager.fetch(id)).id).toBe(id);
       });
@@ -63,7 +63,7 @@ describe('setting', () => {
 
     describe('#save()', () => {
       it('should save a setting', async () => {
-        const id = '@evolab/apputils-extension:themes';
+        const id = '@jupyterlab/apputils-extension:themes';
         const theme = 'Foo Theme';
         const raw = `{"theme": "${theme}"}`;
 

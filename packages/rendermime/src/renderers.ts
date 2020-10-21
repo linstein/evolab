@@ -5,13 +5,13 @@
 
 import marked from 'marked';
 
-import { ISanitizer } from '@evolab/apputils';
+import { ISanitizer } from '@jupyterlab/apputils';
 
 import { Mode, CodeMirrorEditor } from '@evolab/codemirror';
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { toArray } from '@lumino/algorithm';
 

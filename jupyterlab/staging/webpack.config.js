@@ -12,8 +12,8 @@ const webpack = require('webpack');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin;
 
-const Build = require('@evolab/buildutils').Build;
-const WPPlugin = require('@evolab/buildutils').WPPlugin;
+const Build = require('@jupyterlab/buildutils').Build;
+const WPPlugin = require('@jupyterlab/buildutils').WPPlugin;
 const package_data = require('./package.json');
 
 // Handle the extensions.

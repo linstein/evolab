@@ -5,7 +5,7 @@
     "composite": false,
     "baseUrl": ".",
     "paths": {
-      "@evolab/*": ["packages/*/src"]
+      "@jupyterlab/*": ["packages/*/src"]
     }
   },
   "references": [

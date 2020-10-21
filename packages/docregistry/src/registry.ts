@@ -19,18 +19,18 @@ import { ISignal, Signal } from '@lumino/signaling';
 
 import { DockLayout, Widget } from '@lumino/widgets';
 
-import { ISessionContext, Toolbar } from '@evolab/apputils';
+import { ISessionContext, Toolbar } from '@jupyterlab/apputils';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
 import {
   IChangedArgs as IChangedArgsGeneric,
   PathExt
-} from '@evolab/coreutils';
+} from '@jupyterlab/coreutils';
 
-import { IModelDB } from '@evolab/observables';
+import { IModelDB } from '@jupyterlab/observables';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
 import { Contents, Kernel } from '@evolab/services';
 
@@ -46,7 +46,7 @@ import {
   rKernelIcon,
   spreadsheetIcon,
   yamlIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import { TextModelFactory } from './default';
 

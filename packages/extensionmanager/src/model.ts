@@ -1,14 +1,14 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { VDomModel } from '@evolab/apputils';
+import { VDomModel } from '@jupyterlab/apputils';
 
 import {
   KernelSpec,
   ServerConnection,
   ServiceManager
 } from '@evolab/services';
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
 import { Debouncer } from '@lumino/polling';
 

@@ -15,7 +15,7 @@ import { CodeMirrorEditorFactory } from '@evolab/codemirror';
 
 import { Context } from '@evolab/docregistry';
 
-import { ObservableJSON } from '@evolab/observables';
+import { ObservableJSON } from '@jupyterlab/observables';
 
 import {
   INotebookModel,
@@ -25,8 +25,8 @@ import {
   NotebookTracker
 } from '../src';
 
-import { initNotebookContext, sleep } from '@evolab/testutils';
-import { JupyterServer } from '@evolab/testutils/lib/start_jupyter_server';
+import { initNotebookContext, sleep } from '@jupyterlab/testutils';
+import { JupyterServer } from '@jupyterlab/testutils/lib/start_jupyter_server';
 import * as utils from './utils';
 
 class LogTool extends NotebookTools.Tool {

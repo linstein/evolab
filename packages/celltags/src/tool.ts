@@ -6,7 +6,7 @@ import { NotebookTools, INotebookTracker } from '@evolab/notebook';
 
 import { Cell } from '@evolab/cells';
 
-import { JupyterFrontEnd } from '@evolab/application';
+import { JupyterFrontEnd } from '@jupyterlab/application';
 
 import { TagWidget } from './widget';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@evolab/example-services-outputarea",
+  "name": "@jupyterlab/example-services-outputarea",
   "version": "2.2.0",
   "private": true,
   "files": [
@@ -16,9 +16,9 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@evolab/coreutils": "^4.2.0",
+    "@jupyterlab/coreutils": "^4.2.0",
     "@evolab/outputarea": "^2.2.0",
-    "@evolab/rendermime": "^2.2.0",
+    "@jupyterlab/rendermime": "^2.2.0",
     "@evolab/services": "^5.2.0"
   },
   "devDependencies": {

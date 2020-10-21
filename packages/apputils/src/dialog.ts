@@ -758,7 +758,7 @@ export namespace Dialog {
    * The dialog widget tracker.
    */
   export const tracker = new WidgetTracker<Dialog<any>>({
-    namespace: '@evolab/apputils:Dialog'
+    namespace: '@jupyterlab/apputils:Dialog'
   });
 }
 

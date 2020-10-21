@@ -3,7 +3,7 @@
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { DataConnector } from '@evolab/statedb';
+import { DataConnector } from '@jupyterlab/statedb';
 
 import { CompletionHandler } from './handler';
 

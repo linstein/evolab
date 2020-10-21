@@ -5,7 +5,7 @@ import 'jest';
 
 import { CodeEditor } from '@evolab/codeeditor';
 
-import { IObservableString } from '@evolab/observables';
+import { IObservableString } from '@jupyterlab/observables';
 
 describe('CodeEditor.Model', () => {
   let model: CodeEditor.Model;

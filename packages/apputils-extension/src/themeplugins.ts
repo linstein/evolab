@@ -6,20 +6,20 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
-} from '@evolab/application';
+} from '@jupyterlab/application';
 
 import {
   ICommandPalette,
   ISplashScreen,
   IThemeManager,
   ThemeManager
-} from '@evolab/apputils';
+} from '@jupyterlab/apputils';
 
-import { URLExt } from '@evolab/coreutils';
+import { URLExt } from '@jupyterlab/coreutils';
 
-import { IMainMenu } from '@evolab/mainmenu';
+import { IMainMenu } from '@jupyterlab/mainmenu';
 
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
 import { Menu } from '@lumino/widgets';
 
@@ -37,7 +37,7 @@ namespace CommandIDs {
  * The default theme manager provider.
  */
 export const themesPlugin: JupyterFrontEndPlugin<IThemeManager> = {
-  id: '@evolab/apputils-extension:themes',
+  id: '@jupyterlab/apputils-extension:themes',
   requires: [ISettingRegistry, JupyterFrontEnd.IPaths],
   optional: [ISplashScreen],
   activate: (
@@ -131,7 +131,7 @@ export const themesPlugin: JupyterFrontEndPlugin<IThemeManager> = {
  * and main menu to become available.
  */
 export const themesPaletteMenuPlugin: JupyterFrontEndPlugin<void> = {
-  id: '@evolab/apputils-extension:themes-palette-menu',
+  id: '@jupyterlab/apputils-extension:themes-palette-menu',
   requires: [IThemeManager],
   optional: [ICommandPalette, IMainMenu],
   activate: (

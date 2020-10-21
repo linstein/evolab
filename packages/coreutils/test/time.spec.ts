@@ -3,9 +3,9 @@
 
 import 'jest';
 
-import { Time } from '@evolab/coreutils';
+import { Time } from '@jupyterlab/coreutils';
 
-describe('@evolab/coreutils', () => {
+describe('@jupyterlab/coreutils', () => {
   describe('Time', () => {
     describe('.formatHuman()', () => {
       it('should convert a time to a human readable string', () => {

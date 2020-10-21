@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { ILabShell } from '@evolab/application';
+import { ILabShell } from '@jupyterlab/application';
 
-import { ReactWidget } from '@evolab/apputils';
+import { ReactWidget } from '@jupyterlab/apputils';
 
 import { Signal, ISignal } from '@lumino/signaling';
 

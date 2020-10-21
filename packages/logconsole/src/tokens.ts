@@ -1,13 +1,13 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IChangedArgs } from '@evolab/coreutils';
+import { IChangedArgs } from '@jupyterlab/coreutils';
 
-import * as nbformat from '@evolab/nbformat';
+import * as nbformat from '@jupyterlab/nbformat';
 
 import { IOutputAreaModel } from '@evolab/outputarea';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
 import { Token } from '@lumino/coreutils';
 
@@ -19,7 +19,7 @@ import { IDisposable } from '@lumino/disposable';
  * The Logger Registry token.
  */
 export const ILoggerRegistry = new Token<ILoggerRegistry>(
-  '@evolab/logconsole:ILoggerRegistry'
+  '@jupyterlab/logconsole:ILoggerRegistry'
 );
 
 export type ILoggerRegistryChange = 'append';

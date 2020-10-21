@@ -1,7 +1,7 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { IWidgetTracker, WidgetTracker } from '@evolab/apputils';
+import { IWidgetTracker, WidgetTracker } from '@jupyterlab/apputils';
 
 import {
   MimeDocumentFactory,
@@ -9,11 +9,11 @@ import {
   MimeDocument
 } from '@evolab/docregistry';
 
-import { IRenderMimeRegistry } from '@evolab/rendermime';
+import { IRenderMimeRegistry } from '@jupyterlab/rendermime';
 
-import { IRenderMime } from '@evolab/rendermime-interfaces';
+import { IRenderMime } from '@jupyterlab/rendermime-interfaces';
 
-import { LabIcon } from '@evolab/ui-components';
+import { LabIcon } from '@jupyterlab/ui-components';
 
 import { Token } from '@lumino/coreutils';
 
@@ -33,7 +33,7 @@ export interface IMimeDocumentTracker extends IWidgetTracker<MimeDocument> {}
  * The mime document tracker token.
  */
 export const IMimeDocumentTracker = new Token<IMimeDocumentTracker>(
-  '@evolab/application:IMimeDocumentTracker'
+  '@jupyterlab/application:IMimeDocumentTracker'
 );
 /* tslint:enable */
 
@@ -66,7 +66,7 @@ export function createRendermimePlugins(
   // Also add a meta-plugin handling state restoration
   // and exposing the mime document widget tracker.
   plugins.push({
-    id: '@evolab/application:mimedocument',
+    id: '@jupyterlab/application:mimedocument',
     optional: [ILayoutRestorer],
     provides: IMimeDocumentTracker,
     autoStart: true,

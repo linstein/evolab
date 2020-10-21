@@ -1,4 +1,4 @@
-# @evolab/celltags-extension
+# @jupyterlab/celltags-extension
 
 A JupyterLab extension which provides an entry point for
-[@evolab/celltags](../celltags).
+[@jupyterlab/celltags](../celltags).

@@ -1,9 +1,9 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 
-import { VDomRenderer, ToolbarButtonComponent } from '@evolab/apputils';
+import { VDomRenderer, ToolbarButtonComponent } from '@jupyterlab/apputils';
 import { ServiceManager } from '@evolab/services';
-import { ISettingRegistry } from '@evolab/settingregistry';
+import { ISettingRegistry } from '@jupyterlab/settingregistry';
 import {
   Button,
   caretDownIcon,
@@ -13,7 +13,7 @@ import {
   jupyterIcon,
   listingsInfoIcon,
   refreshIcon
-} from '@evolab/ui-components';
+} from '@jupyterlab/ui-components';
 
 import { Message } from '@lumino/messaging';
 import * as React from 'react';

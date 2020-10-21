@@ -10,7 +10,7 @@ import {
   isFulfilled,
   JupyterServer,
   flakyIt as it
-} from '@evolab/testutils';
+} from '@jupyterlab/testutils';
 
 import { init } from '../utils';
 
